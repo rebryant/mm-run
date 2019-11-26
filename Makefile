@@ -3,7 +3,8 @@ RUNBDD_DIR=Cloud-BDD
 CUDD_REPO=https://github.com/rebryant/$(CUDD_DIR)
 RUNBDD_REPO=https://github.com/rebryant/$(RUNBDD_DIR)
 RUN=../Cloud-BDD/matrix/mm_run.py
-
+# CUDD files to touch after cloning
+CUDD_FILES = Doxyfile.in Makefile.am Makefile.in aclocal.m4 config.h.in config.ac groups.dox
 
 all:
 	-make install
@@ -16,7 +17,7 @@ install_cudd:
 	echo "Retrieving modified version of CUDD BDD package"
 	git clone $(CUDD_REPO)
 	echo "Installing CUDD"
-	pushd $(CUDD_DIR); touch Makefile.am Makefile.in aclocal.m4; ./configure --prefix=`pwd`; make; make install; popd
+	pushd $(CUDD_DIR); touch $(CUDD_FILES); ./configure --prefix=`pwd`; make; make install; popd
 
 install_runbdd:
 	echo "Retrieving command interpreter"
