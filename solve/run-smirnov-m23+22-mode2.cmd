@@ -5,37 +5,36 @@ option seconds 7200
 # Category alpha has 0.0% of its variables fixed
 # Category beta has 0.0% of its variables fixed
 # Category gamma has 0.0% of its variables fixed
-# Kernel terms fixed according to kernel K3a58fdafff
+# Kernel terms fixed according to kernel Kcd1031e7ed
 # Enforcing singleton exclusion
-# Fixed assignment of 255 Brent variables generated from partial assignment
+# Fixed assignment of 269 Brent variables generated from partial assignment
 and gamma-r-1.c-1.l-01
 or gamma-r-2.c-1.l-01
 and gamma-r-2.c-2.l-01
 or gamma-r-3.c-1.l-01
-or gamma-r-3.c-2.l-01
-or gamma-r-3.c-3.l-01
 and alpha-r-1.c-1.l-01
+or alpha-r-1.c-2.l-01
 or alpha-r-1.c-3.l-01
 and alpha-r-2.c-2.l-01
 or alpha-r-2.c-3.l-01
 or alpha-r-3.c-2.l-01
-or alpha-r-3.c-3.l-01
 and beta-r-1.c-1.l-01
+or beta-r-1.c-2.l-01
 or beta-r-1.c-3.l-01
 and beta-r-2.c-2.l-01
-or beta-r-3.c-3.l-01
+or gamma-r-1.c-1.l-02
 and gamma-r-1.c-3.l-02
 or gamma-r-2.c-1.l-02
 and gamma-r-2.c-2.l-02
 or gamma-r-3.c-1.l-02
-or gamma-r-3.c-2.l-02
-or gamma-r-3.c-3.l-02
 and alpha-r-1.c-1.l-02
+or alpha-r-1.c-2.l-02
 or alpha-r-1.c-3.l-02
 or alpha-r-2.c-2.l-02
 and alpha-r-2.c-3.l-02
 or alpha-r-3.c-2.l-02
 and beta-r-1.c-3.l-02
+or beta-r-2.c-1.l-02
 or beta-r-2.c-2.l-02
 and beta-r-3.c-2.l-02
 and gamma-r-1.c-3.l-03
@@ -48,333 +47,348 @@ or alpha-r-2.c-1.l-03
 or alpha-r-2.c-3.l-03
 and alpha-r-3.c-3.l-03
 or beta-r-1.c-1.l-03
+or beta-r-1.c-2.l-03
 or beta-r-1.c-3.l-03
 and beta-r-2.c-3.l-03
 and beta-r-3.c-1.l-03
-or beta-r-3.c-3.l-03
+or gamma-r-1.c-2.l-04
 or gamma-r-2.c-1.l-04
 and gamma-r-2.c-3.l-04
 and gamma-r-3.c-1.l-04
-or gamma-r-3.c-2.l-04
+or alpha-r-1.c-1.l-04
+or alpha-r-1.c-2.l-04
 or alpha-r-1.c-3.l-04
 and alpha-r-2.c-2.l-04
 and alpha-r-3.c-1.l-04
 or alpha-r-3.c-2.l-04
-or alpha-r-3.c-3.l-04
 and beta-r-1.c-1.l-04
+or beta-r-1.c-2.l-04
 or beta-r-1.c-3.l-04
 and beta-r-2.c-3.l-04
-or beta-r-3.c-2.l-04
-or beta-r-3.c-3.l-04
-and gamma-r-1.c-1.l-05
+or gamma-r-1.c-1.l-05
 and gamma-r-1.c-2.l-05
+or gamma-r-2.c-1.l-05
+and gamma-r-2.c-2.l-05
+or gamma-r-3.c-1.l-05
 and alpha-r-1.c-1.l-05
-and alpha-r-1.c-2.l-05
+or alpha-r-1.c-2.l-05
+or alpha-r-1.c-3.l-05
+or alpha-r-2.c-1.l-05
+or alpha-r-2.c-2.l-05
+or alpha-r-2.c-3.l-05
+or alpha-r-3.c-1.l-05
+or alpha-r-3.c-2.l-05
 and beta-r-1.c-2.l-05
-and beta-r-2.c-1.l-05
-and gamma-r-1.c-2.l-06
-or gamma-r-1.c-3.l-06
+and gamma-r-1.c-1.l-06
+or gamma-r-1.c-2.l-06
 or gamma-r-2.c-1.l-06
 or gamma-r-2.c-2.l-06
 or gamma-r-2.c-3.l-06
-or gamma-r-3.c-3.l-06
 and alpha-r-1.c-2.l-06
+or alpha-r-1.c-3.l-06
 or alpha-r-2.c-3.l-06
+or alpha-r-3.c-1.l-06
+or alpha-r-3.c-2.l-06
 or beta-r-1.c-1.l-06
+or beta-r-1.c-2.l-06
 or beta-r-1.c-3.l-06
+and beta-r-2.c-1.l-06
 and beta-r-2.c-2.l-06
-or beta-r-3.c-3.l-06
 and gamma-r-1.c-1.l-07
-or gamma-r-3.c-2.l-07
-and alpha-r-1.c-3.l-07
-or alpha-r-2.c-1.l-07
-or alpha-r-3.c-1.l-07
+and gamma-r-1.c-2.l-07
+or gamma-r-1.c-3.l-07
+or gamma-r-2.c-1.l-07
+or gamma-r-2.c-2.l-07
+or gamma-r-2.c-3.l-07
+and alpha-r-1.c-2.l-07
+or alpha-r-2.c-3.l-07
 or beta-r-1.c-1.l-07
+or beta-r-1.c-2.l-07
 or beta-r-1.c-3.l-07
-or beta-r-2.c-2.l-07
-or beta-r-2.c-3.l-07
-and beta-r-3.c-1.l-07
-or beta-r-3.c-3.l-07
-and gamma-r-1.c-2.l-08
-or gamma-r-2.c-2.l-08
-or gamma-r-2.c-3.l-08
+or beta-r-2.c-1.l-07
+and beta-r-2.c-2.l-07
+and gamma-r-1.c-1.l-08
+and alpha-r-1.c-2.l-08
 and alpha-r-1.c-3.l-08
-or alpha-r-2.c-2.l-08
-or alpha-r-3.c-2.l-08
+or alpha-r-2.c-1.l-08
+or alpha-r-3.c-1.l-08
 or beta-r-1.c-1.l-08
+or beta-r-1.c-2.l-08
 or beta-r-1.c-3.l-08
+or beta-r-2.c-1.l-08
+or beta-r-2.c-2.l-08
 or beta-r-2.c-3.l-08
-or beta-r-3.c-1.l-08
-and beta-r-3.c-2.l-08
-or beta-r-3.c-3.l-08
-and gamma-r-1.c-3.l-09
-or gamma-r-2.c-1.l-09
+and beta-r-3.c-1.l-08
+and gamma-r-1.c-2.l-09
 or gamma-r-2.c-2.l-09
 or gamma-r-2.c-3.l-09
-or gamma-r-3.c-1.l-09
-or gamma-r-3.c-2.l-09
-or gamma-r-3.c-3.l-09
 and alpha-r-1.c-3.l-09
 or alpha-r-2.c-2.l-09
 or alpha-r-3.c-2.l-09
 or beta-r-1.c-1.l-09
+or beta-r-1.c-2.l-09
 or beta-r-1.c-3.l-09
-and beta-r-3.c-3.l-09
-or gamma-r-1.c-3.l-10
-and gamma-r-2.c-1.l-10
-or gamma-r-3.c-2.l-10
-or alpha-r-1.c-3.l-10
-and alpha-r-2.c-1.l-10
-and alpha-r-2.c-2.l-10
-or alpha-r-3.c-1.l-10
+or beta-r-2.c-1.l-09
+or beta-r-2.c-3.l-09
+or beta-r-3.c-1.l-09
+and beta-r-3.c-2.l-09
+or gamma-r-1.c-1.l-10
+or gamma-r-1.c-2.l-10
+and gamma-r-1.c-3.l-10
+or gamma-r-2.c-1.l-10
+or gamma-r-2.c-2.l-10
+or gamma-r-2.c-3.l-10
+or gamma-r-3.c-1.l-10
+or alpha-r-1.c-2.l-10
+and alpha-r-1.c-3.l-10
+or alpha-r-2.c-2.l-10
 or alpha-r-3.c-2.l-10
-or alpha-r-3.c-3.l-10
-and beta-r-1.c-1.l-10
+or beta-r-1.c-1.l-10
+or beta-r-1.c-2.l-10
 or beta-r-1.c-3.l-10
-or beta-r-2.c-2.l-10
-or beta-r-2.c-3.l-10
-or beta-r-3.c-1.l-10
-or beta-r-3.c-2.l-10
-or beta-r-3.c-3.l-10
+and beta-r-3.c-3.l-10
 or gamma-r-1.c-3.l-11
-or gamma-r-2.c-1.l-11
-and gamma-r-2.c-2.l-11
-or gamma-r-3.c-1.l-11
+and gamma-r-2.c-1.l-11
+or alpha-r-1.c-1.l-11
+or alpha-r-1.c-2.l-11
 or alpha-r-1.c-3.l-11
 and alpha-r-2.c-1.l-11
-or alpha-r-3.c-3.l-11
-and beta-r-1.c-2.l-11
+and alpha-r-2.c-2.l-11
+or alpha-r-3.c-1.l-11
+or alpha-r-3.c-2.l-11
+and beta-r-1.c-1.l-11
+or beta-r-1.c-2.l-11
+or beta-r-1.c-3.l-11
+or beta-r-2.c-1.l-11
+or beta-r-2.c-2.l-11
+or beta-r-2.c-3.l-11
+or beta-r-3.c-1.l-11
+or gamma-r-1.c-1.l-12
+or gamma-r-1.c-2.l-12
+or gamma-r-1.c-3.l-12
 or gamma-r-2.c-1.l-12
-and gamma-r-2.c-3.l-12
+and gamma-r-2.c-2.l-12
 or gamma-r-3.c-1.l-12
-or gamma-r-3.c-2.l-12
-or gamma-r-3.c-3.l-12
 or alpha-r-1.c-3.l-12
 and alpha-r-2.c-1.l-12
-or alpha-r-2.c-2.l-12
-or alpha-r-3.c-2.l-12
-and beta-r-1.c-3.l-12
-or beta-r-2.c-2.l-12
-or beta-r-3.c-1.l-12
-or beta-r-3.c-2.l-12
-or beta-r-3.c-3.l-12
-or gamma-r-1.c-3.l-13
-and gamma-r-2.c-1.l-13
-or gamma-r-3.c-2.l-13
-or alpha-r-2.c-1.l-13
-and alpha-r-2.c-2.l-13
-or alpha-r-3.c-1.l-13
+and beta-r-1.c-2.l-12
+or gamma-r-1.c-1.l-13
+or gamma-r-2.c-1.l-13
+and gamma-r-2.c-3.l-13
+or gamma-r-3.c-1.l-13
+or alpha-r-1.c-2.l-13
+or alpha-r-1.c-3.l-13
+and alpha-r-2.c-1.l-13
+or alpha-r-2.c-2.l-13
 or alpha-r-3.c-2.l-13
-or alpha-r-3.c-3.l-13
-and beta-r-1.c-1.l-13
-and beta-r-2.c-1.l-13
+or beta-r-1.c-2.l-13
+and beta-r-1.c-3.l-13
+or beta-r-2.c-1.l-13
 or beta-r-2.c-2.l-13
+or beta-r-3.c-1.l-13
+or gamma-r-1.c-3.l-14
 and gamma-r-2.c-1.l-14
-or gamma-r-3.c-2.l-14
+or alpha-r-1.c-1.l-14
 or alpha-r-2.c-1.l-14
-and alpha-r-2.c-3.l-14
+and alpha-r-2.c-2.l-14
 or alpha-r-3.c-1.l-14
+or alpha-r-3.c-2.l-14
+and beta-r-1.c-1.l-14
+or beta-r-1.c-2.l-14
+and beta-r-2.c-1.l-14
 or beta-r-2.c-2.l-14
-and beta-r-3.c-1.l-14
-and gamma-r-2.c-3.l-15
-or gamma-r-3.c-2.l-15
-or alpha-r-1.c-3.l-15
+and gamma-r-2.c-1.l-15
+or alpha-r-1.c-1.l-15
 or alpha-r-2.c-1.l-15
-or alpha-r-2.c-2.l-15
 and alpha-r-2.c-3.l-15
-or alpha-r-3.c-2.l-15
-and beta-r-1.c-3.l-15
+or alpha-r-3.c-1.l-15
 or beta-r-2.c-2.l-15
-and beta-r-3.c-3.l-15
-or gamma-r-1.c-3.l-16
-or gamma-r-2.c-1.l-16
-or gamma-r-3.c-1.l-16
-and gamma-r-3.c-2.l-16
+and beta-r-3.c-1.l-15
+and gamma-r-2.c-3.l-16
+or alpha-r-1.c-1.l-16
+or alpha-r-1.c-2.l-16
 or alpha-r-1.c-3.l-16
-or alpha-r-2.c-3.l-16
-and alpha-r-3.c-1.l-16
-or alpha-r-3.c-3.l-16
-and beta-r-1.c-2.l-16
+or alpha-r-2.c-1.l-16
+or alpha-r-2.c-2.l-16
+and alpha-r-2.c-3.l-16
+or alpha-r-3.c-2.l-16
+and beta-r-1.c-3.l-16
+or beta-r-2.c-2.l-16
+and beta-r-3.c-3.l-16
+or gamma-r-1.c-1.l-17
+or gamma-r-1.c-2.l-17
 or gamma-r-1.c-3.l-17
 or gamma-r-2.c-1.l-17
-and gamma-r-2.c-3.l-17
 or gamma-r-3.c-1.l-17
-and gamma-r-3.c-3.l-17
+and gamma-r-3.c-2.l-17
 or alpha-r-1.c-3.l-17
-or alpha-r-2.c-1.l-17
-or alpha-r-2.c-2.l-17
 or alpha-r-2.c-3.l-17
 and alpha-r-3.c-1.l-17
-or alpha-r-3.c-2.l-17
-or alpha-r-3.c-3.l-17
-and beta-r-1.c-3.l-17
+and beta-r-1.c-2.l-17
+or gamma-r-1.c-1.l-18
+or gamma-r-1.c-2.l-18
 or gamma-r-1.c-3.l-18
 or gamma-r-2.c-1.l-18
-or gamma-r-2.c-3.l-18
-and gamma-r-3.c-1.l-18
-or gamma-r-3.c-3.l-18
+and gamma-r-2.c-3.l-18
+or gamma-r-3.c-1.l-18
+and gamma-r-3.c-3.l-18
+or alpha-r-1.c-1.l-18
+or alpha-r-1.c-2.l-18
+or alpha-r-1.c-3.l-18
 or alpha-r-2.c-1.l-18
+or alpha-r-2.c-2.l-18
 or alpha-r-2.c-3.l-18
-and alpha-r-3.c-2.l-18
-and beta-r-2.c-1.l-18
-or beta-r-3.c-2.l-18
-or beta-r-3.c-3.l-18
+and alpha-r-3.c-1.l-18
+or alpha-r-3.c-2.l-18
+and beta-r-1.c-3.l-18
 or gamma-r-1.c-3.l-19
 or gamma-r-2.c-1.l-19
 or gamma-r-2.c-3.l-19
-and gamma-r-3.c-2.l-19
-or gamma-r-3.c-3.l-19
+and gamma-r-3.c-1.l-19
+or alpha-r-1.c-1.l-19
+or alpha-r-2.c-1.l-19
 or alpha-r-2.c-3.l-19
 and alpha-r-3.c-2.l-19
-and beta-r-2.c-2.l-19
-or beta-r-3.c-1.l-19
-or beta-r-3.c-3.l-19
+and beta-r-2.c-1.l-19
+or gamma-r-1.c-3.l-20
 or gamma-r-2.c-1.l-20
-or gamma-r-2.c-2.l-20
 or gamma-r-2.c-3.l-20
-and gamma-r-3.c-1.l-20
-or gamma-r-3.c-2.l-20
-and gamma-r-3.c-3.l-20
+and gamma-r-3.c-2.l-20
+or alpha-r-2.c-3.l-20
 and alpha-r-3.c-2.l-20
-or beta-r-1.c-1.l-20
-or beta-r-1.c-3.l-20
-or beta-r-2.c-2.l-20
-and beta-r-2.c-3.l-20
+and beta-r-2.c-2.l-20
 or beta-r-3.c-1.l-20
-or beta-r-3.c-2.l-20
-or beta-r-3.c-3.l-20
+or gamma-r-1.c-2.l-21
 or gamma-r-2.c-1.l-21
-and gamma-r-3.c-2.l-21
-or alpha-r-2.c-2.l-21
-or alpha-r-3.c-2.l-21
-and alpha-r-3.c-3.l-21
+or gamma-r-2.c-2.l-21
+or gamma-r-2.c-3.l-21
+and gamma-r-3.c-1.l-21
+and gamma-r-3.c-3.l-21
+and alpha-r-3.c-2.l-21
 or beta-r-1.c-1.l-21
+or beta-r-1.c-2.l-21
 or beta-r-1.c-3.l-21
-and beta-r-3.c-2.l-21
-or gamma-r-2.c-1.l-22
-or gamma-r-3.c-1.l-22
+or beta-r-2.c-1.l-21
+or beta-r-2.c-2.l-21
+and beta-r-2.c-3.l-21
+or beta-r-3.c-1.l-21
+and gamma-r-3.c-2.l-22
 and gamma-r-3.c-3.l-22
-or alpha-r-1.c-3.l-22
-or alpha-r-2.c-1.l-22
-or alpha-r-2.c-2.l-22
-or alpha-r-2.c-3.l-22
-or alpha-r-3.c-2.l-22
 and alpha-r-3.c-3.l-22
-or beta-r-1.c-1.l-22
-or beta-r-1.c-3.l-22
+and beta-r-3.c-2.l-22
 and beta-r-3.c-3.l-22
 # Variables for auxilliary term 1
-var gamma-r-1.c-2.l-01 gamma-r-1.c-3.l-01 gamma-r-2.c-3.l-01 alpha-r-1.c-2.l-01 alpha-r-2.c-1.l-01 alpha-r-3.c-1.l-01 beta-r-1.c-2.l-01 beta-r-2.c-1.l-01 beta-r-2.c-3.l-01 beta-r-3.c-1.l-01 beta-r-3.c-2.l-01
+var gamma-r-1.c-2.l-01 gamma-r-1.c-3.l-01 gamma-r-2.c-3.l-01 gamma-r-3.c-2.l-01 gamma-r-3.c-3.l-01 alpha-r-2.c-1.l-01 alpha-r-3.c-1.l-01 alpha-r-3.c-3.l-01 beta-r-2.c-1.l-01 beta-r-2.c-3.l-01 beta-r-3.c-1.l-01 beta-r-3.c-2.l-01 beta-r-3.c-3.l-01
 # Variables for auxilliary term 2
-var gamma-r-1.c-1.l-02 gamma-r-1.c-2.l-02 gamma-r-2.c-3.l-02 alpha-r-1.c-2.l-02 alpha-r-2.c-1.l-02 alpha-r-3.c-1.l-02 alpha-r-3.c-3.l-02 beta-r-1.c-1.l-02 beta-r-1.c-2.l-02 beta-r-2.c-1.l-02 beta-r-2.c-3.l-02 beta-r-3.c-1.l-02 beta-r-3.c-3.l-02
+var gamma-r-1.c-2.l-02 gamma-r-2.c-3.l-02 gamma-r-3.c-2.l-02 gamma-r-3.c-3.l-02 alpha-r-2.c-1.l-02 alpha-r-3.c-1.l-02 alpha-r-3.c-3.l-02 beta-r-1.c-1.l-02 beta-r-1.c-2.l-02 beta-r-2.c-3.l-02 beta-r-3.c-1.l-02 beta-r-3.c-3.l-02
 # Variables for auxilliary term 3
-var gamma-r-1.c-1.l-03 gamma-r-1.c-2.l-03 gamma-r-3.c-2.l-03 gamma-r-3.c-3.l-03 alpha-r-1.c-1.l-03 alpha-r-1.c-3.l-03 alpha-r-2.c-2.l-03 alpha-r-3.c-1.l-03 alpha-r-3.c-2.l-03 beta-r-1.c-2.l-03 beta-r-2.c-1.l-03 beta-r-2.c-2.l-03 beta-r-3.c-2.l-03
+var gamma-r-1.c-1.l-03 gamma-r-1.c-2.l-03 gamma-r-3.c-2.l-03 gamma-r-3.c-3.l-03 alpha-r-1.c-1.l-03 alpha-r-1.c-3.l-03 alpha-r-2.c-2.l-03 alpha-r-3.c-1.l-03 alpha-r-3.c-2.l-03 beta-r-2.c-1.l-03 beta-r-2.c-2.l-03 beta-r-3.c-2.l-03 beta-r-3.c-3.l-03
 # Variables for auxilliary term 4
-var gamma-r-1.c-1.l-04 gamma-r-1.c-2.l-04 gamma-r-1.c-3.l-04 gamma-r-2.c-2.l-04 gamma-r-3.c-3.l-04 alpha-r-1.c-1.l-04 alpha-r-1.c-2.l-04 alpha-r-2.c-1.l-04 alpha-r-2.c-3.l-04 beta-r-1.c-2.l-04 beta-r-2.c-1.l-04 beta-r-2.c-2.l-04 beta-r-3.c-1.l-04
+var gamma-r-1.c-1.l-04 gamma-r-1.c-3.l-04 gamma-r-2.c-2.l-04 gamma-r-3.c-2.l-04 gamma-r-3.c-3.l-04 alpha-r-2.c-1.l-04 alpha-r-2.c-3.l-04 alpha-r-3.c-3.l-04 beta-r-2.c-1.l-04 beta-r-2.c-2.l-04 beta-r-3.c-1.l-04 beta-r-3.c-2.l-04 beta-r-3.c-3.l-04
 # Variables for auxilliary term 5
-var gamma-r-1.c-3.l-05 gamma-r-2.c-1.l-05 gamma-r-2.c-2.l-05 gamma-r-2.c-3.l-05 gamma-r-3.c-1.l-05 gamma-r-3.c-2.l-05 gamma-r-3.c-3.l-05 alpha-r-1.c-3.l-05 alpha-r-2.c-1.l-05 alpha-r-2.c-2.l-05 alpha-r-2.c-3.l-05 alpha-r-3.c-1.l-05 alpha-r-3.c-2.l-05 alpha-r-3.c-3.l-05 beta-r-1.c-1.l-05 beta-r-1.c-3.l-05 beta-r-2.c-2.l-05 beta-r-2.c-3.l-05 beta-r-3.c-1.l-05 beta-r-3.c-2.l-05 beta-r-3.c-3.l-05
+var gamma-r-1.c-3.l-05 gamma-r-2.c-3.l-05 gamma-r-3.c-2.l-05 gamma-r-3.c-3.l-05 alpha-r-3.c-3.l-05 beta-r-1.c-1.l-05 beta-r-1.c-3.l-05 beta-r-2.c-1.l-05 beta-r-2.c-2.l-05 beta-r-2.c-3.l-05 beta-r-3.c-1.l-05 beta-r-3.c-2.l-05 beta-r-3.c-3.l-05
 # Variables for auxilliary term 6
-var gamma-r-1.c-1.l-06 gamma-r-3.c-1.l-06 gamma-r-3.c-2.l-06 alpha-r-1.c-1.l-06 alpha-r-1.c-3.l-06 alpha-r-2.c-1.l-06 alpha-r-2.c-2.l-06 alpha-r-3.c-1.l-06 alpha-r-3.c-2.l-06 alpha-r-3.c-3.l-06 beta-r-1.c-2.l-06 beta-r-2.c-1.l-06 beta-r-2.c-3.l-06 beta-r-3.c-1.l-06 beta-r-3.c-2.l-06
+var gamma-r-1.c-3.l-06 gamma-r-3.c-1.l-06 gamma-r-3.c-2.l-06 gamma-r-3.c-3.l-06 alpha-r-1.c-1.l-06 alpha-r-2.c-1.l-06 alpha-r-2.c-2.l-06 alpha-r-3.c-3.l-06 beta-r-2.c-3.l-06 beta-r-3.c-1.l-06 beta-r-3.c-2.l-06 beta-r-3.c-3.l-06
 # Variables for auxilliary term 7
-var gamma-r-1.c-2.l-07 gamma-r-1.c-3.l-07 gamma-r-2.c-1.l-07 gamma-r-2.c-2.l-07 gamma-r-2.c-3.l-07 gamma-r-3.c-1.l-07 gamma-r-3.c-3.l-07 alpha-r-1.c-1.l-07 alpha-r-1.c-2.l-07 alpha-r-2.c-2.l-07 alpha-r-2.c-3.l-07 alpha-r-3.c-2.l-07 alpha-r-3.c-3.l-07 beta-r-1.c-2.l-07 beta-r-2.c-1.l-07 beta-r-3.c-2.l-07
+var gamma-r-3.c-1.l-07 gamma-r-3.c-2.l-07 gamma-r-3.c-3.l-07 alpha-r-1.c-1.l-07 alpha-r-1.c-3.l-07 alpha-r-2.c-1.l-07 alpha-r-2.c-2.l-07 alpha-r-3.c-1.l-07 alpha-r-3.c-2.l-07 alpha-r-3.c-3.l-07 beta-r-2.c-3.l-07 beta-r-3.c-1.l-07 beta-r-3.c-2.l-07 beta-r-3.c-3.l-07
 # Variables for auxilliary term 8
-var gamma-r-1.c-1.l-08 gamma-r-1.c-3.l-08 gamma-r-2.c-1.l-08 gamma-r-3.c-1.l-08 gamma-r-3.c-2.l-08 gamma-r-3.c-3.l-08 alpha-r-1.c-1.l-08 alpha-r-1.c-2.l-08 alpha-r-2.c-1.l-08 alpha-r-2.c-3.l-08 alpha-r-3.c-1.l-08 alpha-r-3.c-3.l-08 beta-r-1.c-2.l-08 beta-r-2.c-1.l-08 beta-r-2.c-2.l-08
+var gamma-r-1.c-2.l-08 gamma-r-1.c-3.l-08 gamma-r-2.c-1.l-08 gamma-r-2.c-2.l-08 gamma-r-2.c-3.l-08 gamma-r-3.c-1.l-08 gamma-r-3.c-2.l-08 gamma-r-3.c-3.l-08 alpha-r-1.c-1.l-08 alpha-r-2.c-2.l-08 alpha-r-2.c-3.l-08 alpha-r-3.c-2.l-08 alpha-r-3.c-3.l-08 beta-r-3.c-2.l-08 beta-r-3.c-3.l-08
 # Variables for auxilliary term 9
-var gamma-r-1.c-1.l-09 gamma-r-1.c-2.l-09 alpha-r-1.c-1.l-09 alpha-r-1.c-2.l-09 alpha-r-2.c-1.l-09 alpha-r-2.c-3.l-09 alpha-r-3.c-1.l-09 alpha-r-3.c-3.l-09 beta-r-1.c-2.l-09 beta-r-2.c-1.l-09 beta-r-2.c-2.l-09 beta-r-2.c-3.l-09 beta-r-3.c-1.l-09 beta-r-3.c-2.l-09
+var gamma-r-1.c-1.l-09 gamma-r-1.c-3.l-09 gamma-r-2.c-1.l-09 gamma-r-3.c-1.l-09 gamma-r-3.c-2.l-09 gamma-r-3.c-3.l-09 alpha-r-1.c-1.l-09 alpha-r-1.c-2.l-09 alpha-r-2.c-1.l-09 alpha-r-2.c-3.l-09 alpha-r-3.c-1.l-09 alpha-r-3.c-3.l-09 beta-r-2.c-2.l-09 beta-r-3.c-3.l-09
 # Variables for auxilliary term 10
-var gamma-r-1.c-1.l-10 gamma-r-1.c-2.l-10 gamma-r-2.c-2.l-10 gamma-r-2.c-3.l-10 gamma-r-3.c-1.l-10 gamma-r-3.c-3.l-10 alpha-r-1.c-1.l-10 alpha-r-1.c-2.l-10 alpha-r-2.c-3.l-10 beta-r-1.c-2.l-10 beta-r-2.c-1.l-10
+var gamma-r-3.c-2.l-10 gamma-r-3.c-3.l-10 alpha-r-1.c-1.l-10 alpha-r-2.c-1.l-10 alpha-r-2.c-3.l-10 alpha-r-3.c-1.l-10 alpha-r-3.c-3.l-10 beta-r-2.c-1.l-10 beta-r-2.c-2.l-10 beta-r-2.c-3.l-10 beta-r-3.c-1.l-10 beta-r-3.c-2.l-10
 # Variables for auxilliary term 11
-var gamma-r-1.c-1.l-11 gamma-r-1.c-2.l-11 gamma-r-2.c-3.l-11 gamma-r-3.c-2.l-11 gamma-r-3.c-3.l-11 alpha-r-1.c-1.l-11 alpha-r-1.c-2.l-11 alpha-r-2.c-2.l-11 alpha-r-2.c-3.l-11 alpha-r-3.c-1.l-11 alpha-r-3.c-2.l-11 beta-r-1.c-1.l-11 beta-r-1.c-3.l-11 beta-r-2.c-1.l-11 beta-r-2.c-2.l-11 beta-r-2.c-3.l-11 beta-r-3.c-1.l-11 beta-r-3.c-2.l-11 beta-r-3.c-3.l-11
+var gamma-r-1.c-1.l-11 gamma-r-1.c-2.l-11 gamma-r-2.c-2.l-11 gamma-r-2.c-3.l-11 gamma-r-3.c-1.l-11 gamma-r-3.c-2.l-11 gamma-r-3.c-3.l-11 alpha-r-2.c-3.l-11 alpha-r-3.c-3.l-11 beta-r-3.c-2.l-11 beta-r-3.c-3.l-11
 # Variables for auxilliary term 12
-var gamma-r-1.c-1.l-12 gamma-r-1.c-2.l-12 gamma-r-1.c-3.l-12 gamma-r-2.c-2.l-12 alpha-r-1.c-1.l-12 alpha-r-1.c-2.l-12 alpha-r-2.c-3.l-12 alpha-r-3.c-1.l-12 alpha-r-3.c-3.l-12 beta-r-1.c-1.l-12 beta-r-1.c-2.l-12 beta-r-2.c-1.l-12 beta-r-2.c-3.l-12
+var gamma-r-2.c-3.l-12 gamma-r-3.c-2.l-12 gamma-r-3.c-3.l-12 alpha-r-1.c-1.l-12 alpha-r-1.c-2.l-12 alpha-r-2.c-2.l-12 alpha-r-2.c-3.l-12 alpha-r-3.c-1.l-12 alpha-r-3.c-2.l-12 alpha-r-3.c-3.l-12 beta-r-1.c-1.l-12 beta-r-1.c-3.l-12 beta-r-2.c-1.l-12 beta-r-2.c-2.l-12 beta-r-2.c-3.l-12 beta-r-3.c-1.l-12 beta-r-3.c-2.l-12 beta-r-3.c-3.l-12
 # Variables for auxilliary term 13
-var gamma-r-1.c-1.l-13 gamma-r-1.c-2.l-13 gamma-r-2.c-2.l-13 gamma-r-2.c-3.l-13 gamma-r-3.c-1.l-13 gamma-r-3.c-3.l-13 alpha-r-1.c-1.l-13 alpha-r-1.c-2.l-13 alpha-r-1.c-3.l-13 alpha-r-2.c-3.l-13 beta-r-1.c-2.l-13 beta-r-1.c-3.l-13 beta-r-2.c-3.l-13 beta-r-3.c-1.l-13 beta-r-3.c-2.l-13 beta-r-3.c-3.l-13
+var gamma-r-1.c-2.l-13 gamma-r-1.c-3.l-13 gamma-r-2.c-2.l-13 gamma-r-3.c-2.l-13 gamma-r-3.c-3.l-13 alpha-r-1.c-1.l-13 alpha-r-2.c-3.l-13 alpha-r-3.c-1.l-13 alpha-r-3.c-3.l-13 beta-r-1.c-1.l-13 beta-r-2.c-3.l-13 beta-r-3.c-2.l-13 beta-r-3.c-3.l-13
 # Variables for auxilliary term 14
-var gamma-r-1.c-1.l-14 gamma-r-1.c-2.l-14 gamma-r-1.c-3.l-14 gamma-r-2.c-2.l-14 gamma-r-2.c-3.l-14 gamma-r-3.c-1.l-14 gamma-r-3.c-3.l-14 alpha-r-1.c-1.l-14 alpha-r-1.c-2.l-14 alpha-r-1.c-3.l-14 alpha-r-2.c-2.l-14 alpha-r-3.c-2.l-14 alpha-r-3.c-3.l-14 beta-r-1.c-1.l-14 beta-r-1.c-2.l-14 beta-r-1.c-3.l-14 beta-r-2.c-1.l-14 beta-r-2.c-3.l-14 beta-r-3.c-2.l-14 beta-r-3.c-3.l-14
+var gamma-r-1.c-1.l-14 gamma-r-1.c-2.l-14 gamma-r-2.c-2.l-14 gamma-r-2.c-3.l-14 gamma-r-3.c-1.l-14 gamma-r-3.c-2.l-14 gamma-r-3.c-3.l-14 alpha-r-1.c-2.l-14 alpha-r-1.c-3.l-14 alpha-r-2.c-3.l-14 alpha-r-3.c-3.l-14 beta-r-1.c-3.l-14 beta-r-2.c-3.l-14 beta-r-3.c-1.l-14 beta-r-3.c-2.l-14 beta-r-3.c-3.l-14
 # Variables for auxilliary term 15
-var gamma-r-1.c-1.l-15 gamma-r-1.c-2.l-15 gamma-r-1.c-3.l-15 gamma-r-2.c-1.l-15 gamma-r-2.c-2.l-15 gamma-r-3.c-1.l-15 gamma-r-3.c-3.l-15 alpha-r-1.c-1.l-15 alpha-r-1.c-2.l-15 alpha-r-3.c-1.l-15 alpha-r-3.c-3.l-15 beta-r-1.c-1.l-15 beta-r-1.c-2.l-15 beta-r-2.c-1.l-15 beta-r-2.c-3.l-15 beta-r-3.c-1.l-15 beta-r-3.c-2.l-15
+var gamma-r-1.c-1.l-15 gamma-r-1.c-2.l-15 gamma-r-1.c-3.l-15 gamma-r-2.c-2.l-15 gamma-r-2.c-3.l-15 gamma-r-3.c-1.l-15 gamma-r-3.c-2.l-15 gamma-r-3.c-3.l-15 alpha-r-1.c-2.l-15 alpha-r-1.c-3.l-15 alpha-r-2.c-2.l-15 alpha-r-3.c-2.l-15 alpha-r-3.c-3.l-15 beta-r-1.c-1.l-15 beta-r-1.c-2.l-15 beta-r-1.c-3.l-15 beta-r-2.c-1.l-15 beta-r-2.c-3.l-15 beta-r-3.c-2.l-15 beta-r-3.c-3.l-15
 # Variables for auxilliary term 16
-var gamma-r-1.c-1.l-16 gamma-r-1.c-2.l-16 gamma-r-2.c-2.l-16 gamma-r-2.c-3.l-16 gamma-r-3.c-3.l-16 alpha-r-1.c-1.l-16 alpha-r-1.c-2.l-16 alpha-r-2.c-1.l-16 alpha-r-2.c-2.l-16 alpha-r-3.c-2.l-16 beta-r-1.c-1.l-16 beta-r-1.c-3.l-16 beta-r-2.c-1.l-16 beta-r-2.c-2.l-16 beta-r-2.c-3.l-16 beta-r-3.c-1.l-16 beta-r-3.c-2.l-16 beta-r-3.c-3.l-16
+var gamma-r-1.c-1.l-16 gamma-r-1.c-2.l-16 gamma-r-1.c-3.l-16 gamma-r-2.c-1.l-16 gamma-r-2.c-2.l-16 gamma-r-3.c-1.l-16 gamma-r-3.c-2.l-16 gamma-r-3.c-3.l-16 alpha-r-3.c-1.l-16 alpha-r-3.c-3.l-16 beta-r-1.c-1.l-16 beta-r-1.c-2.l-16 beta-r-2.c-1.l-16 beta-r-2.c-3.l-16 beta-r-3.c-1.l-16 beta-r-3.c-2.l-16
 # Variables for auxilliary term 17
-var gamma-r-1.c-1.l-17 gamma-r-1.c-2.l-17 gamma-r-2.c-2.l-17 gamma-r-3.c-2.l-17 alpha-r-1.c-1.l-17 alpha-r-1.c-2.l-17 beta-r-1.c-1.l-17 beta-r-1.c-2.l-17 beta-r-2.c-1.l-17 beta-r-2.c-2.l-17 beta-r-2.c-3.l-17 beta-r-3.c-1.l-17 beta-r-3.c-2.l-17 beta-r-3.c-3.l-17
+var gamma-r-2.c-2.l-17 gamma-r-2.c-3.l-17 gamma-r-3.c-3.l-17 alpha-r-1.c-1.l-17 alpha-r-1.c-2.l-17 alpha-r-2.c-1.l-17 alpha-r-2.c-2.l-17 alpha-r-3.c-2.l-17 alpha-r-3.c-3.l-17 beta-r-1.c-1.l-17 beta-r-1.c-3.l-17 beta-r-2.c-1.l-17 beta-r-2.c-2.l-17 beta-r-2.c-3.l-17 beta-r-3.c-1.l-17 beta-r-3.c-2.l-17 beta-r-3.c-3.l-17
 # Variables for auxilliary term 18
-var gamma-r-1.c-1.l-18 gamma-r-1.c-2.l-18 gamma-r-2.c-2.l-18 gamma-r-3.c-2.l-18 alpha-r-1.c-1.l-18 alpha-r-1.c-2.l-18 alpha-r-1.c-3.l-18 alpha-r-2.c-2.l-18 alpha-r-3.c-1.l-18 alpha-r-3.c-3.l-18 beta-r-1.c-1.l-18 beta-r-1.c-2.l-18 beta-r-1.c-3.l-18 beta-r-2.c-2.l-18 beta-r-2.c-3.l-18 beta-r-3.c-1.l-18
+var gamma-r-2.c-2.l-18 gamma-r-3.c-2.l-18 alpha-r-3.c-3.l-18 beta-r-1.c-1.l-18 beta-r-1.c-2.l-18 beta-r-2.c-1.l-18 beta-r-2.c-2.l-18 beta-r-2.c-3.l-18 beta-r-3.c-1.l-18 beta-r-3.c-2.l-18 beta-r-3.c-3.l-18
 # Variables for auxilliary term 19
-var gamma-r-1.c-1.l-19 gamma-r-1.c-2.l-19 gamma-r-2.c-2.l-19 gamma-r-3.c-1.l-19 alpha-r-1.c-1.l-19 alpha-r-1.c-2.l-19 alpha-r-1.c-3.l-19 alpha-r-2.c-1.l-19 alpha-r-2.c-2.l-19 alpha-r-3.c-1.l-19 alpha-r-3.c-3.l-19 beta-r-1.c-1.l-19 beta-r-1.c-2.l-19 beta-r-1.c-3.l-19 beta-r-2.c-1.l-19 beta-r-2.c-3.l-19 beta-r-3.c-2.l-19
+var gamma-r-1.c-1.l-19 gamma-r-1.c-2.l-19 gamma-r-2.c-2.l-19 gamma-r-3.c-2.l-19 gamma-r-3.c-3.l-19 alpha-r-1.c-2.l-19 alpha-r-1.c-3.l-19 alpha-r-2.c-2.l-19 alpha-r-3.c-1.l-19 alpha-r-3.c-3.l-19 beta-r-1.c-1.l-19 beta-r-1.c-2.l-19 beta-r-1.c-3.l-19 beta-r-2.c-2.l-19 beta-r-2.c-3.l-19 beta-r-3.c-1.l-19 beta-r-3.c-2.l-19 beta-r-3.c-3.l-19
 # Variables for auxilliary term 20
-var gamma-r-1.c-1.l-20 gamma-r-1.c-2.l-20 gamma-r-1.c-3.l-20 alpha-r-1.c-1.l-20 alpha-r-1.c-2.l-20 alpha-r-1.c-3.l-20 alpha-r-2.c-1.l-20 alpha-r-2.c-2.l-20 alpha-r-2.c-3.l-20 alpha-r-3.c-1.l-20 alpha-r-3.c-3.l-20 beta-r-1.c-2.l-20 beta-r-2.c-1.l-20
+var gamma-r-1.c-1.l-20 gamma-r-1.c-2.l-20 gamma-r-2.c-2.l-20 gamma-r-3.c-1.l-20 gamma-r-3.c-3.l-20 alpha-r-1.c-1.l-20 alpha-r-1.c-2.l-20 alpha-r-1.c-3.l-20 alpha-r-2.c-1.l-20 alpha-r-2.c-2.l-20 alpha-r-3.c-1.l-20 alpha-r-3.c-3.l-20 beta-r-1.c-1.l-20 beta-r-1.c-2.l-20 beta-r-1.c-3.l-20 beta-r-2.c-1.l-20 beta-r-2.c-3.l-20 beta-r-3.c-2.l-20 beta-r-3.c-3.l-20
 # Variables for auxilliary term 21
-var gamma-r-1.c-1.l-21 gamma-r-1.c-2.l-21 gamma-r-1.c-3.l-21 gamma-r-2.c-2.l-21 gamma-r-2.c-3.l-21 gamma-r-3.c-1.l-21 gamma-r-3.c-3.l-21 alpha-r-1.c-1.l-21 alpha-r-1.c-2.l-21 alpha-r-1.c-3.l-21 alpha-r-2.c-1.l-21 alpha-r-2.c-3.l-21 alpha-r-3.c-1.l-21 beta-r-1.c-2.l-21 beta-r-2.c-1.l-21 beta-r-2.c-2.l-21 beta-r-2.c-3.l-21 beta-r-3.c-1.l-21 beta-r-3.c-3.l-21
+var gamma-r-1.c-1.l-21 gamma-r-1.c-3.l-21 gamma-r-3.c-2.l-21 alpha-r-1.c-1.l-21 alpha-r-1.c-2.l-21 alpha-r-1.c-3.l-21 alpha-r-2.c-1.l-21 alpha-r-2.c-2.l-21 alpha-r-2.c-3.l-21 alpha-r-3.c-1.l-21 alpha-r-3.c-3.l-21 beta-r-3.c-2.l-21 beta-r-3.c-3.l-21
 # Variables for auxilliary term 22
-var gamma-r-1.c-1.l-22 gamma-r-1.c-2.l-22 gamma-r-1.c-3.l-22 gamma-r-2.c-2.l-22 gamma-r-2.c-3.l-22 gamma-r-3.c-2.l-22 alpha-r-1.c-1.l-22 alpha-r-1.c-2.l-22 alpha-r-3.c-1.l-22 beta-r-1.c-2.l-22 beta-r-2.c-1.l-22 beta-r-2.c-2.l-22 beta-r-2.c-3.l-22 beta-r-3.c-1.l-22 beta-r-3.c-2.l-22
+var gamma-r-1.c-1.l-22 gamma-r-1.c-2.l-22 gamma-r-1.c-3.l-22 gamma-r-2.c-1.l-22 gamma-r-2.c-2.l-22 gamma-r-2.c-3.l-22 gamma-r-3.c-1.l-22 alpha-r-1.c-1.l-22 alpha-r-1.c-2.l-22 alpha-r-1.c-3.l-22 alpha-r-2.c-1.l-22 alpha-r-2.c-2.l-22 alpha-r-2.c-3.l-22 alpha-r-3.c-1.l-22 alpha-r-3.c-2.l-22 beta-r-1.c-1.l-22 beta-r-1.c-2.l-22 beta-r-1.c-3.l-22 beta-r-2.c-1.l-22 beta-r-2.c-2.l-22 beta-r-2.c-3.l-22 beta-r-3.c-1.l-22
 # Generate streamline conditions based on singleton exclusion property
-and single_gamma.0 !gamma-r-1.c-1.l-06 gamma-r-1.c-2.l-06 !gamma-r-1.c-3.l-06 !gamma-r-2.c-1.l-06 !gamma-r-2.c-2.l-06 !gamma-r-2.c-3.l-06 !gamma-r-3.c-1.l-06 !gamma-r-3.c-2.l-06 !gamma-r-3.c-3.l-06
-and single_alpha.0 !alpha-r-1.c-1.l-06 alpha-r-1.c-2.l-06 !alpha-r-1.c-3.l-06 !alpha-r-2.c-1.l-06 !alpha-r-2.c-2.l-06 !alpha-r-2.c-3.l-06 !alpha-r-3.c-1.l-06 !alpha-r-3.c-2.l-06 !alpha-r-3.c-3.l-06
-and single_beta.0 !beta-r-1.c-1.l-06 !beta-r-1.c-2.l-06 !beta-r-1.c-3.l-06 !beta-r-2.c-1.l-06 beta-r-2.c-2.l-06 !beta-r-2.c-3.l-06 !beta-r-3.c-1.l-06 !beta-r-3.c-2.l-06 !beta-r-3.c-3.l-06
+and single_gamma.0 !gamma-r-1.c-1.l-05 gamma-r-1.c-2.l-05 !gamma-r-1.c-3.l-05 !gamma-r-2.c-1.l-05 !gamma-r-2.c-2.l-05 !gamma-r-2.c-3.l-05 !gamma-r-3.c-1.l-05 !gamma-r-3.c-2.l-05 !gamma-r-3.c-3.l-05
+and single_alpha.0 alpha-r-1.c-1.l-05 !alpha-r-1.c-2.l-05 !alpha-r-1.c-3.l-05 !alpha-r-2.c-1.l-05 !alpha-r-2.c-2.l-05 !alpha-r-2.c-3.l-05 !alpha-r-3.c-1.l-05 !alpha-r-3.c-2.l-05 !alpha-r-3.c-3.l-05
+and single_beta.0 !beta-r-1.c-1.l-05 beta-r-1.c-2.l-05 !beta-r-1.c-3.l-05 !beta-r-2.c-1.l-05 !beta-r-2.c-2.l-05 !beta-r-2.c-3.l-05 !beta-r-3.c-1.l-05 !beta-r-3.c-2.l-05 !beta-r-3.c-3.l-05
 or exclude.0 single_alpha.0 single_beta.0 single_gamma.0
-and single_gamma.1 gamma-r-1.c-1.l-07 !gamma-r-1.c-2.l-07 !gamma-r-1.c-3.l-07 !gamma-r-2.c-1.l-07 !gamma-r-2.c-2.l-07 !gamma-r-2.c-3.l-07 !gamma-r-3.c-1.l-07 !gamma-r-3.c-2.l-07 !gamma-r-3.c-3.l-07
-and single_alpha.1 !alpha-r-1.c-1.l-07 !alpha-r-1.c-2.l-07 alpha-r-1.c-3.l-07 !alpha-r-2.c-1.l-07 !alpha-r-2.c-2.l-07 !alpha-r-2.c-3.l-07 !alpha-r-3.c-1.l-07 !alpha-r-3.c-2.l-07 !alpha-r-3.c-3.l-07
-and single_beta.1 !beta-r-1.c-1.l-07 !beta-r-1.c-2.l-07 !beta-r-1.c-3.l-07 !beta-r-2.c-1.l-07 !beta-r-2.c-2.l-07 !beta-r-2.c-3.l-07 beta-r-3.c-1.l-07 !beta-r-3.c-2.l-07 !beta-r-3.c-3.l-07
+and single_gamma.1 gamma-r-1.c-1.l-06 !gamma-r-1.c-2.l-06 !gamma-r-1.c-3.l-06 !gamma-r-2.c-1.l-06 !gamma-r-2.c-2.l-06 !gamma-r-2.c-3.l-06 !gamma-r-3.c-1.l-06 !gamma-r-3.c-2.l-06 !gamma-r-3.c-3.l-06
+and single_alpha.1 !alpha-r-1.c-1.l-06 alpha-r-1.c-2.l-06 !alpha-r-1.c-3.l-06 !alpha-r-2.c-1.l-06 !alpha-r-2.c-2.l-06 !alpha-r-2.c-3.l-06 !alpha-r-3.c-1.l-06 !alpha-r-3.c-2.l-06 !alpha-r-3.c-3.l-06
+and single_beta.1 !beta-r-1.c-1.l-06 !beta-r-1.c-2.l-06 !beta-r-1.c-3.l-06 beta-r-2.c-1.l-06 !beta-r-2.c-2.l-06 !beta-r-2.c-3.l-06 !beta-r-3.c-1.l-06 !beta-r-3.c-2.l-06 !beta-r-3.c-3.l-06
 or exclude.1 single_alpha.1 single_beta.1 single_gamma.1
-and single_gamma.2 !gamma-r-1.c-1.l-08 gamma-r-1.c-2.l-08 !gamma-r-1.c-3.l-08 !gamma-r-2.c-1.l-08 !gamma-r-2.c-2.l-08 !gamma-r-2.c-3.l-08 !gamma-r-3.c-1.l-08 !gamma-r-3.c-2.l-08 !gamma-r-3.c-3.l-08
-and single_alpha.2 !alpha-r-1.c-1.l-08 !alpha-r-1.c-2.l-08 alpha-r-1.c-3.l-08 !alpha-r-2.c-1.l-08 !alpha-r-2.c-2.l-08 !alpha-r-2.c-3.l-08 !alpha-r-3.c-1.l-08 !alpha-r-3.c-2.l-08 !alpha-r-3.c-3.l-08
-and single_beta.2 !beta-r-1.c-1.l-08 !beta-r-1.c-2.l-08 !beta-r-1.c-3.l-08 !beta-r-2.c-1.l-08 !beta-r-2.c-2.l-08 !beta-r-2.c-3.l-08 !beta-r-3.c-1.l-08 beta-r-3.c-2.l-08 !beta-r-3.c-3.l-08
+and single_gamma.2 !gamma-r-1.c-1.l-07 gamma-r-1.c-2.l-07 !gamma-r-1.c-3.l-07 !gamma-r-2.c-1.l-07 !gamma-r-2.c-2.l-07 !gamma-r-2.c-3.l-07 !gamma-r-3.c-1.l-07 !gamma-r-3.c-2.l-07 !gamma-r-3.c-3.l-07
+and single_alpha.2 !alpha-r-1.c-1.l-07 alpha-r-1.c-2.l-07 !alpha-r-1.c-3.l-07 !alpha-r-2.c-1.l-07 !alpha-r-2.c-2.l-07 !alpha-r-2.c-3.l-07 !alpha-r-3.c-1.l-07 !alpha-r-3.c-2.l-07 !alpha-r-3.c-3.l-07
+and single_beta.2 !beta-r-1.c-1.l-07 !beta-r-1.c-2.l-07 !beta-r-1.c-3.l-07 !beta-r-2.c-1.l-07 beta-r-2.c-2.l-07 !beta-r-2.c-3.l-07 !beta-r-3.c-1.l-07 !beta-r-3.c-2.l-07 !beta-r-3.c-3.l-07
 or exclude.2 single_alpha.2 single_beta.2 single_gamma.2
-and single_gamma.3 !gamma-r-1.c-1.l-09 !gamma-r-1.c-2.l-09 gamma-r-1.c-3.l-09 !gamma-r-2.c-1.l-09 !gamma-r-2.c-2.l-09 !gamma-r-2.c-3.l-09 !gamma-r-3.c-1.l-09 !gamma-r-3.c-2.l-09 !gamma-r-3.c-3.l-09
-and single_alpha.3 !alpha-r-1.c-1.l-09 !alpha-r-1.c-2.l-09 alpha-r-1.c-3.l-09 !alpha-r-2.c-1.l-09 !alpha-r-2.c-2.l-09 !alpha-r-2.c-3.l-09 !alpha-r-3.c-1.l-09 !alpha-r-3.c-2.l-09 !alpha-r-3.c-3.l-09
-and single_beta.3 !beta-r-1.c-1.l-09 !beta-r-1.c-2.l-09 !beta-r-1.c-3.l-09 !beta-r-2.c-1.l-09 !beta-r-2.c-2.l-09 !beta-r-2.c-3.l-09 !beta-r-3.c-1.l-09 !beta-r-3.c-2.l-09 beta-r-3.c-3.l-09
+and single_gamma.3 gamma-r-1.c-1.l-08 !gamma-r-1.c-2.l-08 !gamma-r-1.c-3.l-08 !gamma-r-2.c-1.l-08 !gamma-r-2.c-2.l-08 !gamma-r-2.c-3.l-08 !gamma-r-3.c-1.l-08 !gamma-r-3.c-2.l-08 !gamma-r-3.c-3.l-08
+and single_alpha.3 !alpha-r-1.c-1.l-08 !alpha-r-1.c-2.l-08 alpha-r-1.c-3.l-08 !alpha-r-2.c-1.l-08 !alpha-r-2.c-2.l-08 !alpha-r-2.c-3.l-08 !alpha-r-3.c-1.l-08 !alpha-r-3.c-2.l-08 !alpha-r-3.c-3.l-08
+and single_beta.3 !beta-r-1.c-1.l-08 !beta-r-1.c-2.l-08 !beta-r-1.c-3.l-08 !beta-r-2.c-1.l-08 !beta-r-2.c-2.l-08 !beta-r-2.c-3.l-08 beta-r-3.c-1.l-08 !beta-r-3.c-2.l-08 !beta-r-3.c-3.l-08
 or exclude.3 single_alpha.3 single_beta.3 single_gamma.3
-and single_gamma.4 !gamma-r-1.c-1.l-10 !gamma-r-1.c-2.l-10 !gamma-r-1.c-3.l-10 gamma-r-2.c-1.l-10 !gamma-r-2.c-2.l-10 !gamma-r-2.c-3.l-10 !gamma-r-3.c-1.l-10 !gamma-r-3.c-2.l-10 !gamma-r-3.c-3.l-10
-and single_alpha.4 !alpha-r-1.c-1.l-10 !alpha-r-1.c-2.l-10 !alpha-r-1.c-3.l-10 alpha-r-2.c-1.l-10 !alpha-r-2.c-2.l-10 !alpha-r-2.c-3.l-10 !alpha-r-3.c-1.l-10 !alpha-r-3.c-2.l-10 !alpha-r-3.c-3.l-10
-and single_beta.4 beta-r-1.c-1.l-10 !beta-r-1.c-2.l-10 !beta-r-1.c-3.l-10 !beta-r-2.c-1.l-10 !beta-r-2.c-2.l-10 !beta-r-2.c-3.l-10 !beta-r-3.c-1.l-10 !beta-r-3.c-2.l-10 !beta-r-3.c-3.l-10
+and single_gamma.4 !gamma-r-1.c-1.l-09 gamma-r-1.c-2.l-09 !gamma-r-1.c-3.l-09 !gamma-r-2.c-1.l-09 !gamma-r-2.c-2.l-09 !gamma-r-2.c-3.l-09 !gamma-r-3.c-1.l-09 !gamma-r-3.c-2.l-09 !gamma-r-3.c-3.l-09
+and single_alpha.4 !alpha-r-1.c-1.l-09 !alpha-r-1.c-2.l-09 alpha-r-1.c-3.l-09 !alpha-r-2.c-1.l-09 !alpha-r-2.c-2.l-09 !alpha-r-2.c-3.l-09 !alpha-r-3.c-1.l-09 !alpha-r-3.c-2.l-09 !alpha-r-3.c-3.l-09
+and single_beta.4 !beta-r-1.c-1.l-09 !beta-r-1.c-2.l-09 !beta-r-1.c-3.l-09 !beta-r-2.c-1.l-09 !beta-r-2.c-2.l-09 !beta-r-2.c-3.l-09 !beta-r-3.c-1.l-09 beta-r-3.c-2.l-09 !beta-r-3.c-3.l-09
 or exclude.4 single_alpha.4 single_beta.4 single_gamma.4
-and single_gamma.5 !gamma-r-1.c-1.l-11 !gamma-r-1.c-2.l-11 !gamma-r-1.c-3.l-11 !gamma-r-2.c-1.l-11 gamma-r-2.c-2.l-11 !gamma-r-2.c-3.l-11 !gamma-r-3.c-1.l-11 !gamma-r-3.c-2.l-11 !gamma-r-3.c-3.l-11
-and single_alpha.5 !alpha-r-1.c-1.l-11 !alpha-r-1.c-2.l-11 !alpha-r-1.c-3.l-11 alpha-r-2.c-1.l-11 !alpha-r-2.c-2.l-11 !alpha-r-2.c-3.l-11 !alpha-r-3.c-1.l-11 !alpha-r-3.c-2.l-11 !alpha-r-3.c-3.l-11
-and single_beta.5 !beta-r-1.c-1.l-11 beta-r-1.c-2.l-11 !beta-r-1.c-3.l-11 !beta-r-2.c-1.l-11 !beta-r-2.c-2.l-11 !beta-r-2.c-3.l-11 !beta-r-3.c-1.l-11 !beta-r-3.c-2.l-11 !beta-r-3.c-3.l-11
+and single_gamma.5 !gamma-r-1.c-1.l-10 !gamma-r-1.c-2.l-10 gamma-r-1.c-3.l-10 !gamma-r-2.c-1.l-10 !gamma-r-2.c-2.l-10 !gamma-r-2.c-3.l-10 !gamma-r-3.c-1.l-10 !gamma-r-3.c-2.l-10 !gamma-r-3.c-3.l-10
+and single_alpha.5 !alpha-r-1.c-1.l-10 !alpha-r-1.c-2.l-10 alpha-r-1.c-3.l-10 !alpha-r-2.c-1.l-10 !alpha-r-2.c-2.l-10 !alpha-r-2.c-3.l-10 !alpha-r-3.c-1.l-10 !alpha-r-3.c-2.l-10 !alpha-r-3.c-3.l-10
+and single_beta.5 !beta-r-1.c-1.l-10 !beta-r-1.c-2.l-10 !beta-r-1.c-3.l-10 !beta-r-2.c-1.l-10 !beta-r-2.c-2.l-10 !beta-r-2.c-3.l-10 !beta-r-3.c-1.l-10 !beta-r-3.c-2.l-10 beta-r-3.c-3.l-10
 or exclude.5 single_alpha.5 single_beta.5 single_gamma.5
-and single_gamma.6 !gamma-r-1.c-1.l-12 !gamma-r-1.c-2.l-12 !gamma-r-1.c-3.l-12 !gamma-r-2.c-1.l-12 !gamma-r-2.c-2.l-12 gamma-r-2.c-3.l-12 !gamma-r-3.c-1.l-12 !gamma-r-3.c-2.l-12 !gamma-r-3.c-3.l-12
-and single_alpha.6 !alpha-r-1.c-1.l-12 !alpha-r-1.c-2.l-12 !alpha-r-1.c-3.l-12 alpha-r-2.c-1.l-12 !alpha-r-2.c-2.l-12 !alpha-r-2.c-3.l-12 !alpha-r-3.c-1.l-12 !alpha-r-3.c-2.l-12 !alpha-r-3.c-3.l-12
-and single_beta.6 !beta-r-1.c-1.l-12 !beta-r-1.c-2.l-12 beta-r-1.c-3.l-12 !beta-r-2.c-1.l-12 !beta-r-2.c-2.l-12 !beta-r-2.c-3.l-12 !beta-r-3.c-1.l-12 !beta-r-3.c-2.l-12 !beta-r-3.c-3.l-12
+and single_gamma.6 !gamma-r-1.c-1.l-11 !gamma-r-1.c-2.l-11 !gamma-r-1.c-3.l-11 gamma-r-2.c-1.l-11 !gamma-r-2.c-2.l-11 !gamma-r-2.c-3.l-11 !gamma-r-3.c-1.l-11 !gamma-r-3.c-2.l-11 !gamma-r-3.c-3.l-11
+and single_alpha.6 !alpha-r-1.c-1.l-11 !alpha-r-1.c-2.l-11 !alpha-r-1.c-3.l-11 alpha-r-2.c-1.l-11 !alpha-r-2.c-2.l-11 !alpha-r-2.c-3.l-11 !alpha-r-3.c-1.l-11 !alpha-r-3.c-2.l-11 !alpha-r-3.c-3.l-11
+and single_beta.6 beta-r-1.c-1.l-11 !beta-r-1.c-2.l-11 !beta-r-1.c-3.l-11 !beta-r-2.c-1.l-11 !beta-r-2.c-2.l-11 !beta-r-2.c-3.l-11 !beta-r-3.c-1.l-11 !beta-r-3.c-2.l-11 !beta-r-3.c-3.l-11
 or exclude.6 single_alpha.6 single_beta.6 single_gamma.6
-and single_gamma.7 !gamma-r-1.c-1.l-13 !gamma-r-1.c-2.l-13 !gamma-r-1.c-3.l-13 gamma-r-2.c-1.l-13 !gamma-r-2.c-2.l-13 !gamma-r-2.c-3.l-13 !gamma-r-3.c-1.l-13 !gamma-r-3.c-2.l-13 !gamma-r-3.c-3.l-13
-and single_alpha.7 !alpha-r-1.c-1.l-13 !alpha-r-1.c-2.l-13 !alpha-r-1.c-3.l-13 !alpha-r-2.c-1.l-13 alpha-r-2.c-2.l-13 !alpha-r-2.c-3.l-13 !alpha-r-3.c-1.l-13 !alpha-r-3.c-2.l-13 !alpha-r-3.c-3.l-13
-and single_beta.7 !beta-r-1.c-1.l-13 !beta-r-1.c-2.l-13 !beta-r-1.c-3.l-13 beta-r-2.c-1.l-13 !beta-r-2.c-2.l-13 !beta-r-2.c-3.l-13 !beta-r-3.c-1.l-13 !beta-r-3.c-2.l-13 !beta-r-3.c-3.l-13
+and single_gamma.7 !gamma-r-1.c-1.l-12 !gamma-r-1.c-2.l-12 !gamma-r-1.c-3.l-12 !gamma-r-2.c-1.l-12 gamma-r-2.c-2.l-12 !gamma-r-2.c-3.l-12 !gamma-r-3.c-1.l-12 !gamma-r-3.c-2.l-12 !gamma-r-3.c-3.l-12
+and single_alpha.7 !alpha-r-1.c-1.l-12 !alpha-r-1.c-2.l-12 !alpha-r-1.c-3.l-12 alpha-r-2.c-1.l-12 !alpha-r-2.c-2.l-12 !alpha-r-2.c-3.l-12 !alpha-r-3.c-1.l-12 !alpha-r-3.c-2.l-12 !alpha-r-3.c-3.l-12
+and single_beta.7 !beta-r-1.c-1.l-12 beta-r-1.c-2.l-12 !beta-r-1.c-3.l-12 !beta-r-2.c-1.l-12 !beta-r-2.c-2.l-12 !beta-r-2.c-3.l-12 !beta-r-3.c-1.l-12 !beta-r-3.c-2.l-12 !beta-r-3.c-3.l-12
 or exclude.7 single_alpha.7 single_beta.7 single_gamma.7
-and single_gamma.8 !gamma-r-1.c-1.l-14 !gamma-r-1.c-2.l-14 !gamma-r-1.c-3.l-14 gamma-r-2.c-1.l-14 !gamma-r-2.c-2.l-14 !gamma-r-2.c-3.l-14 !gamma-r-3.c-1.l-14 !gamma-r-3.c-2.l-14 !gamma-r-3.c-3.l-14
-and single_alpha.8 !alpha-r-1.c-1.l-14 !alpha-r-1.c-2.l-14 !alpha-r-1.c-3.l-14 !alpha-r-2.c-1.l-14 !alpha-r-2.c-2.l-14 alpha-r-2.c-3.l-14 !alpha-r-3.c-1.l-14 !alpha-r-3.c-2.l-14 !alpha-r-3.c-3.l-14
-and single_beta.8 !beta-r-1.c-1.l-14 !beta-r-1.c-2.l-14 !beta-r-1.c-3.l-14 !beta-r-2.c-1.l-14 !beta-r-2.c-2.l-14 !beta-r-2.c-3.l-14 beta-r-3.c-1.l-14 !beta-r-3.c-2.l-14 !beta-r-3.c-3.l-14
+and single_gamma.8 !gamma-r-1.c-1.l-13 !gamma-r-1.c-2.l-13 !gamma-r-1.c-3.l-13 !gamma-r-2.c-1.l-13 !gamma-r-2.c-2.l-13 gamma-r-2.c-3.l-13 !gamma-r-3.c-1.l-13 !gamma-r-3.c-2.l-13 !gamma-r-3.c-3.l-13
+and single_alpha.8 !alpha-r-1.c-1.l-13 !alpha-r-1.c-2.l-13 !alpha-r-1.c-3.l-13 alpha-r-2.c-1.l-13 !alpha-r-2.c-2.l-13 !alpha-r-2.c-3.l-13 !alpha-r-3.c-1.l-13 !alpha-r-3.c-2.l-13 !alpha-r-3.c-3.l-13
+and single_beta.8 !beta-r-1.c-1.l-13 !beta-r-1.c-2.l-13 beta-r-1.c-3.l-13 !beta-r-2.c-1.l-13 !beta-r-2.c-2.l-13 !beta-r-2.c-3.l-13 !beta-r-3.c-1.l-13 !beta-r-3.c-2.l-13 !beta-r-3.c-3.l-13
 or exclude.8 single_alpha.8 single_beta.8 single_gamma.8
-and single_gamma.9 !gamma-r-1.c-1.l-15 !gamma-r-1.c-2.l-15 !gamma-r-1.c-3.l-15 !gamma-r-2.c-1.l-15 !gamma-r-2.c-2.l-15 gamma-r-2.c-3.l-15 !gamma-r-3.c-1.l-15 !gamma-r-3.c-2.l-15 !gamma-r-3.c-3.l-15
-and single_alpha.9 !alpha-r-1.c-1.l-15 !alpha-r-1.c-2.l-15 !alpha-r-1.c-3.l-15 !alpha-r-2.c-1.l-15 !alpha-r-2.c-2.l-15 alpha-r-2.c-3.l-15 !alpha-r-3.c-1.l-15 !alpha-r-3.c-2.l-15 !alpha-r-3.c-3.l-15
-and single_beta.9 !beta-r-1.c-1.l-15 !beta-r-1.c-2.l-15 !beta-r-1.c-3.l-15 !beta-r-2.c-1.l-15 !beta-r-2.c-2.l-15 !beta-r-2.c-3.l-15 !beta-r-3.c-1.l-15 !beta-r-3.c-2.l-15 beta-r-3.c-3.l-15
+and single_gamma.9 !gamma-r-1.c-1.l-14 !gamma-r-1.c-2.l-14 !gamma-r-1.c-3.l-14 gamma-r-2.c-1.l-14 !gamma-r-2.c-2.l-14 !gamma-r-2.c-3.l-14 !gamma-r-3.c-1.l-14 !gamma-r-3.c-2.l-14 !gamma-r-3.c-3.l-14
+and single_alpha.9 !alpha-r-1.c-1.l-14 !alpha-r-1.c-2.l-14 !alpha-r-1.c-3.l-14 !alpha-r-2.c-1.l-14 alpha-r-2.c-2.l-14 !alpha-r-2.c-3.l-14 !alpha-r-3.c-1.l-14 !alpha-r-3.c-2.l-14 !alpha-r-3.c-3.l-14
+and single_beta.9 !beta-r-1.c-1.l-14 !beta-r-1.c-2.l-14 !beta-r-1.c-3.l-14 beta-r-2.c-1.l-14 !beta-r-2.c-2.l-14 !beta-r-2.c-3.l-14 !beta-r-3.c-1.l-14 !beta-r-3.c-2.l-14 !beta-r-3.c-3.l-14
 or exclude.9 single_alpha.9 single_beta.9 single_gamma.9
-and single_gamma.10 !gamma-r-1.c-1.l-16 !gamma-r-1.c-2.l-16 !gamma-r-1.c-3.l-16 !gamma-r-2.c-1.l-16 !gamma-r-2.c-2.l-16 !gamma-r-2.c-3.l-16 !gamma-r-3.c-1.l-16 gamma-r-3.c-2.l-16 !gamma-r-3.c-3.l-16
-and single_alpha.10 !alpha-r-1.c-1.l-16 !alpha-r-1.c-2.l-16 !alpha-r-1.c-3.l-16 !alpha-r-2.c-1.l-16 !alpha-r-2.c-2.l-16 !alpha-r-2.c-3.l-16 alpha-r-3.c-1.l-16 !alpha-r-3.c-2.l-16 !alpha-r-3.c-3.l-16
-and single_beta.10 !beta-r-1.c-1.l-16 beta-r-1.c-2.l-16 !beta-r-1.c-3.l-16 !beta-r-2.c-1.l-16 !beta-r-2.c-2.l-16 !beta-r-2.c-3.l-16 !beta-r-3.c-1.l-16 !beta-r-3.c-2.l-16 !beta-r-3.c-3.l-16
+and single_gamma.10 !gamma-r-1.c-1.l-15 !gamma-r-1.c-2.l-15 !gamma-r-1.c-3.l-15 gamma-r-2.c-1.l-15 !gamma-r-2.c-2.l-15 !gamma-r-2.c-3.l-15 !gamma-r-3.c-1.l-15 !gamma-r-3.c-2.l-15 !gamma-r-3.c-3.l-15
+and single_alpha.10 !alpha-r-1.c-1.l-15 !alpha-r-1.c-2.l-15 !alpha-r-1.c-3.l-15 !alpha-r-2.c-1.l-15 !alpha-r-2.c-2.l-15 alpha-r-2.c-3.l-15 !alpha-r-3.c-1.l-15 !alpha-r-3.c-2.l-15 !alpha-r-3.c-3.l-15
+and single_beta.10 !beta-r-1.c-1.l-15 !beta-r-1.c-2.l-15 !beta-r-1.c-3.l-15 !beta-r-2.c-1.l-15 !beta-r-2.c-2.l-15 !beta-r-2.c-3.l-15 beta-r-3.c-1.l-15 !beta-r-3.c-2.l-15 !beta-r-3.c-3.l-15
 or exclude.10 single_alpha.10 single_beta.10 single_gamma.10
-and single_gamma.11 !gamma-r-1.c-1.l-17 !gamma-r-1.c-2.l-17 !gamma-r-1.c-3.l-17 !gamma-r-2.c-1.l-17 !gamma-r-2.c-2.l-17 !gamma-r-2.c-3.l-17 !gamma-r-3.c-1.l-17 !gamma-r-3.c-2.l-17 gamma-r-3.c-3.l-17
-and single_alpha.11 !alpha-r-1.c-1.l-17 !alpha-r-1.c-2.l-17 !alpha-r-1.c-3.l-17 !alpha-r-2.c-1.l-17 !alpha-r-2.c-2.l-17 !alpha-r-2.c-3.l-17 alpha-r-3.c-1.l-17 !alpha-r-3.c-2.l-17 !alpha-r-3.c-3.l-17
-and single_beta.11 !beta-r-1.c-1.l-17 !beta-r-1.c-2.l-17 beta-r-1.c-3.l-17 !beta-r-2.c-1.l-17 !beta-r-2.c-2.l-17 !beta-r-2.c-3.l-17 !beta-r-3.c-1.l-17 !beta-r-3.c-2.l-17 !beta-r-3.c-3.l-17
+and single_gamma.11 !gamma-r-1.c-1.l-16 !gamma-r-1.c-2.l-16 !gamma-r-1.c-3.l-16 !gamma-r-2.c-1.l-16 !gamma-r-2.c-2.l-16 gamma-r-2.c-3.l-16 !gamma-r-3.c-1.l-16 !gamma-r-3.c-2.l-16 !gamma-r-3.c-3.l-16
+and single_alpha.11 !alpha-r-1.c-1.l-16 !alpha-r-1.c-2.l-16 !alpha-r-1.c-3.l-16 !alpha-r-2.c-1.l-16 !alpha-r-2.c-2.l-16 alpha-r-2.c-3.l-16 !alpha-r-3.c-1.l-16 !alpha-r-3.c-2.l-16 !alpha-r-3.c-3.l-16
+and single_beta.11 !beta-r-1.c-1.l-16 !beta-r-1.c-2.l-16 !beta-r-1.c-3.l-16 !beta-r-2.c-1.l-16 !beta-r-2.c-2.l-16 !beta-r-2.c-3.l-16 !beta-r-3.c-1.l-16 !beta-r-3.c-2.l-16 beta-r-3.c-3.l-16
 or exclude.11 single_alpha.11 single_beta.11 single_gamma.11
-and single_gamma.12 !gamma-r-1.c-1.l-18 !gamma-r-1.c-2.l-18 !gamma-r-1.c-3.l-18 !gamma-r-2.c-1.l-18 !gamma-r-2.c-2.l-18 !gamma-r-2.c-3.l-18 gamma-r-3.c-1.l-18 !gamma-r-3.c-2.l-18 !gamma-r-3.c-3.l-18
-and single_alpha.12 !alpha-r-1.c-1.l-18 !alpha-r-1.c-2.l-18 !alpha-r-1.c-3.l-18 !alpha-r-2.c-1.l-18 !alpha-r-2.c-2.l-18 !alpha-r-2.c-3.l-18 !alpha-r-3.c-1.l-18 alpha-r-3.c-2.l-18 !alpha-r-3.c-3.l-18
-and single_beta.12 !beta-r-1.c-1.l-18 !beta-r-1.c-2.l-18 !beta-r-1.c-3.l-18 beta-r-2.c-1.l-18 !beta-r-2.c-2.l-18 !beta-r-2.c-3.l-18 !beta-r-3.c-1.l-18 !beta-r-3.c-2.l-18 !beta-r-3.c-3.l-18
+and single_gamma.12 !gamma-r-1.c-1.l-17 !gamma-r-1.c-2.l-17 !gamma-r-1.c-3.l-17 !gamma-r-2.c-1.l-17 !gamma-r-2.c-2.l-17 !gamma-r-2.c-3.l-17 !gamma-r-3.c-1.l-17 gamma-r-3.c-2.l-17 !gamma-r-3.c-3.l-17
+and single_alpha.12 !alpha-r-1.c-1.l-17 !alpha-r-1.c-2.l-17 !alpha-r-1.c-3.l-17 !alpha-r-2.c-1.l-17 !alpha-r-2.c-2.l-17 !alpha-r-2.c-3.l-17 alpha-r-3.c-1.l-17 !alpha-r-3.c-2.l-17 !alpha-r-3.c-3.l-17
+and single_beta.12 !beta-r-1.c-1.l-17 beta-r-1.c-2.l-17 !beta-r-1.c-3.l-17 !beta-r-2.c-1.l-17 !beta-r-2.c-2.l-17 !beta-r-2.c-3.l-17 !beta-r-3.c-1.l-17 !beta-r-3.c-2.l-17 !beta-r-3.c-3.l-17
 or exclude.12 single_alpha.12 single_beta.12 single_gamma.12
-and single_gamma.13 !gamma-r-1.c-1.l-19 !gamma-r-1.c-2.l-19 !gamma-r-1.c-3.l-19 !gamma-r-2.c-1.l-19 !gamma-r-2.c-2.l-19 !gamma-r-2.c-3.l-19 !gamma-r-3.c-1.l-19 gamma-r-3.c-2.l-19 !gamma-r-3.c-3.l-19
-and single_alpha.13 !alpha-r-1.c-1.l-19 !alpha-r-1.c-2.l-19 !alpha-r-1.c-3.l-19 !alpha-r-2.c-1.l-19 !alpha-r-2.c-2.l-19 !alpha-r-2.c-3.l-19 !alpha-r-3.c-1.l-19 alpha-r-3.c-2.l-19 !alpha-r-3.c-3.l-19
-and single_beta.13 !beta-r-1.c-1.l-19 !beta-r-1.c-2.l-19 !beta-r-1.c-3.l-19 !beta-r-2.c-1.l-19 beta-r-2.c-2.l-19 !beta-r-2.c-3.l-19 !beta-r-3.c-1.l-19 !beta-r-3.c-2.l-19 !beta-r-3.c-3.l-19
+and single_gamma.13 !gamma-r-1.c-1.l-18 !gamma-r-1.c-2.l-18 !gamma-r-1.c-3.l-18 !gamma-r-2.c-1.l-18 !gamma-r-2.c-2.l-18 !gamma-r-2.c-3.l-18 !gamma-r-3.c-1.l-18 !gamma-r-3.c-2.l-18 gamma-r-3.c-3.l-18
+and single_alpha.13 !alpha-r-1.c-1.l-18 !alpha-r-1.c-2.l-18 !alpha-r-1.c-3.l-18 !alpha-r-2.c-1.l-18 !alpha-r-2.c-2.l-18 !alpha-r-2.c-3.l-18 alpha-r-3.c-1.l-18 !alpha-r-3.c-2.l-18 !alpha-r-3.c-3.l-18
+and single_beta.13 !beta-r-1.c-1.l-18 !beta-r-1.c-2.l-18 beta-r-1.c-3.l-18 !beta-r-2.c-1.l-18 !beta-r-2.c-2.l-18 !beta-r-2.c-3.l-18 !beta-r-3.c-1.l-18 !beta-r-3.c-2.l-18 !beta-r-3.c-3.l-18
 or exclude.13 single_alpha.13 single_beta.13 single_gamma.13
-and single_gamma.14 !gamma-r-1.c-1.l-20 !gamma-r-1.c-2.l-20 !gamma-r-1.c-3.l-20 !gamma-r-2.c-1.l-20 !gamma-r-2.c-2.l-20 !gamma-r-2.c-3.l-20 !gamma-r-3.c-1.l-20 !gamma-r-3.c-2.l-20 gamma-r-3.c-3.l-20
-and single_alpha.14 !alpha-r-1.c-1.l-20 !alpha-r-1.c-2.l-20 !alpha-r-1.c-3.l-20 !alpha-r-2.c-1.l-20 !alpha-r-2.c-2.l-20 !alpha-r-2.c-3.l-20 !alpha-r-3.c-1.l-20 alpha-r-3.c-2.l-20 !alpha-r-3.c-3.l-20
-and single_beta.14 !beta-r-1.c-1.l-20 !beta-r-1.c-2.l-20 !beta-r-1.c-3.l-20 !beta-r-2.c-1.l-20 !beta-r-2.c-2.l-20 beta-r-2.c-3.l-20 !beta-r-3.c-1.l-20 !beta-r-3.c-2.l-20 !beta-r-3.c-3.l-20
+and single_gamma.14 !gamma-r-1.c-1.l-19 !gamma-r-1.c-2.l-19 !gamma-r-1.c-3.l-19 !gamma-r-2.c-1.l-19 !gamma-r-2.c-2.l-19 !gamma-r-2.c-3.l-19 gamma-r-3.c-1.l-19 !gamma-r-3.c-2.l-19 !gamma-r-3.c-3.l-19
+and single_alpha.14 !alpha-r-1.c-1.l-19 !alpha-r-1.c-2.l-19 !alpha-r-1.c-3.l-19 !alpha-r-2.c-1.l-19 !alpha-r-2.c-2.l-19 !alpha-r-2.c-3.l-19 !alpha-r-3.c-1.l-19 alpha-r-3.c-2.l-19 !alpha-r-3.c-3.l-19
+and single_beta.14 !beta-r-1.c-1.l-19 !beta-r-1.c-2.l-19 !beta-r-1.c-3.l-19 beta-r-2.c-1.l-19 !beta-r-2.c-2.l-19 !beta-r-2.c-3.l-19 !beta-r-3.c-1.l-19 !beta-r-3.c-2.l-19 !beta-r-3.c-3.l-19
 or exclude.14 single_alpha.14 single_beta.14 single_gamma.14
-and single_gamma.15 !gamma-r-1.c-1.l-21 !gamma-r-1.c-2.l-21 !gamma-r-1.c-3.l-21 !gamma-r-2.c-1.l-21 !gamma-r-2.c-2.l-21 !gamma-r-2.c-3.l-21 !gamma-r-3.c-1.l-21 gamma-r-3.c-2.l-21 !gamma-r-3.c-3.l-21
-and single_alpha.15 !alpha-r-1.c-1.l-21 !alpha-r-1.c-2.l-21 !alpha-r-1.c-3.l-21 !alpha-r-2.c-1.l-21 !alpha-r-2.c-2.l-21 !alpha-r-2.c-3.l-21 !alpha-r-3.c-1.l-21 !alpha-r-3.c-2.l-21 alpha-r-3.c-3.l-21
-and single_beta.15 !beta-r-1.c-1.l-21 !beta-r-1.c-2.l-21 !beta-r-1.c-3.l-21 !beta-r-2.c-1.l-21 !beta-r-2.c-2.l-21 !beta-r-2.c-3.l-21 !beta-r-3.c-1.l-21 beta-r-3.c-2.l-21 !beta-r-3.c-3.l-21
+and single_gamma.15 !gamma-r-1.c-1.l-20 !gamma-r-1.c-2.l-20 !gamma-r-1.c-3.l-20 !gamma-r-2.c-1.l-20 !gamma-r-2.c-2.l-20 !gamma-r-2.c-3.l-20 !gamma-r-3.c-1.l-20 gamma-r-3.c-2.l-20 !gamma-r-3.c-3.l-20
+and single_alpha.15 !alpha-r-1.c-1.l-20 !alpha-r-1.c-2.l-20 !alpha-r-1.c-3.l-20 !alpha-r-2.c-1.l-20 !alpha-r-2.c-2.l-20 !alpha-r-2.c-3.l-20 !alpha-r-3.c-1.l-20 alpha-r-3.c-2.l-20 !alpha-r-3.c-3.l-20
+and single_beta.15 !beta-r-1.c-1.l-20 !beta-r-1.c-2.l-20 !beta-r-1.c-3.l-20 !beta-r-2.c-1.l-20 beta-r-2.c-2.l-20 !beta-r-2.c-3.l-20 !beta-r-3.c-1.l-20 !beta-r-3.c-2.l-20 !beta-r-3.c-3.l-20
 or exclude.15 single_alpha.15 single_beta.15 single_gamma.15
-and single_gamma.16 !gamma-r-1.c-1.l-22 !gamma-r-1.c-2.l-22 !gamma-r-1.c-3.l-22 !gamma-r-2.c-1.l-22 !gamma-r-2.c-2.l-22 !gamma-r-2.c-3.l-22 !gamma-r-3.c-1.l-22 !gamma-r-3.c-2.l-22 gamma-r-3.c-3.l-22
-and single_alpha.16 !alpha-r-1.c-1.l-22 !alpha-r-1.c-2.l-22 !alpha-r-1.c-3.l-22 !alpha-r-2.c-1.l-22 !alpha-r-2.c-2.l-22 !alpha-r-2.c-3.l-22 !alpha-r-3.c-1.l-22 !alpha-r-3.c-2.l-22 alpha-r-3.c-3.l-22
-and single_beta.16 !beta-r-1.c-1.l-22 !beta-r-1.c-2.l-22 !beta-r-1.c-3.l-22 !beta-r-2.c-1.l-22 !beta-r-2.c-2.l-22 !beta-r-2.c-3.l-22 !beta-r-3.c-1.l-22 !beta-r-3.c-2.l-22 beta-r-3.c-3.l-22
+and single_gamma.16 !gamma-r-1.c-1.l-21 !gamma-r-1.c-2.l-21 !gamma-r-1.c-3.l-21 !gamma-r-2.c-1.l-21 !gamma-r-2.c-2.l-21 !gamma-r-2.c-3.l-21 !gamma-r-3.c-1.l-21 !gamma-r-3.c-2.l-21 gamma-r-3.c-3.l-21
+and single_alpha.16 !alpha-r-1.c-1.l-21 !alpha-r-1.c-2.l-21 !alpha-r-1.c-3.l-21 !alpha-r-2.c-1.l-21 !alpha-r-2.c-2.l-21 !alpha-r-2.c-3.l-21 !alpha-r-3.c-1.l-21 alpha-r-3.c-2.l-21 !alpha-r-3.c-3.l-21
+and single_beta.16 !beta-r-1.c-1.l-21 !beta-r-1.c-2.l-21 !beta-r-1.c-3.l-21 !beta-r-2.c-1.l-21 !beta-r-2.c-2.l-21 beta-r-2.c-3.l-21 !beta-r-3.c-1.l-21 !beta-r-3.c-2.l-21 !beta-r-3.c-3.l-21
 or exclude.16 single_alpha.16 single_beta.16 single_gamma.16
 and streamline exclude.0 exclude.1 exclude.2 exclude.3 exclude.4 exclude.5 exclude.6 exclude.7 exclude.8 exclude.9 exclude.10 exclude.11 exclude.12 exclude.13 exclude.14 exclude.15 exclude.16
 delete single_beta.0 single_beta.1 single_beta.2 single_beta.3 single_beta.4 single_beta.5 single_beta.6 single_beta.7 single_beta.8 single_beta.9 single_beta.10 single_beta.11 single_beta.12 single_beta.13 single_beta.14 single_beta.15 single_beta.16
@@ -3084,7 +3098,7 @@ and bp-1.2.1.3.3.3-21 alpha-r-1.c-2.l-21 beta-r-1.c-3.l-21 gamma-r-3.c-3.l-21
 and bp-1.2.1.3.3.3-22 alpha-r-1.c-2.l-22 beta-r-1.c-3.l-22 gamma-r-3.c-3.l-22
 xor brent-1.2.1.3.3.3 bp-1.2.1.3.3.3-1 bp-1.2.1.3.3.3-2 bp-1.2.1.3.3.3-3 bp-1.2.1.3.3.3-4 bp-1.2.1.3.3.3-5 bp-1.2.1.3.3.3-6 bp-1.2.1.3.3.3-7 bp-1.2.1.3.3.3-8 bp-1.2.1.3.3.3-9 bp-1.2.1.3.3.3-10 bp-1.2.1.3.3.3-11 bp-1.2.1.3.3.3-12 bp-1.2.1.3.3.3-13 bp-1.2.1.3.3.3-14 bp-1.2.1.3.3.3-15 bp-1.2.1.3.3.3-16 bp-1.2.1.3.3.3-17 bp-1.2.1.3.3.3-18 bp-1.2.1.3.3.3-19 bp-1.2.1.3.3.3-20 bp-1.2.1.3.3.3-21 bp-1.2.1.3.3.3-22 one
 delete bp-1.2.1.3.3.3-1 bp-1.2.1.3.3.3-2 bp-1.2.1.3.3.3-3 bp-1.2.1.3.3.3-4 bp-1.2.1.3.3.3-5 bp-1.2.1.3.3.3-6 bp-1.2.1.3.3.3-7 bp-1.2.1.3.3.3-8 bp-1.2.1.3.3.3-9 bp-1.2.1.3.3.3-10 bp-1.2.1.3.3.3-11 bp-1.2.1.3.3.3-12 bp-1.2.1.3.3.3-13 bp-1.2.1.3.3.3-14 bp-1.2.1.3.3.3-15 bp-1.2.1.3.3.3-16 bp-1.2.1.3.3.3-17 bp-1.2.1.3.3.3-18 bp-1.2.1.3.3.3-19 bp-1.2.1.3.3.3-20 bp-1.2.1.3.3.3-21 bp-1.2.1.3.3.3-22
-# Constrained Brent equation for i1 = 1, i2 = 2, j1 = 2, j2 = 1, k1 = 1, k2 = 1, kernel at level 5
+# Constrained Brent equation for i1 = 1, i2 = 2, j1 = 2, j2 = 1, k1 = 1, k2 = 1, kernel at level 6
 and bp-1.2.2.1.1.1-1 alpha-r-1.c-2.l-01 beta-r-2.c-1.l-01 gamma-r-1.c-1.l-01
 and bp-1.2.2.1.1.1-2 alpha-r-1.c-2.l-02 beta-r-2.c-1.l-02 gamma-r-1.c-1.l-02
 and bp-1.2.2.1.1.1-3 alpha-r-1.c-2.l-03 beta-r-2.c-1.l-03 gamma-r-1.c-1.l-03
@@ -3107,7 +3121,7 @@ and bp-1.2.2.1.1.1-19 alpha-r-1.c-2.l-19 beta-r-2.c-1.l-19 gamma-r-1.c-1.l-19
 and bp-1.2.2.1.1.1-20 alpha-r-1.c-2.l-20 beta-r-2.c-1.l-20 gamma-r-1.c-1.l-20
 and bp-1.2.2.1.1.1-21 alpha-r-1.c-2.l-21 beta-r-2.c-1.l-21 gamma-r-1.c-1.l-21
 and bp-1.2.2.1.1.1-22 alpha-r-1.c-2.l-22 beta-r-2.c-1.l-22 gamma-r-1.c-1.l-22
-and brent-1.2.2.1.1.1 !bp-1.2.2.1.1.1-1 !bp-1.2.2.1.1.1-2 !bp-1.2.2.1.1.1-3 !bp-1.2.2.1.1.1-4 bp-1.2.2.1.1.1-5 !bp-1.2.2.1.1.1-6 !bp-1.2.2.1.1.1-7 !bp-1.2.2.1.1.1-8 !bp-1.2.2.1.1.1-9 !bp-1.2.2.1.1.1-10 !bp-1.2.2.1.1.1-11 !bp-1.2.2.1.1.1-12 !bp-1.2.2.1.1.1-13 !bp-1.2.2.1.1.1-14 !bp-1.2.2.1.1.1-15 !bp-1.2.2.1.1.1-16 !bp-1.2.2.1.1.1-17 !bp-1.2.2.1.1.1-18 !bp-1.2.2.1.1.1-19 !bp-1.2.2.1.1.1-20 !bp-1.2.2.1.1.1-21 !bp-1.2.2.1.1.1-22
+and brent-1.2.2.1.1.1 !bp-1.2.2.1.1.1-1 !bp-1.2.2.1.1.1-2 !bp-1.2.2.1.1.1-3 !bp-1.2.2.1.1.1-4 !bp-1.2.2.1.1.1-5 bp-1.2.2.1.1.1-6 !bp-1.2.2.1.1.1-7 !bp-1.2.2.1.1.1-8 !bp-1.2.2.1.1.1-9 !bp-1.2.2.1.1.1-10 !bp-1.2.2.1.1.1-11 !bp-1.2.2.1.1.1-12 !bp-1.2.2.1.1.1-13 !bp-1.2.2.1.1.1-14 !bp-1.2.2.1.1.1-15 !bp-1.2.2.1.1.1-16 !bp-1.2.2.1.1.1-17 !bp-1.2.2.1.1.1-18 !bp-1.2.2.1.1.1-19 !bp-1.2.2.1.1.1-20 !bp-1.2.2.1.1.1-21 !bp-1.2.2.1.1.1-22
 delete bp-1.2.2.1.1.1-1 bp-1.2.2.1.1.1-2 bp-1.2.2.1.1.1-3 bp-1.2.2.1.1.1-4 bp-1.2.2.1.1.1-5 bp-1.2.2.1.1.1-6 bp-1.2.2.1.1.1-7 bp-1.2.2.1.1.1-8 bp-1.2.2.1.1.1-9 bp-1.2.2.1.1.1-10 bp-1.2.2.1.1.1-11 bp-1.2.2.1.1.1-12 bp-1.2.2.1.1.1-13 bp-1.2.2.1.1.1-14 bp-1.2.2.1.1.1-15 bp-1.2.2.1.1.1-16 bp-1.2.2.1.1.1-17 bp-1.2.2.1.1.1-18 bp-1.2.2.1.1.1-19 bp-1.2.2.1.1.1-20 bp-1.2.2.1.1.1-21 bp-1.2.2.1.1.1-22
 # Brent equation for i1 = 1, i2 = 2, j1 = 2, j2 = 1, k1 = 1, k2 = 2 (kron delta = 0)
 and bp-1.2.2.1.1.2-1 alpha-r-1.c-2.l-01 beta-r-2.c-1.l-01 gamma-r-1.c-2.l-01
@@ -3334,7 +3348,7 @@ and bp-1.2.2.2.1.1-21 alpha-r-1.c-2.l-21 beta-r-2.c-2.l-21 gamma-r-1.c-1.l-21
 and bp-1.2.2.2.1.1-22 alpha-r-1.c-2.l-22 beta-r-2.c-2.l-22 gamma-r-1.c-1.l-22
 xor brent-1.2.2.2.1.1 bp-1.2.2.2.1.1-1 bp-1.2.2.2.1.1-2 bp-1.2.2.2.1.1-3 bp-1.2.2.2.1.1-4 bp-1.2.2.2.1.1-5 bp-1.2.2.2.1.1-6 bp-1.2.2.2.1.1-7 bp-1.2.2.2.1.1-8 bp-1.2.2.2.1.1-9 bp-1.2.2.2.1.1-10 bp-1.2.2.2.1.1-11 bp-1.2.2.2.1.1-12 bp-1.2.2.2.1.1-13 bp-1.2.2.2.1.1-14 bp-1.2.2.2.1.1-15 bp-1.2.2.2.1.1-16 bp-1.2.2.2.1.1-17 bp-1.2.2.2.1.1-18 bp-1.2.2.2.1.1-19 bp-1.2.2.2.1.1-20 bp-1.2.2.2.1.1-21 bp-1.2.2.2.1.1-22 one
 delete bp-1.2.2.2.1.1-1 bp-1.2.2.2.1.1-2 bp-1.2.2.2.1.1-3 bp-1.2.2.2.1.1-4 bp-1.2.2.2.1.1-5 bp-1.2.2.2.1.1-6 bp-1.2.2.2.1.1-7 bp-1.2.2.2.1.1-8 bp-1.2.2.2.1.1-9 bp-1.2.2.2.1.1-10 bp-1.2.2.2.1.1-11 bp-1.2.2.2.1.1-12 bp-1.2.2.2.1.1-13 bp-1.2.2.2.1.1-14 bp-1.2.2.2.1.1-15 bp-1.2.2.2.1.1-16 bp-1.2.2.2.1.1-17 bp-1.2.2.2.1.1-18 bp-1.2.2.2.1.1-19 bp-1.2.2.2.1.1-20 bp-1.2.2.2.1.1-21 bp-1.2.2.2.1.1-22
-# Constrained Brent equation for i1 = 1, i2 = 2, j1 = 2, j2 = 2, k1 = 1, k2 = 2, kernel at level 6
+# Constrained Brent equation for i1 = 1, i2 = 2, j1 = 2, j2 = 2, k1 = 1, k2 = 2, kernel at level 7
 and bp-1.2.2.2.1.2-1 alpha-r-1.c-2.l-01 beta-r-2.c-2.l-01 gamma-r-1.c-2.l-01
 and bp-1.2.2.2.1.2-2 alpha-r-1.c-2.l-02 beta-r-2.c-2.l-02 gamma-r-1.c-2.l-02
 and bp-1.2.2.2.1.2-3 alpha-r-1.c-2.l-03 beta-r-2.c-2.l-03 gamma-r-1.c-2.l-03
@@ -3357,7 +3371,7 @@ and bp-1.2.2.2.1.2-19 alpha-r-1.c-2.l-19 beta-r-2.c-2.l-19 gamma-r-1.c-2.l-19
 and bp-1.2.2.2.1.2-20 alpha-r-1.c-2.l-20 beta-r-2.c-2.l-20 gamma-r-1.c-2.l-20
 and bp-1.2.2.2.1.2-21 alpha-r-1.c-2.l-21 beta-r-2.c-2.l-21 gamma-r-1.c-2.l-21
 and bp-1.2.2.2.1.2-22 alpha-r-1.c-2.l-22 beta-r-2.c-2.l-22 gamma-r-1.c-2.l-22
-and brent-1.2.2.2.1.2 !bp-1.2.2.2.1.2-1 !bp-1.2.2.2.1.2-2 !bp-1.2.2.2.1.2-3 !bp-1.2.2.2.1.2-4 !bp-1.2.2.2.1.2-5 bp-1.2.2.2.1.2-6 !bp-1.2.2.2.1.2-7 !bp-1.2.2.2.1.2-8 !bp-1.2.2.2.1.2-9 !bp-1.2.2.2.1.2-10 !bp-1.2.2.2.1.2-11 !bp-1.2.2.2.1.2-12 !bp-1.2.2.2.1.2-13 !bp-1.2.2.2.1.2-14 !bp-1.2.2.2.1.2-15 !bp-1.2.2.2.1.2-16 !bp-1.2.2.2.1.2-17 !bp-1.2.2.2.1.2-18 !bp-1.2.2.2.1.2-19 !bp-1.2.2.2.1.2-20 !bp-1.2.2.2.1.2-21 !bp-1.2.2.2.1.2-22
+and brent-1.2.2.2.1.2 !bp-1.2.2.2.1.2-1 !bp-1.2.2.2.1.2-2 !bp-1.2.2.2.1.2-3 !bp-1.2.2.2.1.2-4 !bp-1.2.2.2.1.2-5 !bp-1.2.2.2.1.2-6 bp-1.2.2.2.1.2-7 !bp-1.2.2.2.1.2-8 !bp-1.2.2.2.1.2-9 !bp-1.2.2.2.1.2-10 !bp-1.2.2.2.1.2-11 !bp-1.2.2.2.1.2-12 !bp-1.2.2.2.1.2-13 !bp-1.2.2.2.1.2-14 !bp-1.2.2.2.1.2-15 !bp-1.2.2.2.1.2-16 !bp-1.2.2.2.1.2-17 !bp-1.2.2.2.1.2-18 !bp-1.2.2.2.1.2-19 !bp-1.2.2.2.1.2-20 !bp-1.2.2.2.1.2-21 !bp-1.2.2.2.1.2-22
 delete bp-1.2.2.2.1.2-1 bp-1.2.2.2.1.2-2 bp-1.2.2.2.1.2-3 bp-1.2.2.2.1.2-4 bp-1.2.2.2.1.2-5 bp-1.2.2.2.1.2-6 bp-1.2.2.2.1.2-7 bp-1.2.2.2.1.2-8 bp-1.2.2.2.1.2-9 bp-1.2.2.2.1.2-10 bp-1.2.2.2.1.2-11 bp-1.2.2.2.1.2-12 bp-1.2.2.2.1.2-13 bp-1.2.2.2.1.2-14 bp-1.2.2.2.1.2-15 bp-1.2.2.2.1.2-16 bp-1.2.2.2.1.2-17 bp-1.2.2.2.1.2-18 bp-1.2.2.2.1.2-19 bp-1.2.2.2.1.2-20 bp-1.2.2.2.1.2-21 bp-1.2.2.2.1.2-22
 # Brent equation for i1 = 1, i2 = 2, j1 = 2, j2 = 2, k1 = 1, k2 = 3 (kron delta = 0)
 and bp-1.2.2.2.1.3-1 alpha-r-1.c-2.l-01 beta-r-2.c-2.l-01 gamma-r-1.c-3.l-01
@@ -5784,7 +5798,7 @@ and bp-1.3.2.3.3.3-21 alpha-r-1.c-3.l-21 beta-r-2.c-3.l-21 gamma-r-3.c-3.l-21
 and bp-1.3.2.3.3.3-22 alpha-r-1.c-3.l-22 beta-r-2.c-3.l-22 gamma-r-3.c-3.l-22
 xor brent-1.3.2.3.3.3 bp-1.3.2.3.3.3-1 bp-1.3.2.3.3.3-2 bp-1.3.2.3.3.3-3 bp-1.3.2.3.3.3-4 bp-1.3.2.3.3.3-5 bp-1.3.2.3.3.3-6 bp-1.3.2.3.3.3-7 bp-1.3.2.3.3.3-8 bp-1.3.2.3.3.3-9 bp-1.3.2.3.3.3-10 bp-1.3.2.3.3.3-11 bp-1.3.2.3.3.3-12 bp-1.3.2.3.3.3-13 bp-1.3.2.3.3.3-14 bp-1.3.2.3.3.3-15 bp-1.3.2.3.3.3-16 bp-1.3.2.3.3.3-17 bp-1.3.2.3.3.3-18 bp-1.3.2.3.3.3-19 bp-1.3.2.3.3.3-20 bp-1.3.2.3.3.3-21 bp-1.3.2.3.3.3-22 one
 delete bp-1.3.2.3.3.3-1 bp-1.3.2.3.3.3-2 bp-1.3.2.3.3.3-3 bp-1.3.2.3.3.3-4 bp-1.3.2.3.3.3-5 bp-1.3.2.3.3.3-6 bp-1.3.2.3.3.3-7 bp-1.3.2.3.3.3-8 bp-1.3.2.3.3.3-9 bp-1.3.2.3.3.3-10 bp-1.3.2.3.3.3-11 bp-1.3.2.3.3.3-12 bp-1.3.2.3.3.3-13 bp-1.3.2.3.3.3-14 bp-1.3.2.3.3.3-15 bp-1.3.2.3.3.3-16 bp-1.3.2.3.3.3-17 bp-1.3.2.3.3.3-18 bp-1.3.2.3.3.3-19 bp-1.3.2.3.3.3-20 bp-1.3.2.3.3.3-21 bp-1.3.2.3.3.3-22
-# Constrained Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 1, k1 = 1, k2 = 1, kernel at level 7
+# Constrained Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 1, k1 = 1, k2 = 1, kernel at level 8
 and bp-1.3.3.1.1.1-1 alpha-r-1.c-3.l-01 beta-r-3.c-1.l-01 gamma-r-1.c-1.l-01
 and bp-1.3.3.1.1.1-2 alpha-r-1.c-3.l-02 beta-r-3.c-1.l-02 gamma-r-1.c-1.l-02
 and bp-1.3.3.1.1.1-3 alpha-r-1.c-3.l-03 beta-r-3.c-1.l-03 gamma-r-1.c-1.l-03
@@ -5807,7 +5821,7 @@ and bp-1.3.3.1.1.1-19 alpha-r-1.c-3.l-19 beta-r-3.c-1.l-19 gamma-r-1.c-1.l-19
 and bp-1.3.3.1.1.1-20 alpha-r-1.c-3.l-20 beta-r-3.c-1.l-20 gamma-r-1.c-1.l-20
 and bp-1.3.3.1.1.1-21 alpha-r-1.c-3.l-21 beta-r-3.c-1.l-21 gamma-r-1.c-1.l-21
 and bp-1.3.3.1.1.1-22 alpha-r-1.c-3.l-22 beta-r-3.c-1.l-22 gamma-r-1.c-1.l-22
-and brent-1.3.3.1.1.1 !bp-1.3.3.1.1.1-1 !bp-1.3.3.1.1.1-2 !bp-1.3.3.1.1.1-3 !bp-1.3.3.1.1.1-4 !bp-1.3.3.1.1.1-5 !bp-1.3.3.1.1.1-6 bp-1.3.3.1.1.1-7 !bp-1.3.3.1.1.1-8 !bp-1.3.3.1.1.1-9 !bp-1.3.3.1.1.1-10 !bp-1.3.3.1.1.1-11 !bp-1.3.3.1.1.1-12 !bp-1.3.3.1.1.1-13 !bp-1.3.3.1.1.1-14 !bp-1.3.3.1.1.1-15 !bp-1.3.3.1.1.1-16 !bp-1.3.3.1.1.1-17 !bp-1.3.3.1.1.1-18 !bp-1.3.3.1.1.1-19 !bp-1.3.3.1.1.1-20 !bp-1.3.3.1.1.1-21 !bp-1.3.3.1.1.1-22
+and brent-1.3.3.1.1.1 !bp-1.3.3.1.1.1-1 !bp-1.3.3.1.1.1-2 !bp-1.3.3.1.1.1-3 !bp-1.3.3.1.1.1-4 !bp-1.3.3.1.1.1-5 !bp-1.3.3.1.1.1-6 !bp-1.3.3.1.1.1-7 bp-1.3.3.1.1.1-8 !bp-1.3.3.1.1.1-9 !bp-1.3.3.1.1.1-10 !bp-1.3.3.1.1.1-11 !bp-1.3.3.1.1.1-12 !bp-1.3.3.1.1.1-13 !bp-1.3.3.1.1.1-14 !bp-1.3.3.1.1.1-15 !bp-1.3.3.1.1.1-16 !bp-1.3.3.1.1.1-17 !bp-1.3.3.1.1.1-18 !bp-1.3.3.1.1.1-19 !bp-1.3.3.1.1.1-20 !bp-1.3.3.1.1.1-21 !bp-1.3.3.1.1.1-22
 delete bp-1.3.3.1.1.1-1 bp-1.3.3.1.1.1-2 bp-1.3.3.1.1.1-3 bp-1.3.3.1.1.1-4 bp-1.3.3.1.1.1-5 bp-1.3.3.1.1.1-6 bp-1.3.3.1.1.1-7 bp-1.3.3.1.1.1-8 bp-1.3.3.1.1.1-9 bp-1.3.3.1.1.1-10 bp-1.3.3.1.1.1-11 bp-1.3.3.1.1.1-12 bp-1.3.3.1.1.1-13 bp-1.3.3.1.1.1-14 bp-1.3.3.1.1.1-15 bp-1.3.3.1.1.1-16 bp-1.3.3.1.1.1-17 bp-1.3.3.1.1.1-18 bp-1.3.3.1.1.1-19 bp-1.3.3.1.1.1-20 bp-1.3.3.1.1.1-21 bp-1.3.3.1.1.1-22
 # Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 1, k1 = 1, k2 = 2 (kron delta = 0)
 and bp-1.3.3.1.1.2-1 alpha-r-1.c-3.l-01 beta-r-3.c-1.l-01 gamma-r-1.c-2.l-01
@@ -6034,7 +6048,7 @@ and bp-1.3.3.2.1.1-21 alpha-r-1.c-3.l-21 beta-r-3.c-2.l-21 gamma-r-1.c-1.l-21
 and bp-1.3.3.2.1.1-22 alpha-r-1.c-3.l-22 beta-r-3.c-2.l-22 gamma-r-1.c-1.l-22
 xor brent-1.3.3.2.1.1 bp-1.3.3.2.1.1-1 bp-1.3.3.2.1.1-2 bp-1.3.3.2.1.1-3 bp-1.3.3.2.1.1-4 bp-1.3.3.2.1.1-5 bp-1.3.3.2.1.1-6 bp-1.3.3.2.1.1-7 bp-1.3.3.2.1.1-8 bp-1.3.3.2.1.1-9 bp-1.3.3.2.1.1-10 bp-1.3.3.2.1.1-11 bp-1.3.3.2.1.1-12 bp-1.3.3.2.1.1-13 bp-1.3.3.2.1.1-14 bp-1.3.3.2.1.1-15 bp-1.3.3.2.1.1-16 bp-1.3.3.2.1.1-17 bp-1.3.3.2.1.1-18 bp-1.3.3.2.1.1-19 bp-1.3.3.2.1.1-20 bp-1.3.3.2.1.1-21 bp-1.3.3.2.1.1-22 one
 delete bp-1.3.3.2.1.1-1 bp-1.3.3.2.1.1-2 bp-1.3.3.2.1.1-3 bp-1.3.3.2.1.1-4 bp-1.3.3.2.1.1-5 bp-1.3.3.2.1.1-6 bp-1.3.3.2.1.1-7 bp-1.3.3.2.1.1-8 bp-1.3.3.2.1.1-9 bp-1.3.3.2.1.1-10 bp-1.3.3.2.1.1-11 bp-1.3.3.2.1.1-12 bp-1.3.3.2.1.1-13 bp-1.3.3.2.1.1-14 bp-1.3.3.2.1.1-15 bp-1.3.3.2.1.1-16 bp-1.3.3.2.1.1-17 bp-1.3.3.2.1.1-18 bp-1.3.3.2.1.1-19 bp-1.3.3.2.1.1-20 bp-1.3.3.2.1.1-21 bp-1.3.3.2.1.1-22
-# Constrained Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 2, k1 = 1, k2 = 2, kernel at level 8
+# Constrained Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 2, k1 = 1, k2 = 2, kernel at level 9
 and bp-1.3.3.2.1.2-1 alpha-r-1.c-3.l-01 beta-r-3.c-2.l-01 gamma-r-1.c-2.l-01
 and bp-1.3.3.2.1.2-2 alpha-r-1.c-3.l-02 beta-r-3.c-2.l-02 gamma-r-1.c-2.l-02
 and bp-1.3.3.2.1.2-3 alpha-r-1.c-3.l-03 beta-r-3.c-2.l-03 gamma-r-1.c-2.l-03
@@ -6057,7 +6071,7 @@ and bp-1.3.3.2.1.2-19 alpha-r-1.c-3.l-19 beta-r-3.c-2.l-19 gamma-r-1.c-2.l-19
 and bp-1.3.3.2.1.2-20 alpha-r-1.c-3.l-20 beta-r-3.c-2.l-20 gamma-r-1.c-2.l-20
 and bp-1.3.3.2.1.2-21 alpha-r-1.c-3.l-21 beta-r-3.c-2.l-21 gamma-r-1.c-2.l-21
 and bp-1.3.3.2.1.2-22 alpha-r-1.c-3.l-22 beta-r-3.c-2.l-22 gamma-r-1.c-2.l-22
-and brent-1.3.3.2.1.2 !bp-1.3.3.2.1.2-1 !bp-1.3.3.2.1.2-2 !bp-1.3.3.2.1.2-3 !bp-1.3.3.2.1.2-4 !bp-1.3.3.2.1.2-5 !bp-1.3.3.2.1.2-6 !bp-1.3.3.2.1.2-7 bp-1.3.3.2.1.2-8 !bp-1.3.3.2.1.2-9 !bp-1.3.3.2.1.2-10 !bp-1.3.3.2.1.2-11 !bp-1.3.3.2.1.2-12 !bp-1.3.3.2.1.2-13 !bp-1.3.3.2.1.2-14 !bp-1.3.3.2.1.2-15 !bp-1.3.3.2.1.2-16 !bp-1.3.3.2.1.2-17 !bp-1.3.3.2.1.2-18 !bp-1.3.3.2.1.2-19 !bp-1.3.3.2.1.2-20 !bp-1.3.3.2.1.2-21 !bp-1.3.3.2.1.2-22
+and brent-1.3.3.2.1.2 !bp-1.3.3.2.1.2-1 !bp-1.3.3.2.1.2-2 !bp-1.3.3.2.1.2-3 !bp-1.3.3.2.1.2-4 !bp-1.3.3.2.1.2-5 !bp-1.3.3.2.1.2-6 !bp-1.3.3.2.1.2-7 !bp-1.3.3.2.1.2-8 bp-1.3.3.2.1.2-9 !bp-1.3.3.2.1.2-10 !bp-1.3.3.2.1.2-11 !bp-1.3.3.2.1.2-12 !bp-1.3.3.2.1.2-13 !bp-1.3.3.2.1.2-14 !bp-1.3.3.2.1.2-15 !bp-1.3.3.2.1.2-16 !bp-1.3.3.2.1.2-17 !bp-1.3.3.2.1.2-18 !bp-1.3.3.2.1.2-19 !bp-1.3.3.2.1.2-20 !bp-1.3.3.2.1.2-21 !bp-1.3.3.2.1.2-22
 delete bp-1.3.3.2.1.2-1 bp-1.3.3.2.1.2-2 bp-1.3.3.2.1.2-3 bp-1.3.3.2.1.2-4 bp-1.3.3.2.1.2-5 bp-1.3.3.2.1.2-6 bp-1.3.3.2.1.2-7 bp-1.3.3.2.1.2-8 bp-1.3.3.2.1.2-9 bp-1.3.3.2.1.2-10 bp-1.3.3.2.1.2-11 bp-1.3.3.2.1.2-12 bp-1.3.3.2.1.2-13 bp-1.3.3.2.1.2-14 bp-1.3.3.2.1.2-15 bp-1.3.3.2.1.2-16 bp-1.3.3.2.1.2-17 bp-1.3.3.2.1.2-18 bp-1.3.3.2.1.2-19 bp-1.3.3.2.1.2-20 bp-1.3.3.2.1.2-21 bp-1.3.3.2.1.2-22
 # Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 2, k1 = 1, k2 = 3 (kron delta = 0)
 and bp-1.3.3.2.1.3-1 alpha-r-1.c-3.l-01 beta-r-3.c-2.l-01 gamma-r-1.c-3.l-01
@@ -6284,7 +6298,7 @@ and bp-1.3.3.3.1.2-21 alpha-r-1.c-3.l-21 beta-r-3.c-3.l-21 gamma-r-1.c-2.l-21
 and bp-1.3.3.3.1.2-22 alpha-r-1.c-3.l-22 beta-r-3.c-3.l-22 gamma-r-1.c-2.l-22
 xor brent-1.3.3.3.1.2 bp-1.3.3.3.1.2-1 bp-1.3.3.3.1.2-2 bp-1.3.3.3.1.2-3 bp-1.3.3.3.1.2-4 bp-1.3.3.3.1.2-5 bp-1.3.3.3.1.2-6 bp-1.3.3.3.1.2-7 bp-1.3.3.3.1.2-8 bp-1.3.3.3.1.2-9 bp-1.3.3.3.1.2-10 bp-1.3.3.3.1.2-11 bp-1.3.3.3.1.2-12 bp-1.3.3.3.1.2-13 bp-1.3.3.3.1.2-14 bp-1.3.3.3.1.2-15 bp-1.3.3.3.1.2-16 bp-1.3.3.3.1.2-17 bp-1.3.3.3.1.2-18 bp-1.3.3.3.1.2-19 bp-1.3.3.3.1.2-20 bp-1.3.3.3.1.2-21 bp-1.3.3.3.1.2-22 one
 delete bp-1.3.3.3.1.2-1 bp-1.3.3.3.1.2-2 bp-1.3.3.3.1.2-3 bp-1.3.3.3.1.2-4 bp-1.3.3.3.1.2-5 bp-1.3.3.3.1.2-6 bp-1.3.3.3.1.2-7 bp-1.3.3.3.1.2-8 bp-1.3.3.3.1.2-9 bp-1.3.3.3.1.2-10 bp-1.3.3.3.1.2-11 bp-1.3.3.3.1.2-12 bp-1.3.3.3.1.2-13 bp-1.3.3.3.1.2-14 bp-1.3.3.3.1.2-15 bp-1.3.3.3.1.2-16 bp-1.3.3.3.1.2-17 bp-1.3.3.3.1.2-18 bp-1.3.3.3.1.2-19 bp-1.3.3.3.1.2-20 bp-1.3.3.3.1.2-21 bp-1.3.3.3.1.2-22
-# Constrained Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 3, k1 = 1, k2 = 3, kernel at level 9
+# Constrained Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 3, k1 = 1, k2 = 3, kernel at level 10
 and bp-1.3.3.3.1.3-1 alpha-r-1.c-3.l-01 beta-r-3.c-3.l-01 gamma-r-1.c-3.l-01
 and bp-1.3.3.3.1.3-2 alpha-r-1.c-3.l-02 beta-r-3.c-3.l-02 gamma-r-1.c-3.l-02
 and bp-1.3.3.3.1.3-3 alpha-r-1.c-3.l-03 beta-r-3.c-3.l-03 gamma-r-1.c-3.l-03
@@ -6307,7 +6321,7 @@ and bp-1.3.3.3.1.3-19 alpha-r-1.c-3.l-19 beta-r-3.c-3.l-19 gamma-r-1.c-3.l-19
 and bp-1.3.3.3.1.3-20 alpha-r-1.c-3.l-20 beta-r-3.c-3.l-20 gamma-r-1.c-3.l-20
 and bp-1.3.3.3.1.3-21 alpha-r-1.c-3.l-21 beta-r-3.c-3.l-21 gamma-r-1.c-3.l-21
 and bp-1.3.3.3.1.3-22 alpha-r-1.c-3.l-22 beta-r-3.c-3.l-22 gamma-r-1.c-3.l-22
-and brent-1.3.3.3.1.3 !bp-1.3.3.3.1.3-1 !bp-1.3.3.3.1.3-2 !bp-1.3.3.3.1.3-3 !bp-1.3.3.3.1.3-4 !bp-1.3.3.3.1.3-5 !bp-1.3.3.3.1.3-6 !bp-1.3.3.3.1.3-7 !bp-1.3.3.3.1.3-8 bp-1.3.3.3.1.3-9 !bp-1.3.3.3.1.3-10 !bp-1.3.3.3.1.3-11 !bp-1.3.3.3.1.3-12 !bp-1.3.3.3.1.3-13 !bp-1.3.3.3.1.3-14 !bp-1.3.3.3.1.3-15 !bp-1.3.3.3.1.3-16 !bp-1.3.3.3.1.3-17 !bp-1.3.3.3.1.3-18 !bp-1.3.3.3.1.3-19 !bp-1.3.3.3.1.3-20 !bp-1.3.3.3.1.3-21 !bp-1.3.3.3.1.3-22
+and brent-1.3.3.3.1.3 !bp-1.3.3.3.1.3-1 !bp-1.3.3.3.1.3-2 !bp-1.3.3.3.1.3-3 !bp-1.3.3.3.1.3-4 !bp-1.3.3.3.1.3-5 !bp-1.3.3.3.1.3-6 !bp-1.3.3.3.1.3-7 !bp-1.3.3.3.1.3-8 !bp-1.3.3.3.1.3-9 bp-1.3.3.3.1.3-10 !bp-1.3.3.3.1.3-11 !bp-1.3.3.3.1.3-12 !bp-1.3.3.3.1.3-13 !bp-1.3.3.3.1.3-14 !bp-1.3.3.3.1.3-15 !bp-1.3.3.3.1.3-16 !bp-1.3.3.3.1.3-17 !bp-1.3.3.3.1.3-18 !bp-1.3.3.3.1.3-19 !bp-1.3.3.3.1.3-20 !bp-1.3.3.3.1.3-21 !bp-1.3.3.3.1.3-22
 delete bp-1.3.3.3.1.3-1 bp-1.3.3.3.1.3-2 bp-1.3.3.3.1.3-3 bp-1.3.3.3.1.3-4 bp-1.3.3.3.1.3-5 bp-1.3.3.3.1.3-6 bp-1.3.3.3.1.3-7 bp-1.3.3.3.1.3-8 bp-1.3.3.3.1.3-9 bp-1.3.3.3.1.3-10 bp-1.3.3.3.1.3-11 bp-1.3.3.3.1.3-12 bp-1.3.3.3.1.3-13 bp-1.3.3.3.1.3-14 bp-1.3.3.3.1.3-15 bp-1.3.3.3.1.3-16 bp-1.3.3.3.1.3-17 bp-1.3.3.3.1.3-18 bp-1.3.3.3.1.3-19 bp-1.3.3.3.1.3-20 bp-1.3.3.3.1.3-21 bp-1.3.3.3.1.3-22
 # Brent equation for i1 = 1, i2 = 3, j1 = 3, j2 = 3, k1 = 2, k2 = 1 (kron delta = 0)
 and bp-1.3.3.3.2.1-1 alpha-r-1.c-3.l-01 beta-r-3.c-3.l-01 gamma-r-2.c-1.l-01
@@ -6534,7 +6548,7 @@ and bp-2.1.1.1.1.3-21 alpha-r-2.c-1.l-21 beta-r-1.c-1.l-21 gamma-r-1.c-3.l-21
 and bp-2.1.1.1.1.3-22 alpha-r-2.c-1.l-22 beta-r-1.c-1.l-22 gamma-r-1.c-3.l-22
 xor brent-2.1.1.1.1.3 bp-2.1.1.1.1.3-1 bp-2.1.1.1.1.3-2 bp-2.1.1.1.1.3-3 bp-2.1.1.1.1.3-4 bp-2.1.1.1.1.3-5 bp-2.1.1.1.1.3-6 bp-2.1.1.1.1.3-7 bp-2.1.1.1.1.3-8 bp-2.1.1.1.1.3-9 bp-2.1.1.1.1.3-10 bp-2.1.1.1.1.3-11 bp-2.1.1.1.1.3-12 bp-2.1.1.1.1.3-13 bp-2.1.1.1.1.3-14 bp-2.1.1.1.1.3-15 bp-2.1.1.1.1.3-16 bp-2.1.1.1.1.3-17 bp-2.1.1.1.1.3-18 bp-2.1.1.1.1.3-19 bp-2.1.1.1.1.3-20 bp-2.1.1.1.1.3-21 bp-2.1.1.1.1.3-22 one
 delete bp-2.1.1.1.1.3-1 bp-2.1.1.1.1.3-2 bp-2.1.1.1.1.3-3 bp-2.1.1.1.1.3-4 bp-2.1.1.1.1.3-5 bp-2.1.1.1.1.3-6 bp-2.1.1.1.1.3-7 bp-2.1.1.1.1.3-8 bp-2.1.1.1.1.3-9 bp-2.1.1.1.1.3-10 bp-2.1.1.1.1.3-11 bp-2.1.1.1.1.3-12 bp-2.1.1.1.1.3-13 bp-2.1.1.1.1.3-14 bp-2.1.1.1.1.3-15 bp-2.1.1.1.1.3-16 bp-2.1.1.1.1.3-17 bp-2.1.1.1.1.3-18 bp-2.1.1.1.1.3-19 bp-2.1.1.1.1.3-20 bp-2.1.1.1.1.3-21 bp-2.1.1.1.1.3-22
-# Constrained Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 1, k1 = 2, k2 = 1, kernel at level 10
+# Constrained Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 1, k1 = 2, k2 = 1, kernel at level 11
 and bp-2.1.1.1.2.1-1 alpha-r-2.c-1.l-01 beta-r-1.c-1.l-01 gamma-r-2.c-1.l-01
 and bp-2.1.1.1.2.1-2 alpha-r-2.c-1.l-02 beta-r-1.c-1.l-02 gamma-r-2.c-1.l-02
 and bp-2.1.1.1.2.1-3 alpha-r-2.c-1.l-03 beta-r-1.c-1.l-03 gamma-r-2.c-1.l-03
@@ -6557,7 +6571,7 @@ and bp-2.1.1.1.2.1-19 alpha-r-2.c-1.l-19 beta-r-1.c-1.l-19 gamma-r-2.c-1.l-19
 and bp-2.1.1.1.2.1-20 alpha-r-2.c-1.l-20 beta-r-1.c-1.l-20 gamma-r-2.c-1.l-20
 and bp-2.1.1.1.2.1-21 alpha-r-2.c-1.l-21 beta-r-1.c-1.l-21 gamma-r-2.c-1.l-21
 and bp-2.1.1.1.2.1-22 alpha-r-2.c-1.l-22 beta-r-1.c-1.l-22 gamma-r-2.c-1.l-22
-and brent-2.1.1.1.2.1 !bp-2.1.1.1.2.1-1 !bp-2.1.1.1.2.1-2 !bp-2.1.1.1.2.1-3 !bp-2.1.1.1.2.1-4 !bp-2.1.1.1.2.1-5 !bp-2.1.1.1.2.1-6 !bp-2.1.1.1.2.1-7 !bp-2.1.1.1.2.1-8 !bp-2.1.1.1.2.1-9 bp-2.1.1.1.2.1-10 !bp-2.1.1.1.2.1-11 !bp-2.1.1.1.2.1-12 !bp-2.1.1.1.2.1-13 !bp-2.1.1.1.2.1-14 !bp-2.1.1.1.2.1-15 !bp-2.1.1.1.2.1-16 !bp-2.1.1.1.2.1-17 !bp-2.1.1.1.2.1-18 !bp-2.1.1.1.2.1-19 !bp-2.1.1.1.2.1-20 !bp-2.1.1.1.2.1-21 !bp-2.1.1.1.2.1-22
+and brent-2.1.1.1.2.1 !bp-2.1.1.1.2.1-1 !bp-2.1.1.1.2.1-2 !bp-2.1.1.1.2.1-3 !bp-2.1.1.1.2.1-4 !bp-2.1.1.1.2.1-5 !bp-2.1.1.1.2.1-6 !bp-2.1.1.1.2.1-7 !bp-2.1.1.1.2.1-8 !bp-2.1.1.1.2.1-9 !bp-2.1.1.1.2.1-10 bp-2.1.1.1.2.1-11 !bp-2.1.1.1.2.1-12 !bp-2.1.1.1.2.1-13 !bp-2.1.1.1.2.1-14 !bp-2.1.1.1.2.1-15 !bp-2.1.1.1.2.1-16 !bp-2.1.1.1.2.1-17 !bp-2.1.1.1.2.1-18 !bp-2.1.1.1.2.1-19 !bp-2.1.1.1.2.1-20 !bp-2.1.1.1.2.1-21 !bp-2.1.1.1.2.1-22
 delete bp-2.1.1.1.2.1-1 bp-2.1.1.1.2.1-2 bp-2.1.1.1.2.1-3 bp-2.1.1.1.2.1-4 bp-2.1.1.1.2.1-5 bp-2.1.1.1.2.1-6 bp-2.1.1.1.2.1-7 bp-2.1.1.1.2.1-8 bp-2.1.1.1.2.1-9 bp-2.1.1.1.2.1-10 bp-2.1.1.1.2.1-11 bp-2.1.1.1.2.1-12 bp-2.1.1.1.2.1-13 bp-2.1.1.1.2.1-14 bp-2.1.1.1.2.1-15 bp-2.1.1.1.2.1-16 bp-2.1.1.1.2.1-17 bp-2.1.1.1.2.1-18 bp-2.1.1.1.2.1-19 bp-2.1.1.1.2.1-20 bp-2.1.1.1.2.1-21 bp-2.1.1.1.2.1-22
 # Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 1, k1 = 2, k2 = 2 (kron delta = 0)
 and bp-2.1.1.1.2.2-1 alpha-r-2.c-1.l-01 beta-r-1.c-1.l-01 gamma-r-2.c-2.l-01
@@ -6784,7 +6798,7 @@ and bp-2.1.1.2.2.1-21 alpha-r-2.c-1.l-21 beta-r-1.c-2.l-21 gamma-r-2.c-1.l-21
 and bp-2.1.1.2.2.1-22 alpha-r-2.c-1.l-22 beta-r-1.c-2.l-22 gamma-r-2.c-1.l-22
 xor brent-2.1.1.2.2.1 bp-2.1.1.2.2.1-1 bp-2.1.1.2.2.1-2 bp-2.1.1.2.2.1-3 bp-2.1.1.2.2.1-4 bp-2.1.1.2.2.1-5 bp-2.1.1.2.2.1-6 bp-2.1.1.2.2.1-7 bp-2.1.1.2.2.1-8 bp-2.1.1.2.2.1-9 bp-2.1.1.2.2.1-10 bp-2.1.1.2.2.1-11 bp-2.1.1.2.2.1-12 bp-2.1.1.2.2.1-13 bp-2.1.1.2.2.1-14 bp-2.1.1.2.2.1-15 bp-2.1.1.2.2.1-16 bp-2.1.1.2.2.1-17 bp-2.1.1.2.2.1-18 bp-2.1.1.2.2.1-19 bp-2.1.1.2.2.1-20 bp-2.1.1.2.2.1-21 bp-2.1.1.2.2.1-22 one
 delete bp-2.1.1.2.2.1-1 bp-2.1.1.2.2.1-2 bp-2.1.1.2.2.1-3 bp-2.1.1.2.2.1-4 bp-2.1.1.2.2.1-5 bp-2.1.1.2.2.1-6 bp-2.1.1.2.2.1-7 bp-2.1.1.2.2.1-8 bp-2.1.1.2.2.1-9 bp-2.1.1.2.2.1-10 bp-2.1.1.2.2.1-11 bp-2.1.1.2.2.1-12 bp-2.1.1.2.2.1-13 bp-2.1.1.2.2.1-14 bp-2.1.1.2.2.1-15 bp-2.1.1.2.2.1-16 bp-2.1.1.2.2.1-17 bp-2.1.1.2.2.1-18 bp-2.1.1.2.2.1-19 bp-2.1.1.2.2.1-20 bp-2.1.1.2.2.1-21 bp-2.1.1.2.2.1-22
-# Constrained Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 2, k1 = 2, k2 = 2, kernel at level 11
+# Constrained Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 2, k1 = 2, k2 = 2, kernel at level 12
 and bp-2.1.1.2.2.2-1 alpha-r-2.c-1.l-01 beta-r-1.c-2.l-01 gamma-r-2.c-2.l-01
 and bp-2.1.1.2.2.2-2 alpha-r-2.c-1.l-02 beta-r-1.c-2.l-02 gamma-r-2.c-2.l-02
 and bp-2.1.1.2.2.2-3 alpha-r-2.c-1.l-03 beta-r-1.c-2.l-03 gamma-r-2.c-2.l-03
@@ -6807,7 +6821,7 @@ and bp-2.1.1.2.2.2-19 alpha-r-2.c-1.l-19 beta-r-1.c-2.l-19 gamma-r-2.c-2.l-19
 and bp-2.1.1.2.2.2-20 alpha-r-2.c-1.l-20 beta-r-1.c-2.l-20 gamma-r-2.c-2.l-20
 and bp-2.1.1.2.2.2-21 alpha-r-2.c-1.l-21 beta-r-1.c-2.l-21 gamma-r-2.c-2.l-21
 and bp-2.1.1.2.2.2-22 alpha-r-2.c-1.l-22 beta-r-1.c-2.l-22 gamma-r-2.c-2.l-22
-and brent-2.1.1.2.2.2 !bp-2.1.1.2.2.2-1 !bp-2.1.1.2.2.2-2 !bp-2.1.1.2.2.2-3 !bp-2.1.1.2.2.2-4 !bp-2.1.1.2.2.2-5 !bp-2.1.1.2.2.2-6 !bp-2.1.1.2.2.2-7 !bp-2.1.1.2.2.2-8 !bp-2.1.1.2.2.2-9 !bp-2.1.1.2.2.2-10 bp-2.1.1.2.2.2-11 !bp-2.1.1.2.2.2-12 !bp-2.1.1.2.2.2-13 !bp-2.1.1.2.2.2-14 !bp-2.1.1.2.2.2-15 !bp-2.1.1.2.2.2-16 !bp-2.1.1.2.2.2-17 !bp-2.1.1.2.2.2-18 !bp-2.1.1.2.2.2-19 !bp-2.1.1.2.2.2-20 !bp-2.1.1.2.2.2-21 !bp-2.1.1.2.2.2-22
+and brent-2.1.1.2.2.2 !bp-2.1.1.2.2.2-1 !bp-2.1.1.2.2.2-2 !bp-2.1.1.2.2.2-3 !bp-2.1.1.2.2.2-4 !bp-2.1.1.2.2.2-5 !bp-2.1.1.2.2.2-6 !bp-2.1.1.2.2.2-7 !bp-2.1.1.2.2.2-8 !bp-2.1.1.2.2.2-9 !bp-2.1.1.2.2.2-10 !bp-2.1.1.2.2.2-11 bp-2.1.1.2.2.2-12 !bp-2.1.1.2.2.2-13 !bp-2.1.1.2.2.2-14 !bp-2.1.1.2.2.2-15 !bp-2.1.1.2.2.2-16 !bp-2.1.1.2.2.2-17 !bp-2.1.1.2.2.2-18 !bp-2.1.1.2.2.2-19 !bp-2.1.1.2.2.2-20 !bp-2.1.1.2.2.2-21 !bp-2.1.1.2.2.2-22
 delete bp-2.1.1.2.2.2-1 bp-2.1.1.2.2.2-2 bp-2.1.1.2.2.2-3 bp-2.1.1.2.2.2-4 bp-2.1.1.2.2.2-5 bp-2.1.1.2.2.2-6 bp-2.1.1.2.2.2-7 bp-2.1.1.2.2.2-8 bp-2.1.1.2.2.2-9 bp-2.1.1.2.2.2-10 bp-2.1.1.2.2.2-11 bp-2.1.1.2.2.2-12 bp-2.1.1.2.2.2-13 bp-2.1.1.2.2.2-14 bp-2.1.1.2.2.2-15 bp-2.1.1.2.2.2-16 bp-2.1.1.2.2.2-17 bp-2.1.1.2.2.2-18 bp-2.1.1.2.2.2-19 bp-2.1.1.2.2.2-20 bp-2.1.1.2.2.2-21 bp-2.1.1.2.2.2-22
 # Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 2, k1 = 2, k2 = 3 (kron delta = 0)
 and bp-2.1.1.2.2.3-1 alpha-r-2.c-1.l-01 beta-r-1.c-2.l-01 gamma-r-2.c-3.l-01
@@ -7034,7 +7048,7 @@ and bp-2.1.1.3.2.2-21 alpha-r-2.c-1.l-21 beta-r-1.c-3.l-21 gamma-r-2.c-2.l-21
 and bp-2.1.1.3.2.2-22 alpha-r-2.c-1.l-22 beta-r-1.c-3.l-22 gamma-r-2.c-2.l-22
 xor brent-2.1.1.3.2.2 bp-2.1.1.3.2.2-1 bp-2.1.1.3.2.2-2 bp-2.1.1.3.2.2-3 bp-2.1.1.3.2.2-4 bp-2.1.1.3.2.2-5 bp-2.1.1.3.2.2-6 bp-2.1.1.3.2.2-7 bp-2.1.1.3.2.2-8 bp-2.1.1.3.2.2-9 bp-2.1.1.3.2.2-10 bp-2.1.1.3.2.2-11 bp-2.1.1.3.2.2-12 bp-2.1.1.3.2.2-13 bp-2.1.1.3.2.2-14 bp-2.1.1.3.2.2-15 bp-2.1.1.3.2.2-16 bp-2.1.1.3.2.2-17 bp-2.1.1.3.2.2-18 bp-2.1.1.3.2.2-19 bp-2.1.1.3.2.2-20 bp-2.1.1.3.2.2-21 bp-2.1.1.3.2.2-22 one
 delete bp-2.1.1.3.2.2-1 bp-2.1.1.3.2.2-2 bp-2.1.1.3.2.2-3 bp-2.1.1.3.2.2-4 bp-2.1.1.3.2.2-5 bp-2.1.1.3.2.2-6 bp-2.1.1.3.2.2-7 bp-2.1.1.3.2.2-8 bp-2.1.1.3.2.2-9 bp-2.1.1.3.2.2-10 bp-2.1.1.3.2.2-11 bp-2.1.1.3.2.2-12 bp-2.1.1.3.2.2-13 bp-2.1.1.3.2.2-14 bp-2.1.1.3.2.2-15 bp-2.1.1.3.2.2-16 bp-2.1.1.3.2.2-17 bp-2.1.1.3.2.2-18 bp-2.1.1.3.2.2-19 bp-2.1.1.3.2.2-20 bp-2.1.1.3.2.2-21 bp-2.1.1.3.2.2-22
-# Constrained Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 3, k1 = 2, k2 = 3, kernel at level 12
+# Constrained Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 3, k1 = 2, k2 = 3, kernel at level 13
 and bp-2.1.1.3.2.3-1 alpha-r-2.c-1.l-01 beta-r-1.c-3.l-01 gamma-r-2.c-3.l-01
 and bp-2.1.1.3.2.3-2 alpha-r-2.c-1.l-02 beta-r-1.c-3.l-02 gamma-r-2.c-3.l-02
 and bp-2.1.1.3.2.3-3 alpha-r-2.c-1.l-03 beta-r-1.c-3.l-03 gamma-r-2.c-3.l-03
@@ -7057,7 +7071,7 @@ and bp-2.1.1.3.2.3-19 alpha-r-2.c-1.l-19 beta-r-1.c-3.l-19 gamma-r-2.c-3.l-19
 and bp-2.1.1.3.2.3-20 alpha-r-2.c-1.l-20 beta-r-1.c-3.l-20 gamma-r-2.c-3.l-20
 and bp-2.1.1.3.2.3-21 alpha-r-2.c-1.l-21 beta-r-1.c-3.l-21 gamma-r-2.c-3.l-21
 and bp-2.1.1.3.2.3-22 alpha-r-2.c-1.l-22 beta-r-1.c-3.l-22 gamma-r-2.c-3.l-22
-and brent-2.1.1.3.2.3 !bp-2.1.1.3.2.3-1 !bp-2.1.1.3.2.3-2 !bp-2.1.1.3.2.3-3 !bp-2.1.1.3.2.3-4 !bp-2.1.1.3.2.3-5 !bp-2.1.1.3.2.3-6 !bp-2.1.1.3.2.3-7 !bp-2.1.1.3.2.3-8 !bp-2.1.1.3.2.3-9 !bp-2.1.1.3.2.3-10 !bp-2.1.1.3.2.3-11 bp-2.1.1.3.2.3-12 !bp-2.1.1.3.2.3-13 !bp-2.1.1.3.2.3-14 !bp-2.1.1.3.2.3-15 !bp-2.1.1.3.2.3-16 !bp-2.1.1.3.2.3-17 !bp-2.1.1.3.2.3-18 !bp-2.1.1.3.2.3-19 !bp-2.1.1.3.2.3-20 !bp-2.1.1.3.2.3-21 !bp-2.1.1.3.2.3-22
+and brent-2.1.1.3.2.3 !bp-2.1.1.3.2.3-1 !bp-2.1.1.3.2.3-2 !bp-2.1.1.3.2.3-3 !bp-2.1.1.3.2.3-4 !bp-2.1.1.3.2.3-5 !bp-2.1.1.3.2.3-6 !bp-2.1.1.3.2.3-7 !bp-2.1.1.3.2.3-8 !bp-2.1.1.3.2.3-9 !bp-2.1.1.3.2.3-10 !bp-2.1.1.3.2.3-11 !bp-2.1.1.3.2.3-12 bp-2.1.1.3.2.3-13 !bp-2.1.1.3.2.3-14 !bp-2.1.1.3.2.3-15 !bp-2.1.1.3.2.3-16 !bp-2.1.1.3.2.3-17 !bp-2.1.1.3.2.3-18 !bp-2.1.1.3.2.3-19 !bp-2.1.1.3.2.3-20 !bp-2.1.1.3.2.3-21 !bp-2.1.1.3.2.3-22
 delete bp-2.1.1.3.2.3-1 bp-2.1.1.3.2.3-2 bp-2.1.1.3.2.3-3 bp-2.1.1.3.2.3-4 bp-2.1.1.3.2.3-5 bp-2.1.1.3.2.3-6 bp-2.1.1.3.2.3-7 bp-2.1.1.3.2.3-8 bp-2.1.1.3.2.3-9 bp-2.1.1.3.2.3-10 bp-2.1.1.3.2.3-11 bp-2.1.1.3.2.3-12 bp-2.1.1.3.2.3-13 bp-2.1.1.3.2.3-14 bp-2.1.1.3.2.3-15 bp-2.1.1.3.2.3-16 bp-2.1.1.3.2.3-17 bp-2.1.1.3.2.3-18 bp-2.1.1.3.2.3-19 bp-2.1.1.3.2.3-20 bp-2.1.1.3.2.3-21 bp-2.1.1.3.2.3-22
 # Brent equation for i1 = 2, i2 = 1, j1 = 1, j2 = 3, k1 = 3, k2 = 1 (kron delta = 0)
 and bp-2.1.1.3.3.1-1 alpha-r-2.c-1.l-01 beta-r-1.c-3.l-01 gamma-r-3.c-1.l-01
@@ -9234,7 +9248,7 @@ and bp-2.2.2.1.1.3-21 alpha-r-2.c-2.l-21 beta-r-2.c-1.l-21 gamma-r-1.c-3.l-21
 and bp-2.2.2.1.1.3-22 alpha-r-2.c-2.l-22 beta-r-2.c-1.l-22 gamma-r-1.c-3.l-22
 xor brent-2.2.2.1.1.3 bp-2.2.2.1.1.3-1 bp-2.2.2.1.1.3-2 bp-2.2.2.1.1.3-3 bp-2.2.2.1.1.3-4 bp-2.2.2.1.1.3-5 bp-2.2.2.1.1.3-6 bp-2.2.2.1.1.3-7 bp-2.2.2.1.1.3-8 bp-2.2.2.1.1.3-9 bp-2.2.2.1.1.3-10 bp-2.2.2.1.1.3-11 bp-2.2.2.1.1.3-12 bp-2.2.2.1.1.3-13 bp-2.2.2.1.1.3-14 bp-2.2.2.1.1.3-15 bp-2.2.2.1.1.3-16 bp-2.2.2.1.1.3-17 bp-2.2.2.1.1.3-18 bp-2.2.2.1.1.3-19 bp-2.2.2.1.1.3-20 bp-2.2.2.1.1.3-21 bp-2.2.2.1.1.3-22 one
 delete bp-2.2.2.1.1.3-1 bp-2.2.2.1.1.3-2 bp-2.2.2.1.1.3-3 bp-2.2.2.1.1.3-4 bp-2.2.2.1.1.3-5 bp-2.2.2.1.1.3-6 bp-2.2.2.1.1.3-7 bp-2.2.2.1.1.3-8 bp-2.2.2.1.1.3-9 bp-2.2.2.1.1.3-10 bp-2.2.2.1.1.3-11 bp-2.2.2.1.1.3-12 bp-2.2.2.1.1.3-13 bp-2.2.2.1.1.3-14 bp-2.2.2.1.1.3-15 bp-2.2.2.1.1.3-16 bp-2.2.2.1.1.3-17 bp-2.2.2.1.1.3-18 bp-2.2.2.1.1.3-19 bp-2.2.2.1.1.3-20 bp-2.2.2.1.1.3-21 bp-2.2.2.1.1.3-22
-# Constrained Brent equation for i1 = 2, i2 = 2, j1 = 2, j2 = 1, k1 = 2, k2 = 1, kernel at level 13
+# Constrained Brent equation for i1 = 2, i2 = 2, j1 = 2, j2 = 1, k1 = 2, k2 = 1, kernel at level 14
 and bp-2.2.2.1.2.1-1 alpha-r-2.c-2.l-01 beta-r-2.c-1.l-01 gamma-r-2.c-1.l-01
 and bp-2.2.2.1.2.1-2 alpha-r-2.c-2.l-02 beta-r-2.c-1.l-02 gamma-r-2.c-1.l-02
 and bp-2.2.2.1.2.1-3 alpha-r-2.c-2.l-03 beta-r-2.c-1.l-03 gamma-r-2.c-1.l-03
@@ -9257,7 +9271,7 @@ and bp-2.2.2.1.2.1-19 alpha-r-2.c-2.l-19 beta-r-2.c-1.l-19 gamma-r-2.c-1.l-19
 and bp-2.2.2.1.2.1-20 alpha-r-2.c-2.l-20 beta-r-2.c-1.l-20 gamma-r-2.c-1.l-20
 and bp-2.2.2.1.2.1-21 alpha-r-2.c-2.l-21 beta-r-2.c-1.l-21 gamma-r-2.c-1.l-21
 and bp-2.2.2.1.2.1-22 alpha-r-2.c-2.l-22 beta-r-2.c-1.l-22 gamma-r-2.c-1.l-22
-and brent-2.2.2.1.2.1 !bp-2.2.2.1.2.1-1 !bp-2.2.2.1.2.1-2 !bp-2.2.2.1.2.1-3 !bp-2.2.2.1.2.1-4 !bp-2.2.2.1.2.1-5 !bp-2.2.2.1.2.1-6 !bp-2.2.2.1.2.1-7 !bp-2.2.2.1.2.1-8 !bp-2.2.2.1.2.1-9 !bp-2.2.2.1.2.1-10 !bp-2.2.2.1.2.1-11 !bp-2.2.2.1.2.1-12 bp-2.2.2.1.2.1-13 !bp-2.2.2.1.2.1-14 !bp-2.2.2.1.2.1-15 !bp-2.2.2.1.2.1-16 !bp-2.2.2.1.2.1-17 !bp-2.2.2.1.2.1-18 !bp-2.2.2.1.2.1-19 !bp-2.2.2.1.2.1-20 !bp-2.2.2.1.2.1-21 !bp-2.2.2.1.2.1-22
+and brent-2.2.2.1.2.1 !bp-2.2.2.1.2.1-1 !bp-2.2.2.1.2.1-2 !bp-2.2.2.1.2.1-3 !bp-2.2.2.1.2.1-4 !bp-2.2.2.1.2.1-5 !bp-2.2.2.1.2.1-6 !bp-2.2.2.1.2.1-7 !bp-2.2.2.1.2.1-8 !bp-2.2.2.1.2.1-9 !bp-2.2.2.1.2.1-10 !bp-2.2.2.1.2.1-11 !bp-2.2.2.1.2.1-12 !bp-2.2.2.1.2.1-13 bp-2.2.2.1.2.1-14 !bp-2.2.2.1.2.1-15 !bp-2.2.2.1.2.1-16 !bp-2.2.2.1.2.1-17 !bp-2.2.2.1.2.1-18 !bp-2.2.2.1.2.1-19 !bp-2.2.2.1.2.1-20 !bp-2.2.2.1.2.1-21 !bp-2.2.2.1.2.1-22
 delete bp-2.2.2.1.2.1-1 bp-2.2.2.1.2.1-2 bp-2.2.2.1.2.1-3 bp-2.2.2.1.2.1-4 bp-2.2.2.1.2.1-5 bp-2.2.2.1.2.1-6 bp-2.2.2.1.2.1-7 bp-2.2.2.1.2.1-8 bp-2.2.2.1.2.1-9 bp-2.2.2.1.2.1-10 bp-2.2.2.1.2.1-11 bp-2.2.2.1.2.1-12 bp-2.2.2.1.2.1-13 bp-2.2.2.1.2.1-14 bp-2.2.2.1.2.1-15 bp-2.2.2.1.2.1-16 bp-2.2.2.1.2.1-17 bp-2.2.2.1.2.1-18 bp-2.2.2.1.2.1-19 bp-2.2.2.1.2.1-20 bp-2.2.2.1.2.1-21 bp-2.2.2.1.2.1-22
 # Brent equation for i1 = 2, i2 = 2, j1 = 2, j2 = 1, k1 = 2, k2 = 2 (kron delta = 0)
 and bp-2.2.2.1.2.2-1 alpha-r-2.c-2.l-01 beta-r-2.c-1.l-01 gamma-r-2.c-2.l-01
@@ -11934,7 +11948,7 @@ and bp-2.3.3.1.1.3-21 alpha-r-2.c-3.l-21 beta-r-3.c-1.l-21 gamma-r-1.c-3.l-21
 and bp-2.3.3.1.1.3-22 alpha-r-2.c-3.l-22 beta-r-3.c-1.l-22 gamma-r-1.c-3.l-22
 xor brent-2.3.3.1.1.3 bp-2.3.3.1.1.3-1 bp-2.3.3.1.1.3-2 bp-2.3.3.1.1.3-3 bp-2.3.3.1.1.3-4 bp-2.3.3.1.1.3-5 bp-2.3.3.1.1.3-6 bp-2.3.3.1.1.3-7 bp-2.3.3.1.1.3-8 bp-2.3.3.1.1.3-9 bp-2.3.3.1.1.3-10 bp-2.3.3.1.1.3-11 bp-2.3.3.1.1.3-12 bp-2.3.3.1.1.3-13 bp-2.3.3.1.1.3-14 bp-2.3.3.1.1.3-15 bp-2.3.3.1.1.3-16 bp-2.3.3.1.1.3-17 bp-2.3.3.1.1.3-18 bp-2.3.3.1.1.3-19 bp-2.3.3.1.1.3-20 bp-2.3.3.1.1.3-21 bp-2.3.3.1.1.3-22 one
 delete bp-2.3.3.1.1.3-1 bp-2.3.3.1.1.3-2 bp-2.3.3.1.1.3-3 bp-2.3.3.1.1.3-4 bp-2.3.3.1.1.3-5 bp-2.3.3.1.1.3-6 bp-2.3.3.1.1.3-7 bp-2.3.3.1.1.3-8 bp-2.3.3.1.1.3-9 bp-2.3.3.1.1.3-10 bp-2.3.3.1.1.3-11 bp-2.3.3.1.1.3-12 bp-2.3.3.1.1.3-13 bp-2.3.3.1.1.3-14 bp-2.3.3.1.1.3-15 bp-2.3.3.1.1.3-16 bp-2.3.3.1.1.3-17 bp-2.3.3.1.1.3-18 bp-2.3.3.1.1.3-19 bp-2.3.3.1.1.3-20 bp-2.3.3.1.1.3-21 bp-2.3.3.1.1.3-22
-# Constrained Brent equation for i1 = 2, i2 = 3, j1 = 3, j2 = 1, k1 = 2, k2 = 1, kernel at level 14
+# Constrained Brent equation for i1 = 2, i2 = 3, j1 = 3, j2 = 1, k1 = 2, k2 = 1, kernel at level 15
 and bp-2.3.3.1.2.1-1 alpha-r-2.c-3.l-01 beta-r-3.c-1.l-01 gamma-r-2.c-1.l-01
 and bp-2.3.3.1.2.1-2 alpha-r-2.c-3.l-02 beta-r-3.c-1.l-02 gamma-r-2.c-1.l-02
 and bp-2.3.3.1.2.1-3 alpha-r-2.c-3.l-03 beta-r-3.c-1.l-03 gamma-r-2.c-1.l-03
@@ -11957,7 +11971,7 @@ and bp-2.3.3.1.2.1-19 alpha-r-2.c-3.l-19 beta-r-3.c-1.l-19 gamma-r-2.c-1.l-19
 and bp-2.3.3.1.2.1-20 alpha-r-2.c-3.l-20 beta-r-3.c-1.l-20 gamma-r-2.c-1.l-20
 and bp-2.3.3.1.2.1-21 alpha-r-2.c-3.l-21 beta-r-3.c-1.l-21 gamma-r-2.c-1.l-21
 and bp-2.3.3.1.2.1-22 alpha-r-2.c-3.l-22 beta-r-3.c-1.l-22 gamma-r-2.c-1.l-22
-and brent-2.3.3.1.2.1 !bp-2.3.3.1.2.1-1 !bp-2.3.3.1.2.1-2 !bp-2.3.3.1.2.1-3 !bp-2.3.3.1.2.1-4 !bp-2.3.3.1.2.1-5 !bp-2.3.3.1.2.1-6 !bp-2.3.3.1.2.1-7 !bp-2.3.3.1.2.1-8 !bp-2.3.3.1.2.1-9 !bp-2.3.3.1.2.1-10 !bp-2.3.3.1.2.1-11 !bp-2.3.3.1.2.1-12 !bp-2.3.3.1.2.1-13 bp-2.3.3.1.2.1-14 !bp-2.3.3.1.2.1-15 !bp-2.3.3.1.2.1-16 !bp-2.3.3.1.2.1-17 !bp-2.3.3.1.2.1-18 !bp-2.3.3.1.2.1-19 !bp-2.3.3.1.2.1-20 !bp-2.3.3.1.2.1-21 !bp-2.3.3.1.2.1-22
+and brent-2.3.3.1.2.1 !bp-2.3.3.1.2.1-1 !bp-2.3.3.1.2.1-2 !bp-2.3.3.1.2.1-3 !bp-2.3.3.1.2.1-4 !bp-2.3.3.1.2.1-5 !bp-2.3.3.1.2.1-6 !bp-2.3.3.1.2.1-7 !bp-2.3.3.1.2.1-8 !bp-2.3.3.1.2.1-9 !bp-2.3.3.1.2.1-10 !bp-2.3.3.1.2.1-11 !bp-2.3.3.1.2.1-12 !bp-2.3.3.1.2.1-13 !bp-2.3.3.1.2.1-14 bp-2.3.3.1.2.1-15 !bp-2.3.3.1.2.1-16 !bp-2.3.3.1.2.1-17 !bp-2.3.3.1.2.1-18 !bp-2.3.3.1.2.1-19 !bp-2.3.3.1.2.1-20 !bp-2.3.3.1.2.1-21 !bp-2.3.3.1.2.1-22
 delete bp-2.3.3.1.2.1-1 bp-2.3.3.1.2.1-2 bp-2.3.3.1.2.1-3 bp-2.3.3.1.2.1-4 bp-2.3.3.1.2.1-5 bp-2.3.3.1.2.1-6 bp-2.3.3.1.2.1-7 bp-2.3.3.1.2.1-8 bp-2.3.3.1.2.1-9 bp-2.3.3.1.2.1-10 bp-2.3.3.1.2.1-11 bp-2.3.3.1.2.1-12 bp-2.3.3.1.2.1-13 bp-2.3.3.1.2.1-14 bp-2.3.3.1.2.1-15 bp-2.3.3.1.2.1-16 bp-2.3.3.1.2.1-17 bp-2.3.3.1.2.1-18 bp-2.3.3.1.2.1-19 bp-2.3.3.1.2.1-20 bp-2.3.3.1.2.1-21 bp-2.3.3.1.2.1-22
 # Brent equation for i1 = 2, i2 = 3, j1 = 3, j2 = 1, k1 = 2, k2 = 2 (kron delta = 0)
 and bp-2.3.3.1.2.2-1 alpha-r-2.c-3.l-01 beta-r-3.c-1.l-01 gamma-r-2.c-2.l-01
@@ -12434,7 +12448,7 @@ and bp-2.3.3.3.2.2-21 alpha-r-2.c-3.l-21 beta-r-3.c-3.l-21 gamma-r-2.c-2.l-21
 and bp-2.3.3.3.2.2-22 alpha-r-2.c-3.l-22 beta-r-3.c-3.l-22 gamma-r-2.c-2.l-22
 xor brent-2.3.3.3.2.2 bp-2.3.3.3.2.2-1 bp-2.3.3.3.2.2-2 bp-2.3.3.3.2.2-3 bp-2.3.3.3.2.2-4 bp-2.3.3.3.2.2-5 bp-2.3.3.3.2.2-6 bp-2.3.3.3.2.2-7 bp-2.3.3.3.2.2-8 bp-2.3.3.3.2.2-9 bp-2.3.3.3.2.2-10 bp-2.3.3.3.2.2-11 bp-2.3.3.3.2.2-12 bp-2.3.3.3.2.2-13 bp-2.3.3.3.2.2-14 bp-2.3.3.3.2.2-15 bp-2.3.3.3.2.2-16 bp-2.3.3.3.2.2-17 bp-2.3.3.3.2.2-18 bp-2.3.3.3.2.2-19 bp-2.3.3.3.2.2-20 bp-2.3.3.3.2.2-21 bp-2.3.3.3.2.2-22 one
 delete bp-2.3.3.3.2.2-1 bp-2.3.3.3.2.2-2 bp-2.3.3.3.2.2-3 bp-2.3.3.3.2.2-4 bp-2.3.3.3.2.2-5 bp-2.3.3.3.2.2-6 bp-2.3.3.3.2.2-7 bp-2.3.3.3.2.2-8 bp-2.3.3.3.2.2-9 bp-2.3.3.3.2.2-10 bp-2.3.3.3.2.2-11 bp-2.3.3.3.2.2-12 bp-2.3.3.3.2.2-13 bp-2.3.3.3.2.2-14 bp-2.3.3.3.2.2-15 bp-2.3.3.3.2.2-16 bp-2.3.3.3.2.2-17 bp-2.3.3.3.2.2-18 bp-2.3.3.3.2.2-19 bp-2.3.3.3.2.2-20 bp-2.3.3.3.2.2-21 bp-2.3.3.3.2.2-22
-# Constrained Brent equation for i1 = 2, i2 = 3, j1 = 3, j2 = 3, k1 = 2, k2 = 3, kernel at level 15
+# Constrained Brent equation for i1 = 2, i2 = 3, j1 = 3, j2 = 3, k1 = 2, k2 = 3, kernel at level 16
 and bp-2.3.3.3.2.3-1 alpha-r-2.c-3.l-01 beta-r-3.c-3.l-01 gamma-r-2.c-3.l-01
 and bp-2.3.3.3.2.3-2 alpha-r-2.c-3.l-02 beta-r-3.c-3.l-02 gamma-r-2.c-3.l-02
 and bp-2.3.3.3.2.3-3 alpha-r-2.c-3.l-03 beta-r-3.c-3.l-03 gamma-r-2.c-3.l-03
@@ -12457,7 +12471,7 @@ and bp-2.3.3.3.2.3-19 alpha-r-2.c-3.l-19 beta-r-3.c-3.l-19 gamma-r-2.c-3.l-19
 and bp-2.3.3.3.2.3-20 alpha-r-2.c-3.l-20 beta-r-3.c-3.l-20 gamma-r-2.c-3.l-20
 and bp-2.3.3.3.2.3-21 alpha-r-2.c-3.l-21 beta-r-3.c-3.l-21 gamma-r-2.c-3.l-21
 and bp-2.3.3.3.2.3-22 alpha-r-2.c-3.l-22 beta-r-3.c-3.l-22 gamma-r-2.c-3.l-22
-and brent-2.3.3.3.2.3 !bp-2.3.3.3.2.3-1 !bp-2.3.3.3.2.3-2 !bp-2.3.3.3.2.3-3 !bp-2.3.3.3.2.3-4 !bp-2.3.3.3.2.3-5 !bp-2.3.3.3.2.3-6 !bp-2.3.3.3.2.3-7 !bp-2.3.3.3.2.3-8 !bp-2.3.3.3.2.3-9 !bp-2.3.3.3.2.3-10 !bp-2.3.3.3.2.3-11 !bp-2.3.3.3.2.3-12 !bp-2.3.3.3.2.3-13 !bp-2.3.3.3.2.3-14 bp-2.3.3.3.2.3-15 !bp-2.3.3.3.2.3-16 !bp-2.3.3.3.2.3-17 !bp-2.3.3.3.2.3-18 !bp-2.3.3.3.2.3-19 !bp-2.3.3.3.2.3-20 !bp-2.3.3.3.2.3-21 !bp-2.3.3.3.2.3-22
+and brent-2.3.3.3.2.3 !bp-2.3.3.3.2.3-1 !bp-2.3.3.3.2.3-2 !bp-2.3.3.3.2.3-3 !bp-2.3.3.3.2.3-4 !bp-2.3.3.3.2.3-5 !bp-2.3.3.3.2.3-6 !bp-2.3.3.3.2.3-7 !bp-2.3.3.3.2.3-8 !bp-2.3.3.3.2.3-9 !bp-2.3.3.3.2.3-10 !bp-2.3.3.3.2.3-11 !bp-2.3.3.3.2.3-12 !bp-2.3.3.3.2.3-13 !bp-2.3.3.3.2.3-14 !bp-2.3.3.3.2.3-15 bp-2.3.3.3.2.3-16 !bp-2.3.3.3.2.3-17 !bp-2.3.3.3.2.3-18 !bp-2.3.3.3.2.3-19 !bp-2.3.3.3.2.3-20 !bp-2.3.3.3.2.3-21 !bp-2.3.3.3.2.3-22
 delete bp-2.3.3.3.2.3-1 bp-2.3.3.3.2.3-2 bp-2.3.3.3.2.3-3 bp-2.3.3.3.2.3-4 bp-2.3.3.3.2.3-5 bp-2.3.3.3.2.3-6 bp-2.3.3.3.2.3-7 bp-2.3.3.3.2.3-8 bp-2.3.3.3.2.3-9 bp-2.3.3.3.2.3-10 bp-2.3.3.3.2.3-11 bp-2.3.3.3.2.3-12 bp-2.3.3.3.2.3-13 bp-2.3.3.3.2.3-14 bp-2.3.3.3.2.3-15 bp-2.3.3.3.2.3-16 bp-2.3.3.3.2.3-17 bp-2.3.3.3.2.3-18 bp-2.3.3.3.2.3-19 bp-2.3.3.3.2.3-20 bp-2.3.3.3.2.3-21 bp-2.3.3.3.2.3-22
 # Brent equation for i1 = 2, i2 = 3, j1 = 3, j2 = 3, k1 = 3, k2 = 1 (kron delta = 0)
 and bp-2.3.3.3.3.1-1 alpha-r-2.c-3.l-01 beta-r-3.c-3.l-01 gamma-r-3.c-1.l-01
@@ -12934,7 +12948,7 @@ and bp-3.1.1.2.3.1-21 alpha-r-3.c-1.l-21 beta-r-1.c-2.l-21 gamma-r-3.c-1.l-21
 and bp-3.1.1.2.3.1-22 alpha-r-3.c-1.l-22 beta-r-1.c-2.l-22 gamma-r-3.c-1.l-22
 xor brent-3.1.1.2.3.1 bp-3.1.1.2.3.1-1 bp-3.1.1.2.3.1-2 bp-3.1.1.2.3.1-3 bp-3.1.1.2.3.1-4 bp-3.1.1.2.3.1-5 bp-3.1.1.2.3.1-6 bp-3.1.1.2.3.1-7 bp-3.1.1.2.3.1-8 bp-3.1.1.2.3.1-9 bp-3.1.1.2.3.1-10 bp-3.1.1.2.3.1-11 bp-3.1.1.2.3.1-12 bp-3.1.1.2.3.1-13 bp-3.1.1.2.3.1-14 bp-3.1.1.2.3.1-15 bp-3.1.1.2.3.1-16 bp-3.1.1.2.3.1-17 bp-3.1.1.2.3.1-18 bp-3.1.1.2.3.1-19 bp-3.1.1.2.3.1-20 bp-3.1.1.2.3.1-21 bp-3.1.1.2.3.1-22 one
 delete bp-3.1.1.2.3.1-1 bp-3.1.1.2.3.1-2 bp-3.1.1.2.3.1-3 bp-3.1.1.2.3.1-4 bp-3.1.1.2.3.1-5 bp-3.1.1.2.3.1-6 bp-3.1.1.2.3.1-7 bp-3.1.1.2.3.1-8 bp-3.1.1.2.3.1-9 bp-3.1.1.2.3.1-10 bp-3.1.1.2.3.1-11 bp-3.1.1.2.3.1-12 bp-3.1.1.2.3.1-13 bp-3.1.1.2.3.1-14 bp-3.1.1.2.3.1-15 bp-3.1.1.2.3.1-16 bp-3.1.1.2.3.1-17 bp-3.1.1.2.3.1-18 bp-3.1.1.2.3.1-19 bp-3.1.1.2.3.1-20 bp-3.1.1.2.3.1-21 bp-3.1.1.2.3.1-22
-# Constrained Brent equation for i1 = 3, i2 = 1, j1 = 1, j2 = 2, k1 = 3, k2 = 2, kernel at level 16
+# Constrained Brent equation for i1 = 3, i2 = 1, j1 = 1, j2 = 2, k1 = 3, k2 = 2, kernel at level 17
 and bp-3.1.1.2.3.2-1 alpha-r-3.c-1.l-01 beta-r-1.c-2.l-01 gamma-r-3.c-2.l-01
 and bp-3.1.1.2.3.2-2 alpha-r-3.c-1.l-02 beta-r-1.c-2.l-02 gamma-r-3.c-2.l-02
 and bp-3.1.1.2.3.2-3 alpha-r-3.c-1.l-03 beta-r-1.c-2.l-03 gamma-r-3.c-2.l-03
@@ -12957,7 +12971,7 @@ and bp-3.1.1.2.3.2-19 alpha-r-3.c-1.l-19 beta-r-1.c-2.l-19 gamma-r-3.c-2.l-19
 and bp-3.1.1.2.3.2-20 alpha-r-3.c-1.l-20 beta-r-1.c-2.l-20 gamma-r-3.c-2.l-20
 and bp-3.1.1.2.3.2-21 alpha-r-3.c-1.l-21 beta-r-1.c-2.l-21 gamma-r-3.c-2.l-21
 and bp-3.1.1.2.3.2-22 alpha-r-3.c-1.l-22 beta-r-1.c-2.l-22 gamma-r-3.c-2.l-22
-and brent-3.1.1.2.3.2 !bp-3.1.1.2.3.2-1 !bp-3.1.1.2.3.2-2 !bp-3.1.1.2.3.2-3 !bp-3.1.1.2.3.2-4 !bp-3.1.1.2.3.2-5 !bp-3.1.1.2.3.2-6 !bp-3.1.1.2.3.2-7 !bp-3.1.1.2.3.2-8 !bp-3.1.1.2.3.2-9 !bp-3.1.1.2.3.2-10 !bp-3.1.1.2.3.2-11 !bp-3.1.1.2.3.2-12 !bp-3.1.1.2.3.2-13 !bp-3.1.1.2.3.2-14 !bp-3.1.1.2.3.2-15 bp-3.1.1.2.3.2-16 !bp-3.1.1.2.3.2-17 !bp-3.1.1.2.3.2-18 !bp-3.1.1.2.3.2-19 !bp-3.1.1.2.3.2-20 !bp-3.1.1.2.3.2-21 !bp-3.1.1.2.3.2-22
+and brent-3.1.1.2.3.2 !bp-3.1.1.2.3.2-1 !bp-3.1.1.2.3.2-2 !bp-3.1.1.2.3.2-3 !bp-3.1.1.2.3.2-4 !bp-3.1.1.2.3.2-5 !bp-3.1.1.2.3.2-6 !bp-3.1.1.2.3.2-7 !bp-3.1.1.2.3.2-8 !bp-3.1.1.2.3.2-9 !bp-3.1.1.2.3.2-10 !bp-3.1.1.2.3.2-11 !bp-3.1.1.2.3.2-12 !bp-3.1.1.2.3.2-13 !bp-3.1.1.2.3.2-14 !bp-3.1.1.2.3.2-15 !bp-3.1.1.2.3.2-16 bp-3.1.1.2.3.2-17 !bp-3.1.1.2.3.2-18 !bp-3.1.1.2.3.2-19 !bp-3.1.1.2.3.2-20 !bp-3.1.1.2.3.2-21 !bp-3.1.1.2.3.2-22
 delete bp-3.1.1.2.3.2-1 bp-3.1.1.2.3.2-2 bp-3.1.1.2.3.2-3 bp-3.1.1.2.3.2-4 bp-3.1.1.2.3.2-5 bp-3.1.1.2.3.2-6 bp-3.1.1.2.3.2-7 bp-3.1.1.2.3.2-8 bp-3.1.1.2.3.2-9 bp-3.1.1.2.3.2-10 bp-3.1.1.2.3.2-11 bp-3.1.1.2.3.2-12 bp-3.1.1.2.3.2-13 bp-3.1.1.2.3.2-14 bp-3.1.1.2.3.2-15 bp-3.1.1.2.3.2-16 bp-3.1.1.2.3.2-17 bp-3.1.1.2.3.2-18 bp-3.1.1.2.3.2-19 bp-3.1.1.2.3.2-20 bp-3.1.1.2.3.2-21 bp-3.1.1.2.3.2-22
 # Brent equation for i1 = 3, i2 = 1, j1 = 1, j2 = 2, k1 = 3, k2 = 3 (kron delta = 0)
 and bp-3.1.1.2.3.3-1 alpha-r-3.c-1.l-01 beta-r-1.c-2.l-01 gamma-r-3.c-3.l-01
@@ -13184,7 +13198,7 @@ and bp-3.1.1.3.3.2-21 alpha-r-3.c-1.l-21 beta-r-1.c-3.l-21 gamma-r-3.c-2.l-21
 and bp-3.1.1.3.3.2-22 alpha-r-3.c-1.l-22 beta-r-1.c-3.l-22 gamma-r-3.c-2.l-22
 xor brent-3.1.1.3.3.2 bp-3.1.1.3.3.2-1 bp-3.1.1.3.3.2-2 bp-3.1.1.3.3.2-3 bp-3.1.1.3.3.2-4 bp-3.1.1.3.3.2-5 bp-3.1.1.3.3.2-6 bp-3.1.1.3.3.2-7 bp-3.1.1.3.3.2-8 bp-3.1.1.3.3.2-9 bp-3.1.1.3.3.2-10 bp-3.1.1.3.3.2-11 bp-3.1.1.3.3.2-12 bp-3.1.1.3.3.2-13 bp-3.1.1.3.3.2-14 bp-3.1.1.3.3.2-15 bp-3.1.1.3.3.2-16 bp-3.1.1.3.3.2-17 bp-3.1.1.3.3.2-18 bp-3.1.1.3.3.2-19 bp-3.1.1.3.3.2-20 bp-3.1.1.3.3.2-21 bp-3.1.1.3.3.2-22 one
 delete bp-3.1.1.3.3.2-1 bp-3.1.1.3.3.2-2 bp-3.1.1.3.3.2-3 bp-3.1.1.3.3.2-4 bp-3.1.1.3.3.2-5 bp-3.1.1.3.3.2-6 bp-3.1.1.3.3.2-7 bp-3.1.1.3.3.2-8 bp-3.1.1.3.3.2-9 bp-3.1.1.3.3.2-10 bp-3.1.1.3.3.2-11 bp-3.1.1.3.3.2-12 bp-3.1.1.3.3.2-13 bp-3.1.1.3.3.2-14 bp-3.1.1.3.3.2-15 bp-3.1.1.3.3.2-16 bp-3.1.1.3.3.2-17 bp-3.1.1.3.3.2-18 bp-3.1.1.3.3.2-19 bp-3.1.1.3.3.2-20 bp-3.1.1.3.3.2-21 bp-3.1.1.3.3.2-22
-# Constrained Brent equation for i1 = 3, i2 = 1, j1 = 1, j2 = 3, k1 = 3, k2 = 3, kernel at level 17
+# Constrained Brent equation for i1 = 3, i2 = 1, j1 = 1, j2 = 3, k1 = 3, k2 = 3, kernel at level 18
 and bp-3.1.1.3.3.3-1 alpha-r-3.c-1.l-01 beta-r-1.c-3.l-01 gamma-r-3.c-3.l-01
 and bp-3.1.1.3.3.3-2 alpha-r-3.c-1.l-02 beta-r-1.c-3.l-02 gamma-r-3.c-3.l-02
 and bp-3.1.1.3.3.3-3 alpha-r-3.c-1.l-03 beta-r-1.c-3.l-03 gamma-r-3.c-3.l-03
@@ -13207,7 +13221,7 @@ and bp-3.1.1.3.3.3-19 alpha-r-3.c-1.l-19 beta-r-1.c-3.l-19 gamma-r-3.c-3.l-19
 and bp-3.1.1.3.3.3-20 alpha-r-3.c-1.l-20 beta-r-1.c-3.l-20 gamma-r-3.c-3.l-20
 and bp-3.1.1.3.3.3-21 alpha-r-3.c-1.l-21 beta-r-1.c-3.l-21 gamma-r-3.c-3.l-21
 and bp-3.1.1.3.3.3-22 alpha-r-3.c-1.l-22 beta-r-1.c-3.l-22 gamma-r-3.c-3.l-22
-and brent-3.1.1.3.3.3 !bp-3.1.1.3.3.3-1 !bp-3.1.1.3.3.3-2 !bp-3.1.1.3.3.3-3 !bp-3.1.1.3.3.3-4 !bp-3.1.1.3.3.3-5 !bp-3.1.1.3.3.3-6 !bp-3.1.1.3.3.3-7 !bp-3.1.1.3.3.3-8 !bp-3.1.1.3.3.3-9 !bp-3.1.1.3.3.3-10 !bp-3.1.1.3.3.3-11 !bp-3.1.1.3.3.3-12 !bp-3.1.1.3.3.3-13 !bp-3.1.1.3.3.3-14 !bp-3.1.1.3.3.3-15 !bp-3.1.1.3.3.3-16 bp-3.1.1.3.3.3-17 !bp-3.1.1.3.3.3-18 !bp-3.1.1.3.3.3-19 !bp-3.1.1.3.3.3-20 !bp-3.1.1.3.3.3-21 !bp-3.1.1.3.3.3-22
+and brent-3.1.1.3.3.3 !bp-3.1.1.3.3.3-1 !bp-3.1.1.3.3.3-2 !bp-3.1.1.3.3.3-3 !bp-3.1.1.3.3.3-4 !bp-3.1.1.3.3.3-5 !bp-3.1.1.3.3.3-6 !bp-3.1.1.3.3.3-7 !bp-3.1.1.3.3.3-8 !bp-3.1.1.3.3.3-9 !bp-3.1.1.3.3.3-10 !bp-3.1.1.3.3.3-11 !bp-3.1.1.3.3.3-12 !bp-3.1.1.3.3.3-13 !bp-3.1.1.3.3.3-14 !bp-3.1.1.3.3.3-15 !bp-3.1.1.3.3.3-16 !bp-3.1.1.3.3.3-17 bp-3.1.1.3.3.3-18 !bp-3.1.1.3.3.3-19 !bp-3.1.1.3.3.3-20 !bp-3.1.1.3.3.3-21 !bp-3.1.1.3.3.3-22
 delete bp-3.1.1.3.3.3-1 bp-3.1.1.3.3.3-2 bp-3.1.1.3.3.3-3 bp-3.1.1.3.3.3-4 bp-3.1.1.3.3.3-5 bp-3.1.1.3.3.3-6 bp-3.1.1.3.3.3-7 bp-3.1.1.3.3.3-8 bp-3.1.1.3.3.3-9 bp-3.1.1.3.3.3-10 bp-3.1.1.3.3.3-11 bp-3.1.1.3.3.3-12 bp-3.1.1.3.3.3-13 bp-3.1.1.3.3.3-14 bp-3.1.1.3.3.3-15 bp-3.1.1.3.3.3-16 bp-3.1.1.3.3.3-17 bp-3.1.1.3.3.3-18 bp-3.1.1.3.3.3-19 bp-3.1.1.3.3.3-20 bp-3.1.1.3.3.3-21 bp-3.1.1.3.3.3-22
 # Brent equation for i1 = 3, i2 = 1, j1 = 2, j2 = 1, k1 = 1, k2 = 1 (kron delta = 0)
 and bp-3.1.2.1.1.1-1 alpha-r-3.c-1.l-01 beta-r-2.c-1.l-01 gamma-r-1.c-1.l-01
@@ -15384,7 +15398,7 @@ and bp-3.2.2.1.2.3-21 alpha-r-3.c-2.l-21 beta-r-2.c-1.l-21 gamma-r-2.c-3.l-21
 and bp-3.2.2.1.2.3-22 alpha-r-3.c-2.l-22 beta-r-2.c-1.l-22 gamma-r-2.c-3.l-22
 xor brent-3.2.2.1.2.3 bp-3.2.2.1.2.3-1 bp-3.2.2.1.2.3-2 bp-3.2.2.1.2.3-3 bp-3.2.2.1.2.3-4 bp-3.2.2.1.2.3-5 bp-3.2.2.1.2.3-6 bp-3.2.2.1.2.3-7 bp-3.2.2.1.2.3-8 bp-3.2.2.1.2.3-9 bp-3.2.2.1.2.3-10 bp-3.2.2.1.2.3-11 bp-3.2.2.1.2.3-12 bp-3.2.2.1.2.3-13 bp-3.2.2.1.2.3-14 bp-3.2.2.1.2.3-15 bp-3.2.2.1.2.3-16 bp-3.2.2.1.2.3-17 bp-3.2.2.1.2.3-18 bp-3.2.2.1.2.3-19 bp-3.2.2.1.2.3-20 bp-3.2.2.1.2.3-21 bp-3.2.2.1.2.3-22 one
 delete bp-3.2.2.1.2.3-1 bp-3.2.2.1.2.3-2 bp-3.2.2.1.2.3-3 bp-3.2.2.1.2.3-4 bp-3.2.2.1.2.3-5 bp-3.2.2.1.2.3-6 bp-3.2.2.1.2.3-7 bp-3.2.2.1.2.3-8 bp-3.2.2.1.2.3-9 bp-3.2.2.1.2.3-10 bp-3.2.2.1.2.3-11 bp-3.2.2.1.2.3-12 bp-3.2.2.1.2.3-13 bp-3.2.2.1.2.3-14 bp-3.2.2.1.2.3-15 bp-3.2.2.1.2.3-16 bp-3.2.2.1.2.3-17 bp-3.2.2.1.2.3-18 bp-3.2.2.1.2.3-19 bp-3.2.2.1.2.3-20 bp-3.2.2.1.2.3-21 bp-3.2.2.1.2.3-22
-# Constrained Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 1, k1 = 3, k2 = 1, kernel at level 18
+# Constrained Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 1, k1 = 3, k2 = 1, kernel at level 19
 and bp-3.2.2.1.3.1-1 alpha-r-3.c-2.l-01 beta-r-2.c-1.l-01 gamma-r-3.c-1.l-01
 and bp-3.2.2.1.3.1-2 alpha-r-3.c-2.l-02 beta-r-2.c-1.l-02 gamma-r-3.c-1.l-02
 and bp-3.2.2.1.3.1-3 alpha-r-3.c-2.l-03 beta-r-2.c-1.l-03 gamma-r-3.c-1.l-03
@@ -15407,7 +15421,7 @@ and bp-3.2.2.1.3.1-19 alpha-r-3.c-2.l-19 beta-r-2.c-1.l-19 gamma-r-3.c-1.l-19
 and bp-3.2.2.1.3.1-20 alpha-r-3.c-2.l-20 beta-r-2.c-1.l-20 gamma-r-3.c-1.l-20
 and bp-3.2.2.1.3.1-21 alpha-r-3.c-2.l-21 beta-r-2.c-1.l-21 gamma-r-3.c-1.l-21
 and bp-3.2.2.1.3.1-22 alpha-r-3.c-2.l-22 beta-r-2.c-1.l-22 gamma-r-3.c-1.l-22
-and brent-3.2.2.1.3.1 !bp-3.2.2.1.3.1-1 !bp-3.2.2.1.3.1-2 !bp-3.2.2.1.3.1-3 !bp-3.2.2.1.3.1-4 !bp-3.2.2.1.3.1-5 !bp-3.2.2.1.3.1-6 !bp-3.2.2.1.3.1-7 !bp-3.2.2.1.3.1-8 !bp-3.2.2.1.3.1-9 !bp-3.2.2.1.3.1-10 !bp-3.2.2.1.3.1-11 !bp-3.2.2.1.3.1-12 !bp-3.2.2.1.3.1-13 !bp-3.2.2.1.3.1-14 !bp-3.2.2.1.3.1-15 !bp-3.2.2.1.3.1-16 !bp-3.2.2.1.3.1-17 bp-3.2.2.1.3.1-18 !bp-3.2.2.1.3.1-19 !bp-3.2.2.1.3.1-20 !bp-3.2.2.1.3.1-21 !bp-3.2.2.1.3.1-22
+and brent-3.2.2.1.3.1 !bp-3.2.2.1.3.1-1 !bp-3.2.2.1.3.1-2 !bp-3.2.2.1.3.1-3 !bp-3.2.2.1.3.1-4 !bp-3.2.2.1.3.1-5 !bp-3.2.2.1.3.1-6 !bp-3.2.2.1.3.1-7 !bp-3.2.2.1.3.1-8 !bp-3.2.2.1.3.1-9 !bp-3.2.2.1.3.1-10 !bp-3.2.2.1.3.1-11 !bp-3.2.2.1.3.1-12 !bp-3.2.2.1.3.1-13 !bp-3.2.2.1.3.1-14 !bp-3.2.2.1.3.1-15 !bp-3.2.2.1.3.1-16 !bp-3.2.2.1.3.1-17 !bp-3.2.2.1.3.1-18 bp-3.2.2.1.3.1-19 !bp-3.2.2.1.3.1-20 !bp-3.2.2.1.3.1-21 !bp-3.2.2.1.3.1-22
 delete bp-3.2.2.1.3.1-1 bp-3.2.2.1.3.1-2 bp-3.2.2.1.3.1-3 bp-3.2.2.1.3.1-4 bp-3.2.2.1.3.1-5 bp-3.2.2.1.3.1-6 bp-3.2.2.1.3.1-7 bp-3.2.2.1.3.1-8 bp-3.2.2.1.3.1-9 bp-3.2.2.1.3.1-10 bp-3.2.2.1.3.1-11 bp-3.2.2.1.3.1-12 bp-3.2.2.1.3.1-13 bp-3.2.2.1.3.1-14 bp-3.2.2.1.3.1-15 bp-3.2.2.1.3.1-16 bp-3.2.2.1.3.1-17 bp-3.2.2.1.3.1-18 bp-3.2.2.1.3.1-19 bp-3.2.2.1.3.1-20 bp-3.2.2.1.3.1-21 bp-3.2.2.1.3.1-22
 # Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 1, k1 = 3, k2 = 2 (kron delta = 0)
 and bp-3.2.2.1.3.2-1 alpha-r-3.c-2.l-01 beta-r-2.c-1.l-01 gamma-r-3.c-2.l-01
@@ -15634,7 +15648,7 @@ and bp-3.2.2.2.3.1-21 alpha-r-3.c-2.l-21 beta-r-2.c-2.l-21 gamma-r-3.c-1.l-21
 and bp-3.2.2.2.3.1-22 alpha-r-3.c-2.l-22 beta-r-2.c-2.l-22 gamma-r-3.c-1.l-22
 xor brent-3.2.2.2.3.1 bp-3.2.2.2.3.1-1 bp-3.2.2.2.3.1-2 bp-3.2.2.2.3.1-3 bp-3.2.2.2.3.1-4 bp-3.2.2.2.3.1-5 bp-3.2.2.2.3.1-6 bp-3.2.2.2.3.1-7 bp-3.2.2.2.3.1-8 bp-3.2.2.2.3.1-9 bp-3.2.2.2.3.1-10 bp-3.2.2.2.3.1-11 bp-3.2.2.2.3.1-12 bp-3.2.2.2.3.1-13 bp-3.2.2.2.3.1-14 bp-3.2.2.2.3.1-15 bp-3.2.2.2.3.1-16 bp-3.2.2.2.3.1-17 bp-3.2.2.2.3.1-18 bp-3.2.2.2.3.1-19 bp-3.2.2.2.3.1-20 bp-3.2.2.2.3.1-21 bp-3.2.2.2.3.1-22 one
 delete bp-3.2.2.2.3.1-1 bp-3.2.2.2.3.1-2 bp-3.2.2.2.3.1-3 bp-3.2.2.2.3.1-4 bp-3.2.2.2.3.1-5 bp-3.2.2.2.3.1-6 bp-3.2.2.2.3.1-7 bp-3.2.2.2.3.1-8 bp-3.2.2.2.3.1-9 bp-3.2.2.2.3.1-10 bp-3.2.2.2.3.1-11 bp-3.2.2.2.3.1-12 bp-3.2.2.2.3.1-13 bp-3.2.2.2.3.1-14 bp-3.2.2.2.3.1-15 bp-3.2.2.2.3.1-16 bp-3.2.2.2.3.1-17 bp-3.2.2.2.3.1-18 bp-3.2.2.2.3.1-19 bp-3.2.2.2.3.1-20 bp-3.2.2.2.3.1-21 bp-3.2.2.2.3.1-22
-# Constrained Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 2, k1 = 3, k2 = 2, kernel at level 19
+# Constrained Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 2, k1 = 3, k2 = 2, kernel at level 20
 and bp-3.2.2.2.3.2-1 alpha-r-3.c-2.l-01 beta-r-2.c-2.l-01 gamma-r-3.c-2.l-01
 and bp-3.2.2.2.3.2-2 alpha-r-3.c-2.l-02 beta-r-2.c-2.l-02 gamma-r-3.c-2.l-02
 and bp-3.2.2.2.3.2-3 alpha-r-3.c-2.l-03 beta-r-2.c-2.l-03 gamma-r-3.c-2.l-03
@@ -15657,7 +15671,7 @@ and bp-3.2.2.2.3.2-19 alpha-r-3.c-2.l-19 beta-r-2.c-2.l-19 gamma-r-3.c-2.l-19
 and bp-3.2.2.2.3.2-20 alpha-r-3.c-2.l-20 beta-r-2.c-2.l-20 gamma-r-3.c-2.l-20
 and bp-3.2.2.2.3.2-21 alpha-r-3.c-2.l-21 beta-r-2.c-2.l-21 gamma-r-3.c-2.l-21
 and bp-3.2.2.2.3.2-22 alpha-r-3.c-2.l-22 beta-r-2.c-2.l-22 gamma-r-3.c-2.l-22
-and brent-3.2.2.2.3.2 !bp-3.2.2.2.3.2-1 !bp-3.2.2.2.3.2-2 !bp-3.2.2.2.3.2-3 !bp-3.2.2.2.3.2-4 !bp-3.2.2.2.3.2-5 !bp-3.2.2.2.3.2-6 !bp-3.2.2.2.3.2-7 !bp-3.2.2.2.3.2-8 !bp-3.2.2.2.3.2-9 !bp-3.2.2.2.3.2-10 !bp-3.2.2.2.3.2-11 !bp-3.2.2.2.3.2-12 !bp-3.2.2.2.3.2-13 !bp-3.2.2.2.3.2-14 !bp-3.2.2.2.3.2-15 !bp-3.2.2.2.3.2-16 !bp-3.2.2.2.3.2-17 !bp-3.2.2.2.3.2-18 bp-3.2.2.2.3.2-19 !bp-3.2.2.2.3.2-20 !bp-3.2.2.2.3.2-21 !bp-3.2.2.2.3.2-22
+and brent-3.2.2.2.3.2 !bp-3.2.2.2.3.2-1 !bp-3.2.2.2.3.2-2 !bp-3.2.2.2.3.2-3 !bp-3.2.2.2.3.2-4 !bp-3.2.2.2.3.2-5 !bp-3.2.2.2.3.2-6 !bp-3.2.2.2.3.2-7 !bp-3.2.2.2.3.2-8 !bp-3.2.2.2.3.2-9 !bp-3.2.2.2.3.2-10 !bp-3.2.2.2.3.2-11 !bp-3.2.2.2.3.2-12 !bp-3.2.2.2.3.2-13 !bp-3.2.2.2.3.2-14 !bp-3.2.2.2.3.2-15 !bp-3.2.2.2.3.2-16 !bp-3.2.2.2.3.2-17 !bp-3.2.2.2.3.2-18 !bp-3.2.2.2.3.2-19 bp-3.2.2.2.3.2-20 !bp-3.2.2.2.3.2-21 !bp-3.2.2.2.3.2-22
 delete bp-3.2.2.2.3.2-1 bp-3.2.2.2.3.2-2 bp-3.2.2.2.3.2-3 bp-3.2.2.2.3.2-4 bp-3.2.2.2.3.2-5 bp-3.2.2.2.3.2-6 bp-3.2.2.2.3.2-7 bp-3.2.2.2.3.2-8 bp-3.2.2.2.3.2-9 bp-3.2.2.2.3.2-10 bp-3.2.2.2.3.2-11 bp-3.2.2.2.3.2-12 bp-3.2.2.2.3.2-13 bp-3.2.2.2.3.2-14 bp-3.2.2.2.3.2-15 bp-3.2.2.2.3.2-16 bp-3.2.2.2.3.2-17 bp-3.2.2.2.3.2-18 bp-3.2.2.2.3.2-19 bp-3.2.2.2.3.2-20 bp-3.2.2.2.3.2-21 bp-3.2.2.2.3.2-22
 # Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 2, k1 = 3, k2 = 3 (kron delta = 0)
 and bp-3.2.2.2.3.3-1 alpha-r-3.c-2.l-01 beta-r-2.c-2.l-01 gamma-r-3.c-3.l-01
@@ -15884,7 +15898,7 @@ and bp-3.2.2.3.3.2-21 alpha-r-3.c-2.l-21 beta-r-2.c-3.l-21 gamma-r-3.c-2.l-21
 and bp-3.2.2.3.3.2-22 alpha-r-3.c-2.l-22 beta-r-2.c-3.l-22 gamma-r-3.c-2.l-22
 xor brent-3.2.2.3.3.2 bp-3.2.2.3.3.2-1 bp-3.2.2.3.3.2-2 bp-3.2.2.3.3.2-3 bp-3.2.2.3.3.2-4 bp-3.2.2.3.3.2-5 bp-3.2.2.3.3.2-6 bp-3.2.2.3.3.2-7 bp-3.2.2.3.3.2-8 bp-3.2.2.3.3.2-9 bp-3.2.2.3.3.2-10 bp-3.2.2.3.3.2-11 bp-3.2.2.3.3.2-12 bp-3.2.2.3.3.2-13 bp-3.2.2.3.3.2-14 bp-3.2.2.3.3.2-15 bp-3.2.2.3.3.2-16 bp-3.2.2.3.3.2-17 bp-3.2.2.3.3.2-18 bp-3.2.2.3.3.2-19 bp-3.2.2.3.3.2-20 bp-3.2.2.3.3.2-21 bp-3.2.2.3.3.2-22 one
 delete bp-3.2.2.3.3.2-1 bp-3.2.2.3.3.2-2 bp-3.2.2.3.3.2-3 bp-3.2.2.3.3.2-4 bp-3.2.2.3.3.2-5 bp-3.2.2.3.3.2-6 bp-3.2.2.3.3.2-7 bp-3.2.2.3.3.2-8 bp-3.2.2.3.3.2-9 bp-3.2.2.3.3.2-10 bp-3.2.2.3.3.2-11 bp-3.2.2.3.3.2-12 bp-3.2.2.3.3.2-13 bp-3.2.2.3.3.2-14 bp-3.2.2.3.3.2-15 bp-3.2.2.3.3.2-16 bp-3.2.2.3.3.2-17 bp-3.2.2.3.3.2-18 bp-3.2.2.3.3.2-19 bp-3.2.2.3.3.2-20 bp-3.2.2.3.3.2-21 bp-3.2.2.3.3.2-22
-# Constrained Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 3, k1 = 3, k2 = 3, kernel at level 20
+# Constrained Brent equation for i1 = 3, i2 = 2, j1 = 2, j2 = 3, k1 = 3, k2 = 3, kernel at level 21
 and bp-3.2.2.3.3.3-1 alpha-r-3.c-2.l-01 beta-r-2.c-3.l-01 gamma-r-3.c-3.l-01
 and bp-3.2.2.3.3.3-2 alpha-r-3.c-2.l-02 beta-r-2.c-3.l-02 gamma-r-3.c-3.l-02
 and bp-3.2.2.3.3.3-3 alpha-r-3.c-2.l-03 beta-r-2.c-3.l-03 gamma-r-3.c-3.l-03
@@ -15907,7 +15921,7 @@ and bp-3.2.2.3.3.3-19 alpha-r-3.c-2.l-19 beta-r-2.c-3.l-19 gamma-r-3.c-3.l-19
 and bp-3.2.2.3.3.3-20 alpha-r-3.c-2.l-20 beta-r-2.c-3.l-20 gamma-r-3.c-3.l-20
 and bp-3.2.2.3.3.3-21 alpha-r-3.c-2.l-21 beta-r-2.c-3.l-21 gamma-r-3.c-3.l-21
 and bp-3.2.2.3.3.3-22 alpha-r-3.c-2.l-22 beta-r-2.c-3.l-22 gamma-r-3.c-3.l-22
-and brent-3.2.2.3.3.3 !bp-3.2.2.3.3.3-1 !bp-3.2.2.3.3.3-2 !bp-3.2.2.3.3.3-3 !bp-3.2.2.3.3.3-4 !bp-3.2.2.3.3.3-5 !bp-3.2.2.3.3.3-6 !bp-3.2.2.3.3.3-7 !bp-3.2.2.3.3.3-8 !bp-3.2.2.3.3.3-9 !bp-3.2.2.3.3.3-10 !bp-3.2.2.3.3.3-11 !bp-3.2.2.3.3.3-12 !bp-3.2.2.3.3.3-13 !bp-3.2.2.3.3.3-14 !bp-3.2.2.3.3.3-15 !bp-3.2.2.3.3.3-16 !bp-3.2.2.3.3.3-17 !bp-3.2.2.3.3.3-18 !bp-3.2.2.3.3.3-19 bp-3.2.2.3.3.3-20 !bp-3.2.2.3.3.3-21 !bp-3.2.2.3.3.3-22
+and brent-3.2.2.3.3.3 !bp-3.2.2.3.3.3-1 !bp-3.2.2.3.3.3-2 !bp-3.2.2.3.3.3-3 !bp-3.2.2.3.3.3-4 !bp-3.2.2.3.3.3-5 !bp-3.2.2.3.3.3-6 !bp-3.2.2.3.3.3-7 !bp-3.2.2.3.3.3-8 !bp-3.2.2.3.3.3-9 !bp-3.2.2.3.3.3-10 !bp-3.2.2.3.3.3-11 !bp-3.2.2.3.3.3-12 !bp-3.2.2.3.3.3-13 !bp-3.2.2.3.3.3-14 !bp-3.2.2.3.3.3-15 !bp-3.2.2.3.3.3-16 !bp-3.2.2.3.3.3-17 !bp-3.2.2.3.3.3-18 !bp-3.2.2.3.3.3-19 !bp-3.2.2.3.3.3-20 bp-3.2.2.3.3.3-21 !bp-3.2.2.3.3.3-22
 delete bp-3.2.2.3.3.3-1 bp-3.2.2.3.3.3-2 bp-3.2.2.3.3.3-3 bp-3.2.2.3.3.3-4 bp-3.2.2.3.3.3-5 bp-3.2.2.3.3.3-6 bp-3.2.2.3.3.3-7 bp-3.2.2.3.3.3-8 bp-3.2.2.3.3.3-9 bp-3.2.2.3.3.3-10 bp-3.2.2.3.3.3-11 bp-3.2.2.3.3.3-12 bp-3.2.2.3.3.3-13 bp-3.2.2.3.3.3-14 bp-3.2.2.3.3.3-15 bp-3.2.2.3.3.3-16 bp-3.2.2.3.3.3-17 bp-3.2.2.3.3.3-18 bp-3.2.2.3.3.3-19 bp-3.2.2.3.3.3-20 bp-3.2.2.3.3.3-21 bp-3.2.2.3.3.3-22
 # Brent equation for i1 = 3, i2 = 2, j1 = 3, j2 = 1, k1 = 1, k2 = 1 (kron delta = 0)
 and bp-3.2.3.1.1.1-1 alpha-r-3.c-2.l-01 beta-r-3.c-1.l-01 gamma-r-1.c-1.l-01
@@ -18334,7 +18348,7 @@ and bp-3.3.3.2.3.1-21 alpha-r-3.c-3.l-21 beta-r-3.c-2.l-21 gamma-r-3.c-1.l-21
 and bp-3.3.3.2.3.1-22 alpha-r-3.c-3.l-22 beta-r-3.c-2.l-22 gamma-r-3.c-1.l-22
 xor brent-3.3.3.2.3.1 bp-3.3.3.2.3.1-1 bp-3.3.3.2.3.1-2 bp-3.3.3.2.3.1-3 bp-3.3.3.2.3.1-4 bp-3.3.3.2.3.1-5 bp-3.3.3.2.3.1-6 bp-3.3.3.2.3.1-7 bp-3.3.3.2.3.1-8 bp-3.3.3.2.3.1-9 bp-3.3.3.2.3.1-10 bp-3.3.3.2.3.1-11 bp-3.3.3.2.3.1-12 bp-3.3.3.2.3.1-13 bp-3.3.3.2.3.1-14 bp-3.3.3.2.3.1-15 bp-3.3.3.2.3.1-16 bp-3.3.3.2.3.1-17 bp-3.3.3.2.3.1-18 bp-3.3.3.2.3.1-19 bp-3.3.3.2.3.1-20 bp-3.3.3.2.3.1-21 bp-3.3.3.2.3.1-22 one
 delete bp-3.3.3.2.3.1-1 bp-3.3.3.2.3.1-2 bp-3.3.3.2.3.1-3 bp-3.3.3.2.3.1-4 bp-3.3.3.2.3.1-5 bp-3.3.3.2.3.1-6 bp-3.3.3.2.3.1-7 bp-3.3.3.2.3.1-8 bp-3.3.3.2.3.1-9 bp-3.3.3.2.3.1-10 bp-3.3.3.2.3.1-11 bp-3.3.3.2.3.1-12 bp-3.3.3.2.3.1-13 bp-3.3.3.2.3.1-14 bp-3.3.3.2.3.1-15 bp-3.3.3.2.3.1-16 bp-3.3.3.2.3.1-17 bp-3.3.3.2.3.1-18 bp-3.3.3.2.3.1-19 bp-3.3.3.2.3.1-20 bp-3.3.3.2.3.1-21 bp-3.3.3.2.3.1-22
-# Constrained Brent equation for i1 = 3, i2 = 3, j1 = 3, j2 = 2, k1 = 3, k2 = 2, kernel at level 21
+# Constrained Brent equation for i1 = 3, i2 = 3, j1 = 3, j2 = 2, k1 = 3, k2 = 2, kernel at level 22
 and bp-3.3.3.2.3.2-1 alpha-r-3.c-3.l-01 beta-r-3.c-2.l-01 gamma-r-3.c-2.l-01
 and bp-3.3.3.2.3.2-2 alpha-r-3.c-3.l-02 beta-r-3.c-2.l-02 gamma-r-3.c-2.l-02
 and bp-3.3.3.2.3.2-3 alpha-r-3.c-3.l-03 beta-r-3.c-2.l-03 gamma-r-3.c-2.l-03
@@ -18357,7 +18371,7 @@ and bp-3.3.3.2.3.2-19 alpha-r-3.c-3.l-19 beta-r-3.c-2.l-19 gamma-r-3.c-2.l-19
 and bp-3.3.3.2.3.2-20 alpha-r-3.c-3.l-20 beta-r-3.c-2.l-20 gamma-r-3.c-2.l-20
 and bp-3.3.3.2.3.2-21 alpha-r-3.c-3.l-21 beta-r-3.c-2.l-21 gamma-r-3.c-2.l-21
 and bp-3.3.3.2.3.2-22 alpha-r-3.c-3.l-22 beta-r-3.c-2.l-22 gamma-r-3.c-2.l-22
-and brent-3.3.3.2.3.2 !bp-3.3.3.2.3.2-1 !bp-3.3.3.2.3.2-2 !bp-3.3.3.2.3.2-3 !bp-3.3.3.2.3.2-4 !bp-3.3.3.2.3.2-5 !bp-3.3.3.2.3.2-6 !bp-3.3.3.2.3.2-7 !bp-3.3.3.2.3.2-8 !bp-3.3.3.2.3.2-9 !bp-3.3.3.2.3.2-10 !bp-3.3.3.2.3.2-11 !bp-3.3.3.2.3.2-12 !bp-3.3.3.2.3.2-13 !bp-3.3.3.2.3.2-14 !bp-3.3.3.2.3.2-15 !bp-3.3.3.2.3.2-16 !bp-3.3.3.2.3.2-17 !bp-3.3.3.2.3.2-18 !bp-3.3.3.2.3.2-19 !bp-3.3.3.2.3.2-20 bp-3.3.3.2.3.2-21 !bp-3.3.3.2.3.2-22
+and brent-3.3.3.2.3.2 !bp-3.3.3.2.3.2-1 !bp-3.3.3.2.3.2-2 !bp-3.3.3.2.3.2-3 !bp-3.3.3.2.3.2-4 !bp-3.3.3.2.3.2-5 !bp-3.3.3.2.3.2-6 !bp-3.3.3.2.3.2-7 !bp-3.3.3.2.3.2-8 !bp-3.3.3.2.3.2-9 !bp-3.3.3.2.3.2-10 !bp-3.3.3.2.3.2-11 !bp-3.3.3.2.3.2-12 !bp-3.3.3.2.3.2-13 !bp-3.3.3.2.3.2-14 !bp-3.3.3.2.3.2-15 !bp-3.3.3.2.3.2-16 !bp-3.3.3.2.3.2-17 !bp-3.3.3.2.3.2-18 !bp-3.3.3.2.3.2-19 !bp-3.3.3.2.3.2-20 !bp-3.3.3.2.3.2-21 bp-3.3.3.2.3.2-22
 delete bp-3.3.3.2.3.2-1 bp-3.3.3.2.3.2-2 bp-3.3.3.2.3.2-3 bp-3.3.3.2.3.2-4 bp-3.3.3.2.3.2-5 bp-3.3.3.2.3.2-6 bp-3.3.3.2.3.2-7 bp-3.3.3.2.3.2-8 bp-3.3.3.2.3.2-9 bp-3.3.3.2.3.2-10 bp-3.3.3.2.3.2-11 bp-3.3.3.2.3.2-12 bp-3.3.3.2.3.2-13 bp-3.3.3.2.3.2-14 bp-3.3.3.2.3.2-15 bp-3.3.3.2.3.2-16 bp-3.3.3.2.3.2-17 bp-3.3.3.2.3.2-18 bp-3.3.3.2.3.2-19 bp-3.3.3.2.3.2-20 bp-3.3.3.2.3.2-21 bp-3.3.3.2.3.2-22
 # Brent equation for i1 = 3, i2 = 3, j1 = 3, j2 = 2, k1 = 3, k2 = 3 (kron delta = 0)
 and bp-3.3.3.2.3.3-1 alpha-r-3.c-3.l-01 beta-r-3.c-2.l-01 gamma-r-3.c-3.l-01
