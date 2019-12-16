@@ -1,5 +1,5 @@
 option echo 1
-option seconds 1800
+option seconds 3500
 # Solving Brent equations to derive matrix multiplication scheme
 # Goal is to compute A (3 x 3) X B (3 x 3) = C (3 x 3) using 22 multiplications
 # Category alpha has 0.0% of its variables fixed

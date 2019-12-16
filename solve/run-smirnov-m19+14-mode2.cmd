@@ -1,5 +1,5 @@
 option echo 1
-option seconds 1800
+option seconds 3500
 # Solving Brent equations to derive matrix multiplication scheme
 # Goal is to compute A (3 x 3) X B (3 x 3) = C (3 x 3) using 22 multiplications
 # Category alpha has 0.0% of its variables fixed
@@ -382,10 +382,10 @@ and single_alpha.16 !alpha-r-1.c-1.l-22 !alpha-r-1.c-2.l-22 !alpha-r-1.c-3.l-22 
 and single_beta.16 !beta-r-1.c-1.l-22 !beta-r-1.c-2.l-22 !beta-r-1.c-3.l-22 !beta-r-2.c-1.l-22 !beta-r-2.c-2.l-22 !beta-r-2.c-3.l-22 !beta-r-3.c-1.l-22 !beta-r-3.c-2.l-22 beta-r-3.c-3.l-22
 or exclude.16 single_alpha.16 single_beta.16 single_gamma.16
 and streamline exclude.0 exclude.1 exclude.2 exclude.3 exclude.4 exclude.5 exclude.6 exclude.7 exclude.8 exclude.9 exclude.10 exclude.11 exclude.12 exclude.13 exclude.14 exclude.15 exclude.16
-delete single_alpha.0 single_alpha.1 single_alpha.2 single_alpha.3 single_alpha.4 single_alpha.5 single_alpha.6 single_alpha.7 single_alpha.8 single_alpha.9 single_alpha.10 single_alpha.11 single_alpha.12 single_alpha.13 single_alpha.14 single_alpha.15 single_alpha.16
-delete single_gamma.0 single_gamma.1 single_gamma.2 single_gamma.3 single_gamma.4 single_gamma.5 single_gamma.6 single_gamma.7 single_gamma.8 single_gamma.9 single_gamma.10 single_gamma.11 single_gamma.12 single_gamma.13 single_gamma.14 single_gamma.15 single_gamma.16
 delete single_beta.0 single_beta.1 single_beta.2 single_beta.3 single_beta.4 single_beta.5 single_beta.6 single_beta.7 single_beta.8 single_beta.9 single_beta.10 single_beta.11 single_beta.12 single_beta.13 single_beta.14 single_beta.15 single_beta.16
 delete exclude.0 exclude.1 exclude.2 exclude.3 exclude.4 exclude.5 exclude.6 exclude.7 exclude.8 exclude.9 exclude.10 exclude.11 exclude.12 exclude.13 exclude.14 exclude.15 exclude.16
+delete single_alpha.0 single_alpha.1 single_alpha.2 single_alpha.3 single_alpha.4 single_alpha.5 single_alpha.6 single_alpha.7 single_alpha.8 single_alpha.9 single_alpha.10 single_alpha.11 single_alpha.12 single_alpha.13 single_alpha.14 single_alpha.15 single_alpha.16
+delete single_gamma.0 single_gamma.1 single_gamma.2 single_gamma.3 single_gamma.4 single_gamma.5 single_gamma.6 single_gamma.7 single_gamma.8 single_gamma.9 single_gamma.10 single_gamma.11 single_gamma.12 single_gamma.13 single_gamma.14 single_gamma.15 single_gamma.16
 # Generate all Brent equations
 # Constrained Brent equation for i1 = 1, i2 = 1, j1 = 1, j2 = 1, k1 = 1, k2 = 1, kernel at level 1
 and bp-1.1.1.1.1.1-1 alpha-r-1.c-1.l-01 beta-r-1.c-1.l-01 gamma-r-1.c-1.l-01

@@ -1,6 +1,6 @@
 JGEN = ./build_job.py
-SECS = 1800
-GB = 64
+SECS = 3600
+GB = 120
 
 m14: $(JGEN)
 	$(JGEN) -t $(SECS) -g $(GB) 5 14
@@ -23,7 +23,7 @@ m14: $(JGEN)
 	$(JGEN) -t $(SECS) -g $(GB) 23 14
 
 submit:
-#	sbatch run-m14+05.job
+	sbatch run-m14+05.job
 	sbatch run-m14+06.job
 	sbatch run-m14+07.job
 	sbatch run-m14+08.job
