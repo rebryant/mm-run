@@ -20,7 +20,7 @@ def generate(level1, level2, seconds, gigabytes):
     rname = root(level1, level2)
     jname = "run-%s.job" % rname
     outf = open(jname, 'w')
-    outf.write('#/bin/bash\n')
+    outf.write('#!/bin/bash\n')
     outf.write('#SBATCH -N 1\n')
     outf.write('#SBATCH -p RM\n')
     hours = seconds // 3600
@@ -29,7 +29,7 @@ def generate(level1, level2, seconds, gigabytes):
     seconds -= minutes * 60
     outf.write('#SBATCH -t %d:%.2d:%.2d\n' % (hours, minutes, seconds))
     outf.write('#SBATCH --ntasks-per-node=28\n')
-    outf.write('cd /pylon5/cc5piip/rebryant/mm-run/solve\n')
+#    outf.write('cd /pylon5/cc5piip/rebryant/mm-run/solve\n')
     megabytes = gigabytes * 1024
     froot = 'run-smirnov-%s-mode2' % rname
     outf.write('/home/rebryant/mm-run/Cloud-BDD/runbdd -v 1 -M %d -f %s.cmd -L %s-G%d.log\n' % (megabytes, froot, froot, gigabytes))
