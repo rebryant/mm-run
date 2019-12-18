@@ -33,7 +33,7 @@ update_cudd:
 
 update_runbdd:
 	echo "Updating command interpreter"
-	pushd $(RUNBDD_DIR); git pull; make ; popd
+	pushd $(RUNBDD_DIR); git pull; rm -f runbdd ; make ; popd
 
 tar:
 	pushd ..; tar cvf mm-bdd/runbdd.tar mm-bdd/Makefile mm-bdd/README.txt mm-bdd/solve/*.cmd; popd
