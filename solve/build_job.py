@@ -17,18 +17,24 @@ def root(level1, level2):
     return "m%.2d+%.2d" % (level1, level2)
 
 def generate(level1, level2, seconds, gigabytes):
+    isSmall = gigabytes <= 128
     rname = root(level1, level2)
     jname = "run-%s.job" % rname
     outf = open(jname, 'w')
     outf.write('#!/bin/bash\n')
     outf.write('#SBATCH -N 1\n')
-    outf.write('#SBATCH -p RM\n')
+    if isSmall:
+        outf.write('#SBATCH -p RM\n')
+    else:
+        outf.write('#SBATCH -p LM\n')
     hours = seconds // 3600
     seconds -= hours * 3600
     minutes = seconds // 60
     seconds -= minutes * 60
     outf.write('#SBATCH -t %d:%.2d:%.2d\n' % (hours, minutes, seconds))
-    outf.write('#SBATCH --ntasks-per-node=28\n')
+    # Only specify tasks per node for RM partition
+    if isSmall:
+        outf.write('#SBATCH --ntasks-per-node=28\n')
 #    outf.write('cd /pylon5/cc5piip/rebryant/mm-run/solve\n')
     megabytes = gigabytes * 1024
     froot = 'run-smirnov-%s-mode2' % rname
