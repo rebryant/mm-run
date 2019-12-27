@@ -17,13 +17,13 @@ install: install_cudd install_ncudd install_runbdd
 
 install_cudd:
 	echo "Retrieving modified version of CUDD BDD package"
-	git clone $(CUDD_REPO)
+	-git clone $(CUDD_REPO)
 	echo "Installing Chained CUDD"
 	pushd $(CUDD_DIR); touch $(CUDD_FILES); ./configure --prefix=`pwd`; make; make install; popd
 
 install_ncudd:
 	echo "Retrieving updated version of CUDD BDD package"
-	git clone $(NCUDD_REPO)
+	-git clone $(NCUDD_REPO)
 	echo "Installing CUDD 3.1.0"
 	pushd $(NCUDD_DIR); touch $(CUDD_FILES); ./configure --prefix=`pwd`; make; make install; popd
 
